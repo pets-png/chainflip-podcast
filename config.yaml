@@ -55,6 +55,8 @@ selection:
   # Time-sensitive posts (release notes, monthly recaps, incident updates)
   # only qualify while they're fresh; evergreen posts never expire.
   stale_after_days: 30
+  # Posts whose title, description or headings mention these never become episodes.
+  exclude_terms: ["thorchain"]
 
 formats:
   # Long-run mix; the picker steers toward these shares over a rolling window.

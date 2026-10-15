@@ -65,6 +65,9 @@ def candidates(catalog: dict, episodes: list[dict], cfg: dict, strict_category: 
             continue
         if c["podcast_fit"] < sel["min_podcast_fit"] or c["category"] == "company":
             continue
+        haystack = " ".join([p["title"], p["description"], *p["headings"]]).lower()
+        if any(term in haystack for term in sel["exclude_terms"]):
+            continue
         if _live_since(p) > cutoff:
             continue
         if not c["evergreen"] and now - _live_since(p) > sel["stale_after_days"] * 86400:
@@ -101,8 +104,10 @@ JUDGE_SYSTEM = """You keep a daily crypto podcast from repeating itself.
 You get the episodes that already aired and a shortlist of candidate blog posts
 in order of preference. Pick the FIRST candidate whose core subject would not
 substantially repeat an aired episode. Overlap means the same main question,
-same advice, or the same story told again. A different angle on a broad area is
-fine (e.g. BTC loan liquidation risk vs. tax treatment of BTC loans).
+same advice, or the same story told again. Two episodes centred on the same
+specific product or feature (e.g. Boost, Lending 2.0, a given wallet
+integration) also overlap, even from different angles. A different question in a
+broad area is fine (e.g. BTC loan liquidation risk vs. tax treatment of BTC loans).
 If every candidate overlaps, return null."""
 
 JUDGE_SCHEMA = {

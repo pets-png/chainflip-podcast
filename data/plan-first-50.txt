@@ -1,0 +1,54 @@
+  1  guest      marco  lending           2026-10-01  Get a Bitcoin-Backed Loan Without KYC: Chainflip Lending 2.0 Tutorial
+  2  hosts_only -      stablecoins_tron  2026-10-01  USDT on BNB Chain: A Beginner's Guide to BEP-20 Tether
+  3  guest      hank   bitcoin           2026-09-30  BTCFi Yield Stack Ranked by Real Risk: Staking, Lending, LPing, and Sw
+  4  guest      sam    integrations      2026-09-28  Cross-Chain Settlement for Prediction Markets, Perps, and Onchain Apps
+  5  hosts_only -      stablecoins_tron  2026-09-29  Delta-Neutral Stablecoin Yields: When 15% APY Turns Into -20% Losses
+  6  guest      kai    solana            2026-09-24  Phantom Wallet BTC Swap: How to Swap Native Bitcoin to SOL
+  7  guest      hank   bitcoin           2026-09-22  Idle Bitcoin Is a 2026 Liability: Putting BTC to Work Without Giving U
+  8  hosts_only -      stablecoins_tron  2026-09-21  Stablecoin Remittances Without the Wire: Moving USDT Across Borders an
+  9  guest      rook   security          2026-09-18  Proposal 008 Passed: Making Tron USDT LPs Whole
+ 10  guest      sam    integrations      2026-09-17  THORSwap + Chainflip 6 Months Later: Volume Data, Route Analysis, and 
+ 11  hosts_only -      regulation_macro  2026-09-11  GENIUS Act Stablecoin Regulation: Navigating the Two-Tier Dollar Syste
+ 12  guest      hank   markets_data      2026-09-16  What Nearly 900K Swaps and $9B in Volume Tell Us About Cross-Chain Use
+ 13  hosts_only -      integrations      2026-09-08  Native Bitcoin Swaps for Ordinals Users: The Xverse-Chainflip Integrat
+ 14  guest      sam    multichain        2026-09-06  BNB Smart Chain Fees Explained: Why It's So Cheap to Use
+ 15  guest      mei    markets_data      2026-09-10  Cross-Chain Swaps as Onchain FX: Pricing the Move Between Dollars, Bit
+ 16  hosts_only -      security          2026-09-05  The Real Cost of a Depeg: What Wrapped Bitcoin and Stablecoin Failures
+ 17  hosts_only -      education_basics  2026-09-01  Best Execution, Measured: How to Benchmark What a Cross-Chain Swap Rea
+ 18  deep_dive  oscar  flip_staking      2026-08-31  How to Verify FLIP Staking Yields Using Chainflip's Onchain Explorer
+ 19  guest      marco  lending           2026-08-29  The $1 Trillion BTC Credit Market: Who Actually Wins
+ 20  guest      sam    multichain        2026-08-28  BNB Chain vs Ethereum: Which Should You Use?
+ 21  guest      rook   security          2026-08-27  How Cross-Chain Protocols Defend Against MEV Attacks in 2026
+ 22  guest      mei    stablecoins_tron  2026-08-26  The Onchain Dollar Yield Curve: Cash, Savings, and Basis Trades for On
+ 23  hosts_only -      multichain        2026-08-25  Why Native Settlement Beats Solver Networks for Cross-Chain Swaps
+ 24  guest      hank   bitcoin           2026-08-21  cbBTC vs wBTC: Which Wrapped Bitcoin Should You Use?
+ 25  hosts_only -      integrations      2026-08-19  Trust Wallet Chainflip Swap Guide: BNB Chain, TRON, and cbBTC in 2026
+ 26  guest      rook   security          2026-08-14  Chainflip's Decentralized Infrastructure: 150 Validators, One Secure N
+ 27  guest      hank   bitcoin           2026-08-13  What Is Native Bitcoin Swapping: A Complete Guide
+ 28  hosts_only -      integrations      2026-08-07  How Partners Build Revenue Streams With Chainflip Cross-Chain Swap Fee
+ 29  hosts_only -      releases_protocol 2026-08-06  What Is the Chainflip State Chain?
+ 30  guest      hank   bitcoin           2026-08-10  When to Convert USDC to Bitcoin: Timing, Taxes, and Strategy
+ 31  guest      rook   security          2026-08-06  Coldcard's $116M Hack, AI Attackers, and Security for Chainflip LPs
+ 32  guest      mei    stablecoins_tron  2026-08-03  How to Swap Native TRON Without Connecting a Wallet
+ 33  hosts_only -      education_basics  2026-07-26  Swap vs Trade: What's the Difference in Crypto?
+ 34  guest      priya  liquidity_lp      2026-08-24  Single-Sided and No Impermanent Loss: How Boost Pays LPs Differently F
+ 35  guest      hank   bitcoin           2026-08-05  Why DeFi Needs Native Bitcoin
+ 36  hosts_only -      security          2026-07-20  Cross-Chain Bridge Security: Why $2 Billion in Exploits Led to Native 
+ 37  guest      mei    stablecoins_tron  2026-07-17  USDC vs USDT on Chainflip: Which Stablecoin Should You Hold?
+ 38  guest      sam    integrations      2026-07-09  Hyperliquid Deposit Fees Explained: What You Actually Pay vs Swapping 
+ 40  hosts_only -      lending           2026-07-13  Soft Liquidation vs Hard Liquidation: How Chainflip Protects Borrowers
+ 41  hosts_only -      education_basics  2026-07-08  What Is Staking in Crypto? A 2026 Guide to How It Works and Where Yiel
+ 42  guest      mei    stablecoins_tron  2026-07-05  Stablecoin Yield Strategies That Now Include Tron: Practical Breakdown
+ 43  guest      hank   bitcoin           2026-08-18  cbBTC DeFi Use Cases: Lending, Yield, and Liquidity Workflows for Your
+ 44  guest      marco  lending           2026-08-01  DeFi Borrowing in 2026: Comparing Chainflip, Aave, and Compound for Bi
+ 45  hosts_only -      liquidity_lp      2026-07-02  Cross-Chain Slippage Explained: How JIT AMM Changes the Game
+ 46  guest      sam    multichain        2026-07-01  Chainflip vs LI.FI: Native Asset Swaps vs Cross-Chain Aggregation
+ 47  guest      ivy    regulation_macro  2026-07-01  MiCA and the Binance EU Exit: How to Swap Crypto Without a Centralized
+ 48  hosts_only -      stablecoins_tron  2026-06-30  What Is TRON? A Beginner's Guide to TRX and USDT-TRC20
+ 49  guest      priya  liquidity_lp      2026-06-29  How Stablecoin Strategies Auto-Compound Yield on Chainflip
+ 50  guest      marco  lending           2026-06-27  Instant Crypto Loans: How Fast Can You Actually Get Liquidity from Bit
+
+50 episodes · 50 distinct clusters · repeats: none
+formats: {'guest': 31, 'hosts_only': 17, 'deep_dive': 2} · categories: {'lending': 5, 'stablecoins_tron': 8, 'bitcoin': 8, 'integrations': 6, 'solana': 1, 'security': 6, 'regulation_macro': 2, 'markets_data': 2, 'multichain': 4, 'education_basics': 3, 'flip_staking': 1, 'releases_protocol': 1, 'liquidity_lp': 3}
+
+(Ep 39 above was a THORChain comparison post; it is now excluded by selection.exclude_terms and the slot is filled by the next eligible post when the pipeline runs.)
