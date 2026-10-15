@@ -1,0 +1,107 @@
+# Show-level settings. Everything the pipeline needs to know that isn't code.
+
+show:
+  # Spotify/Apple search weighs the show title most, then the description.
+  # Keep the brand + 2-3 high-intent keywords; stuffing more gets shows rejected.
+  title: "Cross-Chain Daily: Bitcoin, DeFi & Crypto Swaps by Chainflip"
+  short_name: "Cross-Chain Daily"
+  author: "Chainflip"
+  owner_name: "Chainflip Labs"
+  # Spotify sends the 8-digit verification code to this address when you claim
+  # the show, and it's public in the feed. Use a shared inbox, not a personal one.
+  owner_email: "podcast@chainflip.io"
+  language: "en"
+  link: "https://chainflip.io/blog"
+  site_url: "https://pets-png.github.io/chainflip-podcast"
+  explicit: false
+  categories:
+    - ["Technology"]
+    - ["Business", "Investing"]
+    - ["News", "Tech News"]
+  keywords: "crypto podcast, bitcoin, defi, cross-chain swaps, native bitcoin, btc lending, solana, ethereum, stablecoins, chainflip"
+  description: >-
+    Your daily dose of cross-chain crypto, explained like a conversation and not a lecture.
+    Two hosts and a rotating crew of regulars break down native Bitcoin swaps, BTC-backed
+    lending, DeFi yield, stablecoins, Solana, Ethereum and everything moving between chains.
+    Every episode is based on an article from the Chainflip blog, linked in the show notes.
+    Hosts and guests are fictional characters voiced with AI. Nothing here is financial advice.
+
+github:
+  repo: "pets-png/chainflip-podcast"
+
+schedule:
+  # A pending episode goes live this many hours after its Discord preview,
+  # unless someone vetoes it on the review issue.
+  review_hours: 24
+  # Only use blog posts that have been live this long (guards against posts
+  # that get published by mistake and pulled again).
+  min_live_hours: 24
+  # The podcast works through the back catalog instead of echoing the blog:
+  # a post must be at least this old before it becomes an episode...
+  min_post_age_days: 14
+  # ...and no episode goes out on a topic the blog itself covered in the last
+  # few days (checked when picking and again right before publishing).
+  blog_quiet_days: 3
+
+selection:
+  # Rule 1: the first N episodes never share a topic cluster.
+  unique_first_n: 50
+  # After that, a cluster can repeat only after this many episodes.
+  cluster_cooldown: 60
+  # Never the same category within this many consecutive episodes.
+  category_gap: 3
+  # Posts the classifier scores below this are skipped (careers pages etc.).
+  min_podcast_fit: 3
+  # Time-sensitive posts (release notes, monthly recaps, incident updates)
+  # only qualify while they're fresh; evergreen posts never expire.
+  stale_after_days: 30
+
+formats:
+  # Long-run mix; the picker steers toward these shares over a rolling window.
+  guest_share: 0.7          # hosts + topic guest
+  hosts_only_share: 0.3
+  deep_dive:
+    min_complexity: 4       # only complex topics qualify
+    min_gap_episodes: 14    # at most one every 2-3 weeks of daily episodes
+    max_gap_episodes: 21
+  word_targets:
+    hosts_only: [650, 900]  # ~4-6 min
+    guest: [950, 1350]      # ~6-9 min
+    deep_dive: [1900, 2600] # ~12-18 min
+
+tts:
+  model: "drama-3"          # directed multi-speaker model; falls back below on error
+  fallback_model: "s2.1-pro"
+  bitrate_kbps: 128
+  scene_max_chars: 1400
+  scene_max_turns: 10
+  loudness_lufs: -16
+
+claude:
+  model: "claude-opus-5-5"
+
+utm:
+  source: "podcast"
+  medium: "audio"
+
+# Same resource block the blog posts end with, so show notes match.
+links:
+  resources:
+    - ["Swap", "https://swap.chainflip.io", "Start swapping native assets"]
+    - ["Lending", "https://lp.chainflip.io/lending", "Borrow against native Bitcoin"]
+    - ["Blog", "https://chainflip.io/blog", "Product updates and announcements"]
+    - ["Chainflip Scan", "https://scan.chainflip.io", "Track swaps and network activity"]
+    - ["Website", "https://chainflip.io", "Explore Chainflip"]
+  earn:
+    - ["Boost", "https://lp.chainflip.io/boost", "Earn fees with single-sided liquidity, no IL risk"]
+    - ["Stablecoin Strategies", "https://lp.chainflip.io/strategies", "Deposit stablecoins and earn optimized yields"]
+    - ["Provide Liquidity", "https://lp.chainflip.io/portfolio", "Supply assets to Chainflip's liquidity pools"]
+    - ["Stake FLIP", "https://auctions.chainflip.io/delegate", "Delegate FLIP and earn staking rewards"]
+  social:
+    - ["Discord", "https://discord.gg/chainflip-community"]
+    - ["Telegram", "https://t.me/chainflip_io_chat"]
+    - ["X", "https://x.com/chainflip"]
+    - ["LinkedIn", "https://linkedin.com/company/chainflip"]
+    - ["YouTube", "https://www.youtube.com/@chainfliplabs"]
+    - ["Threads", "https://www.threads.com/@chainfliplabs"]
+    - ["Bluesky", "https://bsky.app/profile/chainfliplabs.bsky.social"]

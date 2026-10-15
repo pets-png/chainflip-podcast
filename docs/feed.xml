@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>Cross-Chain Daily: Bitcoin, DeFi &amp; Crypto Swaps by Chainflip</title>
+    <link>https://chainflip.io/blog</link>
+    <atom:link href="https://pets-png.github.io/chainflip-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en</language>
+    <copyright>© Chainflip Labs</copyright>
+    <description><![CDATA[Your daily dose of cross-chain crypto, explained like a conversation and not a lecture. Two hosts and a rotating crew of regulars break down native Bitcoin swaps, BTC-backed lending, DeFi yield, stablecoins, Solana, Ethereum and everything moving between chains. Every episode is based on an article from the Chainflip blog, linked in the show notes. Hosts and guests are fictional characters voiced with AI. Nothing here is financial advice.]]></description>
+    <itunes:summary><![CDATA[Your daily dose of cross-chain crypto, explained like a conversation and not a lecture. Two hosts and a rotating crew of regulars break down native Bitcoin swaps, BTC-backed lending, DeFi yield, stablecoins, Solana, Ethereum and everything moving between chains. Every episode is based on an article from the Chainflip blog, linked in the show notes. Hosts and guests are fictional characters voiced with AI. Nothing here is financial advice.]]></itunes:summary>
+    <itunes:author>Chainflip</itunes:author>
+    <itunes:owner><itunes:name>Chainflip Labs</itunes:name><itunes:email>podcast@chainflip.io</itunes:email></itunes:owner>
+    <itunes:image href="https://pets-png.github.io/chainflip-podcast/cover.jpg"/>
+    <image><url>https://pets-png.github.io/chainflip-podcast/cover.jpg</url><title>Cross-Chain Daily: Bitcoin, DeFi &amp; Crypto Swaps by Chainflip</title><link>https://chainflip.io/blog</link></image>
+    <itunes:category text="Technology"/><itunes:category text="Business"><itunes:category text="Investing"/></itunes:category><itunes:category text="News"><itunes:category text="Tech News"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:keywords>crypto podcast, bitcoin, defi, cross-chain swaps, native bitcoin, btc lending, solana, ethereum, stablecoins, chainflip</itunes:keywords>
+    <podcast:locked owner="podcast@chainflip.io">yes</podcast:locked>
+
+  </channel>
+</rss>

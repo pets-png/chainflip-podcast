@@ -1,0 +1,16 @@
+# Secrets
+.env
+.env.*
+
+# Scratch audio + TTS cache (final MP3s live in GitHub Releases)
+build/
+casting/**/*.wav
+*.pcm.wav
+
+# Aeonik is a licensed font: keep it local, only the rendered cover is committed
+assets/fonts/
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

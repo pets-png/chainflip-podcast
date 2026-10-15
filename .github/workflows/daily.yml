@@ -1,0 +1,82 @@
+name: Daily Episode
+
+on:
+  schedule:
+    # 06:00 UTC daily. Publishes yesterday's reviewed episode, then prepares
+    # the next one for its 24h review window.
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What to run"
+        type: choice
+        options: [daily, generate, publish-due, feed]
+        default: daily
+      slug:
+        description: "generate only: force a specific blog slug (bypasses selection rules)"
+        required: false
+        default: ""
+      count:
+        description: "generate only: how many episodes to prepare (e.g. 3 for launch)"
+        required: false
+        default: "1"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: podcast
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+
+      - name: Restore TTS cache
+        uses: actions/cache@v4
+        with:
+          path: build/tts_cache
+          key: tts-${{ github.run_id }}
+          restore-keys: tts-
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FISH_API_KEY: ${{ secrets.FISH_API_KEY }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_USER_ID: ${{ secrets.DISCORD_USER_ID }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          action="${{ inputs.action || 'daily' }}"
+          if [ "$action" = "generate" ]; then
+            args=(--count "${{ inputs.count || '1' }}")
+            [ -n "${{ inputs.slug }}" ] && args+=(--slug "${{ inputs.slug }}")
+            python run.py generate "${args[@]}"
+          else
+            python run.py "$action"
+          fi
+
+      - name: Commit state, scripts and feed
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet && { echo "Nothing to commit"; exit 0; }
+          git commit -q -m "chore: podcast state [skip ci]"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          echo "::error::could not push state"; exit 1

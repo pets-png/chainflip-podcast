@@ -1,0 +1,146 @@
+# The recurring cast. Hosts appear in every episode; guests are regulars who
+# come back whenever their beat comes up, so listeners get to know them.
+#
+# All characters are fictional and voiced with Fish Audio. `voice_id` is the
+# Fish voice model ID. Fill it with `python run.py cast <id>` (auditions
+# original voices from `voice_brief`) and `python run.py cast <id> --pick N`,
+# or paste the ID of any Fish library voice you like.
+
+hosts:
+  - id: jules
+    name: Jules
+    voice_id: ""
+    voice_brief: >-
+      Man in his mid-thirties, warm, slightly raspy voice with a relaxed
+      American drawl. Unhurried, playful, sounds like he's leaning back in
+      his chair telling a story to friends. Natural laugh, casual diction.
+    personality: >-
+      The everyman host. Grew up in a small town, worked odd jobs (a car wash,
+      a bait shop, a summer selling knives door to door) before falling down
+      the crypto rabbit hole in 2021. Loose, funny, goes on tangents and
+      tells oddly specific stories that somehow loop back to the point. Asks
+      the questions listeners are too embarrassed to ask. Makes strange but
+      sticky analogies. Self-deprecating about his own past trades.
+  - id: nadia
+    name: Nadia
+    voice_id: ""
+    voice_brief: >-
+      Woman in her early thirties, clear, quick and confident, a little dry.
+      Crisp diction, neutral American accent, smiles through her words when
+      she's teasing someone. Sounds sharp but friendly.
+    personality: >-
+      Former trading-desk analyst who went DeFi native. Keeps the show
+      accurate, explains mechanics cleanly, and gently roasts Jules when his
+      analogies fall apart (then admits when they actually work). Dry humor,
+      loves a good number, allergic to hype. Brings it back on track.
+
+guests:
+  - id: marco
+    name: Marco
+    beats: [lending]
+    voice_id: ""
+    voice_brief: >-
+      Man in his late forties, steady baritone with a faint Italian accent.
+      Patient and reassuring, like a banker who actually likes his clients.
+    personality: >-
+      Spent twenty years as a mortgage broker before moving to onchain
+      lending. Obsessed with health factors and "never get liquidated"
+      discipline. Tells cautionary tales from the 2008 housing crash.
+  - id: hank
+    name: Hank
+    beats: [bitcoin]
+    voice_id: ""
+    voice_brief: >-
+      Man in his sixties, gravelly, gruff voice with a dry Midwestern
+      delivery. Slow, deliberate, occasional grumble. Secretly warm.
+    personality: >-
+      Bought his first bitcoin in 2013, still has the paper wallet in a
+      coffee can. Distrusts anything wrapped or custodial, which is exactly
+      why he likes native BTC swaps. Grumpy one-liners, soft spot for Jules.
+  - id: kai
+    name: Kai
+    beats: [solana]
+    voice_id: ""
+    voice_brief: >-
+      Man in his mid-twenties, fast, upbeat, energetic delivery with a light
+      West Coast surfer cadence. Talks quickly, laughs easily.
+    personality: >-
+      Solana trench veteran who has seen every memecoin cycle. Talks fast,
+      thinks in milliseconds and fees, constantly checking his phone for
+      prices. Hyped but surprisingly practical about risk.
+  - id: elena
+    name: Elena
+    beats: [ethereum]
+    voice_id: ""
+    voice_brief: >-
+      Woman in her forties, calm, measured, thoughtful voice with a light
+      Eastern European accent. Precise, professorial, a warm undertone.
+    personality: >-
+      Ethereum researcher type who reads every rollup spec for fun. Explains
+      L2s and gas like a patient teacher. Deadpan humor that sneaks up on you.
+  - id: mei
+    name: Mei
+    beats: [stablecoins_tron]
+    voice_id: ""
+    voice_brief: >-
+      Woman in her late twenties, bright, practical, quick voice with a light
+      Singaporean English accent. Brisk and friendly.
+    personality: >-
+      Runs payouts for a cross-border freelancing business, moves USDT on
+      Tron every week. Practical about fees, speed and what real people use
+      stablecoins for. No patience for theory without a use case.
+  - id: oscar
+    name: Oscar
+    beats: [flip_staking, releases_protocol]
+    voice_id: ""
+    voice_brief: >-
+      Man in his early thirties, nerdy, enthusiastic, slightly nasal voice
+      with a light Scandinavian accent. Speeds up when excited.
+    personality: >-
+      Runs validator nodes from a server rack in his garage that his partner
+      hates. Lives for protocol upgrades, tokenomics and burn charts. Gets
+      excited about release notes the way other people get excited about sports.
+  - id: rook
+    name: Rook
+    beats: [security]
+    voice_id: ""
+    voice_brief: >-
+      Man in his fifties, low, calm, quiet voice, very measured, almost
+      whispering intensity. British accent. Every word deliberate.
+    personality: >-
+      Former smart-contract auditor. Calm, slightly paranoid, uses a hardware
+      wallet inside a faraday bag. Turns hacks and incidents into practical
+      habits. Dry British humor.
+  - id: priya
+    name: Priya
+    beats: [liquidity_lp]
+    voice_id: ""
+    voice_brief: >-
+      Woman in her mid-thirties, confident, energetic and articulate voice
+      with a light British-Indian accent. Fast thinker, warm laugh.
+    personality: >-
+      Market maker who runs liquidity strategies. Thinks in spreads, fees and
+      impermanent loss. Loves explaining JIT liquidity and Boost with
+      kitchen metaphors because she bakes to de-stress.
+  - id: sam
+    name: Sam
+    beats: [integrations, multichain]
+    voice_id: ""
+    voice_brief: >-
+      Person in their late twenties, friendly, upbeat, gender-neutral
+      mid-range voice, neutral American accent. Sounds like a builder at a
+      hackathon at 2am: tired but buzzing.
+    personality: >-
+      Builder who integrates swaps into wallets and apps. Talks about
+      developer experience, partners and new chains. Always "just shipped
+      something". Optimistic, a little chaotic.
+  - id: ivy
+    name: Ivy
+    beats: [regulation_macro]
+    voice_id: ""
+    voice_brief: >-
+      Woman in her fifties, polished, authoritative voice, crisp British RP
+      accent, with a sly sense of humor underneath.
+    personality: >-
+      Ex-policy advisor who now follows crypto regulation around the world.
+      Translates legalese into plain English, sly about politicians.
