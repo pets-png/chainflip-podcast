@@ -9,7 +9,7 @@
 hosts:
   - id: jules
     name: Jules
-    voice_id: ""
+    voice_id: "77b75e6c58224eaeb7dd97d3ab74ac53"
     voice_brief: >-
       Man in his mid-thirties, warm, slightly raspy voice with a relaxed
       American drawl. Unhurried, playful, sounds like he's leaning back in
@@ -21,9 +21,9 @@ hosts:
       tells oddly specific stories that somehow loop back to the point. Asks
       the questions listeners are too embarrassed to ask. Makes strange but
       sticky analogies. Self-deprecating about his own past trades.
-  - id: nadia
-    name: Nadia
-    voice_id: ""
+  - id: mira
+    name: Mira
+    voice_id: "f2b9c5fc1c864d40b882837e94e8e419"
     voice_brief: >-
       Woman in her early thirties, clear, quick and confident, a little dry.
       Crisp diction, neutral American accent, smiles through her words when
@@ -35,6 +35,23 @@ hosts:
       loves a good number, allergic to hype. Brings it back on track.
 
 guests:
+  # Listed first, so Mark takes any beat he shares with the guests below.
+  # For now he covers every beat; trim this list as the other guests get voices.
+  - id: mark
+    name: Mark
+    beats: [lending, bitcoin, solana, ethereum, stablecoins_tron, flip_staking, security, liquidity_lp,
+            integrations, multichain, regulation_macro, releases_protocol, markets_data, education_basics, company]
+    voice_id: "05ed1fa5ab2e4ac788b503eb08cbf6b4"
+    voice_brief: >-
+      Man in his late thirties, confident, energetic and warm, with a South
+      African accent. Quick on his feet, laughs easily, sounds like he's
+      pitching an idea he genuinely believes in.
+    personality: >-
+      Head-of-strategy type who has run deals across lending desks, market
+      makers and wallet integrations. Thinks in big pictures and second-order
+      effects, connects any topic to where the market is heading, and loves a
+      sports or braai analogy. Optimistic but numbers-first; will happily
+      tell Jules his idea is good and then explain why it won't scale.
   - id: marco
     name: Marco
     beats: [lending]

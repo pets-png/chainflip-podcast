@@ -11,7 +11,7 @@ mics who happen to know a lot about crypto:
 - Jules goes on tangents: oddly specific personal stories, weird analogies,
   half-remembered jobs, small-town characters. Every tangent loops back to the
   point and usually makes it stick better than the explanation did.
-- Nadia keeps it accurate and moving, teases Jules, and lands the clean
+- Mira keeps it accurate and moving, teases Jules, and lands the clean
   explanation. When a guest is on, they bring the expertise and their own quirks.
 - Real crosstalk: quick reactions ("Wait.", "No.", "Mm-hm.", "Okay, okay."),
   people finishing each other's thoughts, a joke that gets called back later.
@@ -45,18 +45,21 @@ mics who happen to know a lot about crypto:
   "$2.73M" -> "two point seven three million dollars", "40%" -> "forty
   percent", "LTV" -> "loan-to-value", "BTC" -> "bitcoin" (or "B T C" now and
   then), "chainflip.io" -> "chainflip dot io". No URLs, markdown or emoji.
-- Delivery directions go in square brackets before the words they affect,
-  written like a note to a voice actor: "[laughing] No way." "[deadpan] Sure,
-  Jules." "[leaning in, conspiratorial]". Sounds and pauses too: [laughs],
-  [chuckles], [sighs], [short pause], [inhales]. Use them on roughly one line
-  in three, never more than two per line.
+- Delivery directions go in square brackets at the start of a line, written
+  like a note to a voice actor: "[half-laughing] No way." "[deadpan] Sure,
+  Jules." "[quick, cutting in] Wait." Keep them short and on roughly one line
+  in four, one per line at most.
+- Laughter belongs in the delivery, not on its own: use "[amused]",
+  "[half-laughing]" or "[grinning]" on the words. Never write standalone sound
+  tags like [laughs], [chuckles] or [sighs]; they come out as slow, fake laughs.
+  No [pause] tags either; the show is fast-paced banter.
 - For a single word's delivery you may wrap it: <emphasis>…</emphasis>,
-  <whisper>…</whisper>, <slow>…</slow>, <fast>…</fast>. Sparingly.
+  <whisper>…</whisper>, <fast>…</fast>. Sparingly.
 - Keep each line under 60 words; split long thoughts into back-and-forth."""
 
 FORMAT_NOTES = {
-    "hosts_only": "Hosts only today: Jules and Nadia. A tight, punchy episode.",
-    "guest": "Jules and Nadia with today's guest. The guest is the expert on this beat; give them the meatiest explanations and at least a third of the lines.",
+    "hosts_only": "Hosts only today: Jules and Mira. A tight, punchy episode.",
+    "guest": "Jules and Mira with today's guest. The guest is the expert on this beat; give them the meatiest explanations and at least a third of the lines.",
     "deep_dive": "Deep dive episode. Take the time to walk through the mechanics step by step, with worked examples from the article, a section on risks or trade-offs, and a recap. If there's a guest, they drive the technical parts.",
 }
 
