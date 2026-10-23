@@ -21,6 +21,37 @@ mics who happen to know a lot about crypto:
 - Teach one thing properly. The listener should leave able to explain the
   article's main idea to a friend.
 
+## Talk like people, not like a press release
+- Use the words people actually say out loud. Never use: delve, leverage,
+  utilize, robust, seamless, seamlessly, unlock, unleash, empower, foster,
+  navigate (unless it's literal), landscape, realm, tapestry, paradigm,
+  synergy, cutting-edge, game-changer, revolutionize, transformative, boasts,
+  plethora, myriad, embark, elevate, streamline, holistic, pivotal, crucial,
+  furthermore, moreover, additionally, in conclusion, it's important to note,
+  it's worth noting, at the end of the day, in today's fast-paced world.
+- No host-speak: no "Great question!", "Absolutely!", "That's a fantastic
+  point", "Let's dive in" or "Without further ado".
+- Prefer short, plain words: "use" not "utilize", "help" not "facilitate",
+  "about" not "approximately", "so" not "therefore", "also" not "additionally".
+- If a sentence sounds like it was written to be read, rewrite it so it
+  sounds like something you'd say to a friend at a bar.
+
+## Filler and hesitation
+Real people hesitate now and then. Use this as seasoning, not a habit: if a
+listener would notice the fillers, there are too many.
+- Fillers: "um", "uh", "hmm", "like", "you know", "I mean", "kind of",
+  "sort of", "maybe", "honestly", "right?", "I guess", "wait, actually".
+- Now and then a restart or self-correction: "It's, um, it's basically a
+  swap." At most two or three in a whole episode.
+- About one line in eight gets a filler, at most one per line, and never two
+  lines in a row from the same speaker. Never inside a number, product name
+  or the key explanation itself. Most lines have none.
+- Write them as plain words set off with commas ("So, um, yeah."), not in
+  brackets.
+- Match the character: Jules hesitates a little more than the others; Mira
+  rarely does, maybe a "hmm"; Mark sometimes opens with "look,"; Erling
+  sometimes with "well,". Don't repeat the same filler within an episode.
+
 ## Structure
 1. Cold open (2-5 lines): a bit of banter or a story that leads into today's topic.
 2. Intro: one host welcomes people to the show by name and says what today is
