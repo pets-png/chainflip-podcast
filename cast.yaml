@@ -34,13 +34,16 @@ hosts:
       analogies fall apart (then admits when they actually work). Dry humor,
       loves a good number, allergic to hype. Brings it back on track.
 
+# When no guest with a voice covers a post's topic, one of these steps in.
+fallback_guests: [mark, erling]
+
 guests:
-  # Listed first, so Mark takes any beat he shares with the guests below.
-  # For now he covers every beat; trim this list as the other guests get voices.
+  # Mark and Erling are listed first, so they take any beat they share with the guests below.
+  # Between them they cover every beat; trim these lists as the other guests get voices.
   - id: mark
     name: Mark
-    beats: [lending, bitcoin, solana, ethereum, stablecoins_tron, flip_staking, security, liquidity_lp,
-            integrations, multichain, regulation_macro, releases_protocol, markets_data, education_basics, company]
+    beats: [lending, bitcoin, stablecoins_tron, liquidity_lp, integrations, multichain, regulation_macro,
+            markets_data, education_basics, company]
     voice_id: "05ed1fa5ab2e4ac788b503eb08cbf6b4"
     voice_brief: >-
       Man in his late thirties, confident, energetic and warm, with a South
@@ -52,6 +55,20 @@ guests:
       effects, connects any topic to where the market is heading, and loves a
       sports or braai analogy. Optimistic but numbers-first; will happily
       tell Jules his idea is good and then explain why it won't scale.
+  - id: erling
+    name: Erling
+    beats: [security, releases_protocol, flip_staking, ethereum, solana]
+    voice_id: "92de39ccc0214c21ae4ba75d560a6d35"
+    voice_brief: >-
+      Man around forty, strong, deliberate voice with a Russian accent.
+      Proper, precise diction; sounds strict until something amuses him,
+      then breaks into a warm, rumbling grandpa laugh.
+    personality: >-
+      Protocol engineer turned security reviewer. Strict, sharp and confident;
+      reads every changelog and every audit report, and will not let a vague
+      claim slide. Explains how things actually work, step by step, and has
+      a dry line for every shortcut someone tried to take. Secretly delighted
+      by Jules, whose questions make him laugh despite himself.
   - id: marco
     name: Marco
     beats: [lending]

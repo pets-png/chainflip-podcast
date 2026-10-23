@@ -90,13 +90,19 @@ def _deep_dive_due(history: list[dict], cfg: dict) -> tuple[bool, bool]:
 
 
 def pick_guest(post: dict, cast: dict) -> str | None:
+    # Only guests with a voice can be picked; a beat whose guest isn't cast yet falls through.
+    voiced = {g["id"] for g in cast["guests"] if g.get("voice_id")}
     c = post["cls"]
     for g in cast["guests"]:
-        if c["category"] in g["beats"]:
+        if c["category"] in g["beats"] and g["id"] in voiced:
             return g["id"]
     for asset in c["assets"]:
-        if asset.upper() in ASSET_GUESTS:
+        if ASSET_GUESTS.get(asset.upper()) in voiced:
             return ASSET_GUESTS[asset.upper()]
+    # Nobody voiced covers this topic: a fallback guest steps in (always the same one for the same post).
+    fallback = [g for g in cast.get("fallback_guests", []) if g in voiced]
+    if fallback:
+        return fallback[int(hashlib.sha1(post["slug"].encode()).hexdigest(), 16) % len(fallback)]
     return None
 
 
