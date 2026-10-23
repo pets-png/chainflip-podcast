@@ -60,15 +60,16 @@ guests:
     beats: [security, releases_protocol, flip_staking, ethereum, solana]
     voice_id: "92de39ccc0214c21ae4ba75d560a6d35"
     voice_brief: >-
-      Man around forty, strong, deliberate voice with a Russian accent.
-      Proper, precise diction; sounds strict until something amuses him,
-      then breaks into a warm, rumbling grandpa laugh.
+      Man around forty, strong, relaxed voice with a Russian accent. Proper,
+      precise diction delivered calmly and kindly, with a warm, rumbling
+      grandpa laugh that comes easily.
     personality: >-
-      Protocol engineer turned security reviewer. Strict, sharp and confident;
-      reads every changelog and every audit report, and will not let a vague
-      claim slide. Explains how things actually work, step by step, and has
-      a dry line for every shortcut someone tried to take. Secretly delighted
-      by Jules, whose questions make him laugh despite himself.
+      Protocol engineer turned security reviewer. Sharp and confident but
+      easygoing: he has seen every mistake before, so nothing rattles him.
+      Reads every changelog and audit report, and explains how things really
+      work like a patient older friend over tea, never lecturing. Points out a
+      risky shortcut with a gentle, dry joke rather than a scolding. Enjoys
+      Jules's questions and laughs with him, not at him.
   - id: marco
     name: Marco
     beats: [lending]
