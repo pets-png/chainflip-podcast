@@ -50,7 +50,7 @@ must also have been live for 14 days, and the live check runs again right before
 | Hosts only | ~30% | 4-6 min | Balances the mix |
 | Deep dive | occasional | 12-18 min | Complex posts only (complexity ≥4), every 14-21 episodes |
 
-The cast lives in `cast.yaml`: hosts Jules and Nadia, plus recurring guests per beat (Marco for
+The cast lives in `cast.yaml`: hosts Jules and Mira, plus recurring guests per beat (Marco for
 lending, Hank for Bitcoin, Kai for Solana, Elena for Ethereum, Mei for stablecoins/Tron, Oscar for
 FLIP and protocol, Rook for security, Priya for liquidity, Sam for integrations, Ivy for
 regulation). Each episode adds small character details to `data/lore.json`, and later

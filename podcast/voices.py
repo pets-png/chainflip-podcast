@@ -90,26 +90,8 @@ def _tts(text: str, reference_id, model: str) -> bytes:
     raise RuntimeError("Fish TTS kept failing after retries")
 
 
-def _scenes(lines: list[dict], chapter_starts: set[int], max_chars: int, max_turns: int) -> list[list[int]]:
-    scenes, cur, chars = [], [], 0
-    for i, line in enumerate(lines):
-        if cur and (i in chapter_starts or chars + len(line["text"]) > max_chars or len(cur) >= max_turns):
-            scenes.append(cur)
-            cur, chars = [], 0
-        cur.append(i)
-        chars += len(line["text"])
-    if cur:
-        scenes.append(cur)
-    return scenes
-
-
-def _render_scene(idx: list[int], lines: list[dict], voices: dict, cfg: dict, cache: Path) -> Path:
-    speakers = list(dict.fromkeys(lines[i]["speaker"] for i in idx))
-    if len(speakers) == 1:
-        text, ref = " ".join(lines[i]["text"] for i in idx), voices[speakers[0]]
-    else:
-        text = "".join(f"<|speaker:{speakers.index(lines[i]['speaker'])}|>{lines[i]['text']}" for i in idx)
-        ref = [voices[s] for s in speakers]
+def _render_line(text: str, ref: str, cfg: dict, cache: Path) -> Path:
+    # One voice per request: drama-3 lets voices bleed into each other in multi-speaker requests.
     key = hashlib.sha1(json.dumps([cfg["model"], text, ref]).encode()).hexdigest()[:16]
     out = cache / f"{key}.wav"
     if out.exists():
@@ -117,16 +99,8 @@ def _render_scene(idx: list[int], lines: list[dict], voices: dict, cfg: dict, ca
     try:
         audio = _tts(text, ref, cfg["model"])
     except RuntimeError as e:
-        print(f"[tts] {cfg['model']} failed on a scene ({e}); trying {cfg['fallback_model']}")
-        try:
-            audio = _tts(text, ref, cfg["fallback_model"])
-        except RuntimeError:
-            if len(idx) == 1:
-                raise
-            # Last resort: one request per line, stitched.
-            parts = [_render_scene([i], lines, voices, cfg, cache) for i in idx]
-            _concat(parts, out, gap_ms=180)
-            return out
+        print(f"[tts] {cfg['model']} failed on a line ({e}); trying {cfg['fallback_model']}")
+        audio = _tts(text, ref, cfg["fallback_model"])
     out.write_bytes(audio)
     return out
 
@@ -137,26 +111,41 @@ def duration(path: Path) -> float:
     return float(out.strip())
 
 
-def _pcm(path: Path) -> Path:
-    """The concat demuxer needs identical formats, so normalise every piece first."""
-    out = path.with_name(f"{path.stem}.pcm.wav")
+def _pcm(path: Path, max_pause: float | None = None) -> Path:
+    """The concat demuxer needs identical formats, so normalise every piece first.
+
+    With max_pause, also trim the silence a TTS clip starts and ends with and cap pauses inside it.
+    """
+    out = path.with_name(f"{path.stem}.{'tight' if max_pause else 'pcm'}.wav")
     if not out.exists():
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(path), "-ar", "44100", "-ac", "1",
+        af = []
+        if max_pause:
+            edge = "silenceremove=start_periods=1:start_threshold=-42dB:start_silence={}"
+            af = ["-af", ",".join([edge.format(0.03), "areverse", edge.format(0.05), "areverse",
+                                   f"silenceremove=stop_periods=-1:stop_duration={max_pause}"
+                                   f":stop_threshold=-42dB:stop_silence={max_pause}"])]
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(path), *af, "-ar", "44100", "-ac", "1",
                         "-c:a", "pcm_s16le", str(out)], check=True)
     return out
 
 
-def _concat(parts: list[Path], out: Path, gap_ms: int) -> None:
-    silence = out.parent / f"silence_{gap_ms}.wav"
-    if not silence.exists():
+def _silence(ms: int) -> Path:
+    BUILD.mkdir(parents=True, exist_ok=True)
+    out = BUILD / f"silence_{ms}.wav"
+    if not out.exists():
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono",
-                        "-t", f"{gap_ms / 1000}", str(silence)], check=True)
+                        "-t", f"{ms / 1000}", "-c:a", "pcm_s16le", str(out)], check=True)
+    return out
+
+
+def _concat(parts: list[Path], out: Path, gaps_ms: list[int]) -> None:
+    """Join PCM parts; gaps_ms[i] is the silence before parts[i + 1]."""
     listing = out.parent / f"{out.stem}_list.txt"
     seq = []
     for i, p in enumerate(parts):
-        if i:
-            seq.append(silence)
-        seq.append(_pcm(p))
+        if i and gaps_ms[i - 1]:
+            seq.append(_silence(gaps_ms[i - 1]))
+        seq.append(p)
     listing.write_text("".join(f"file '{p.resolve()}'\n" for p in seq))
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(listing),
                     "-ar", "44100", "-ac", "1", str(out)], check=True)
@@ -173,27 +162,36 @@ def render(script: dict, out_mp3: Path, tags: dict) -> dict:
 
     lines = script["lines"]
     chapter_starts = {c["line"] for c in script["chapters"]}
-    scenes = _scenes(lines, chapter_starts, cfg["scene_max_chars"], cfg["scene_max_turns"])
     cache = BUILD / "tts_cache"
     cache.mkdir(parents=True, exist_ok=True)
-    print(f"[tts] {len(lines)} lines in {len(scenes)} scenes via {cfg['model']}")
+    print(f"[tts] {len(lines)} lines via {cfg['model']}, one voice per request")
     with ThreadPoolExecutor(4) as pool:
-        parts = list(pool.map(lambda s: _render_scene(s, lines, voices, cfg, cache), scenes))
+        raw_lines = list(pool.map(lambda l: _render_line(l["text"], voices[l["speaker"]], cfg, cache), lines))
+    parts = [_pcm(p, cfg["max_pause_s"]) for p in raw_lines]
+
+    # Drama-3 reads slower than real banter: join lines with short gaps, then speed the speech up (pitch kept).
+    gaps = [cfg["chapter_gap_ms"] if i in chapter_starts else cfg["line_gap_ms"] for i in range(1, len(parts))]
+    starts, t = {0: 0.0}, 0.0
+    for i, p in enumerate(parts[:-1]):
+        t += duration(p) + gaps[i] / 1000
+        starts[i + 1] = t
+    speed = cfg["speed"]
+    joined, speech = out_mp3.with_suffix(".joined.wav"), out_mp3.with_suffix(".speech.wav")
+    _concat(parts, joined, gaps)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(joined), "-af", f"atempo={speed}",
+                    "-ar", "44100", "-ac", "1", "-c:a", "pcm_s16le", str(speech)], check=True)
+    joined.unlink()
 
     intro, outro = ROOT / "assets" / "intro.mp3", ROOT / "assets" / "outro.mp3"
-    pieces = ([intro] if intro.exists() else []) + parts + ([outro] if outro.exists() else [])
-    offset = duration(intro) + 0.35 if intro.exists() else 0.0
-
-    # Chapter times from scene boundaries (scenes always break at chapter starts).
-    starts, t = {}, offset
-    for scene, part in zip(scenes, parts):
-        starts.setdefault(scene[0], t)
-        t += duration(part) + 0.35
-    chapters = [{"title": c["title"], "start": round(starts.get(c["line"], offset), 1)} for c in script["chapters"]]
+    pieces = ([_pcm(intro)] if intro.exists() else []) + [speech] + ([_pcm(outro)] if outro.exists() else [])
+    offset = duration(pieces[0]) + cfg["chapter_gap_ms"] / 1000 if intro.exists() else 0.0
+    chapters = [{"title": c["title"], "start": round(offset + starts.get(c["line"], 0.0) / speed, 1)}
+                for c in script["chapters"]]
     chapters[0]["start"] = 0.0
 
     raw = out_mp3.with_suffix(".raw.wav")
-    _concat(pieces, raw, gap_ms=350)
+    _concat(pieces, raw, [cfg["chapter_gap_ms"]] * (len(pieces) - 1))
+    speech.unlink()
     meta = sum((["-metadata", f"{k}={v}"] for k, v in tags.items()), [])
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw),
                     "-af", f"loudnorm=I={cfg['loudness_lufs']}:TP=-1.5:LRA=11", "-ar", "44100", "-ac", "1",

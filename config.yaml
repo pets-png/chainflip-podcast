@@ -24,7 +24,7 @@ show:
     Two hosts and a rotating crew of regulars break down native Bitcoin swaps, BTC-backed
     lending, DeFi yield, stablecoins, Solana, Ethereum and everything moving between chains.
     Every episode is based on an article from the Chainflip blog, linked in the show notes.
-    Hosts and guests are fictional characters voiced with AI. Nothing here is financial advice.
+    Hosts and guests are fictional characters, voiced with AI clones of real voices used with permission. Nothing here is financial advice.
 
 github:
   repo: "pets-png/chainflip-podcast"
@@ -72,12 +72,15 @@ formats:
     deep_dive: [1900, 2600] # ~12-18 min
 
 tts:
-  model: "drama-3"          # directed multi-speaker model; falls back below on error
+  model: "drama-3"          # directed model, one voice per request; falls back below on error
   fallback_model: "s2.1-pro"
   bitrate_kbps: 128
-  scene_max_chars: 1400
-  scene_max_turns: 10
   loudness_lufs: -16
+  # Drama-3 reads slower than real banter, so the speech is tightened and sped up.
+  speed: 1.2                # pitch is kept
+  line_gap_ms: 90           # silence between lines
+  chapter_gap_ms: 350       # silence before a new chapter, and around intro/outro
+  max_pause_s: 0.3          # pauses inside a line are cut down to this
 
 claude:
   model: "claude-opus-5-5"
