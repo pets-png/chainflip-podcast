@@ -3139,6 +3139,43 @@
       "evergreen": true
     }
   },
+  "chainflip-logo-official-brand-assets-download": {
+    "url": "https://chainflip.io/blog/chainflip-logo-official-brand-assets-download",
+    "slug": "chainflip-logo-official-brand-assets-download",
+    "title": "Official Chainflip Logo and Brand Assets: Downloads, Versions, and Usage Guidelines",
+    "description": "The complete guide to Chainflip's official brand assets. Download logos, token icons, and brand colors for integrations, listings, and media use.",
+    "image": "https://framerusercontent.com/images/NViqsq0pbTtBP2ji2GZiqFipKg.png?width=1600&height=900",
+    "published": "2026-10-23",
+    "headings": [
+      "What the Brand Kit Contains",
+      "Brand Colors",
+      "Full Logos (Logomark + Wordmark)",
+      "Logotype Only (Wordmark, No Symbol)",
+      "Logomark Only (Symbol, No Text)",
+      "Trading Logos for Exchanges and Platforms",
+      "File Formats Explained",
+      "Choosing the Right Version",
+      "Usage Best Practices",
+      "Do",
+      "Don't",
+      "Pre-Publish Checklist",
+      "Where to Download"
+    ],
+    "words": 922,
+    "first_seen": "2026-10-24T11:00:55Z",
+    "live": true,
+    "cls": {
+      "cluster": "brand-assets",
+      "cluster_label": "Chainflip logo and brand kit",
+      "category": "company",
+      "assets": [
+        "FLIP"
+      ],
+      "complexity": 1,
+      "podcast_fit": 1,
+      "evergreen": true
+    }
+  },
   "chainflip-lp-returns-fees-volume-apy-october-2026": {
     "url": "https://chainflip.io/blog/chainflip-lp-returns-fees-volume-apy-october-2026",
     "slug": "chainflip-lp-returns-fees-volume-apy-october-2026",
@@ -3360,6 +3397,41 @@
       ],
       "complexity": 2,
       "podcast_fit": 2,
+      "evergreen": false
+    }
+  },
+  "chainflip-q3-2026-report": {
+    "url": "https://chainflip.io/blog/chainflip-q3-2026-report",
+    "slug": "chainflip-q3-2026-report",
+    "title": "Chainflip Q3 2026 Report: $9B Milestone and Record $3.3M Fees",
+    "description": "On 19 September, Chainflip passed $9 billion in all-time swap volume. The rest of the quarter matched it: $1.30 billion swapped, $3.30 million in fees and 2.35 million FLIP burned.",
+    "image": "https://framerusercontent.com/images/spv4uGgoQFPk6CTsrcjwXRA.png?width=2400&height=1350",
+    "published": "2026-10-21",
+    "headings": [
+      "The quarter, in short",
+      "Headline numbers",
+      "Fees, revenue and the burn",
+      "The network: more stake, more operators",
+      "Lending",
+      "The biggest swaps of the quarter",
+      "Product",
+      "Ecosystem",
+      "Community",
+      "What is next",
+      "Q3 grew volume, fees, lending and integrations"
+    ],
+    "words": 2211,
+    "first_seen": "2026-10-24T11:00:55Z",
+    "live": true,
+    "cls": {
+      "cluster": "quarterly-reports",
+      "cluster_label": "Quarterly performance reports",
+      "category": "company",
+      "assets": [
+        "FLIP"
+      ],
+      "complexity": 2,
+      "podcast_fit": 3,
       "evergreen": false
     }
   },
@@ -4368,6 +4440,44 @@
         "BTC"
       ],
       "complexity": 2,
+      "podcast_fit": 4,
+      "evergreen": true
+    }
+  },
+  "convert-usdc-to-bitcoin-native-btc-swap-fees-speed-slippage-compared": {
+    "url": "https://chainflip.io/blog/convert-usdc-to-bitcoin-native-btc-swap-fees-speed-slippage-compared",
+    "slug": "convert-usdc-to-bitcoin-native-btc-swap-fees-speed-slippage-compared",
+    "title": "Convert USDC to Bitcoin Natively: Fees, Speed, and Slippage Compared",
+    "description": "A data-driven comparison of USDC to native Bitcoin conversion costs across Chainflip, THORChain, centralized exchanges, and bridge+DEX routes, with fee breakdowns for swaps from $100 to $100k.",
+    "image": "https://framerusercontent.com/images/wZ6QYuGRdyctoBiDzodLNKMBt7U.png?width=1600&height=900",
+    "published": "2026-10-19",
+    "headings": [
+      "Fee Structure Breakdown by Route",
+      "Chainflip",
+      "THORChain",
+      "Centralized Exchanges",
+      "Bridge + DEX Routes",
+      "Cost Comparison by Swap Size",
+      "$100 USDC to BTC",
+      "$1,000 USDC to BTC",
+      "$10,000 USDC to BTC",
+      "$100,000 USDC to BTC",
+      "Settlement Time Comparison",
+      "Slippage Under Varying Market Conditions",
+      "Which Route Should You Use?"
+    ],
+    "words": 915,
+    "first_seen": "2026-10-24T11:00:55Z",
+    "live": true,
+    "cls": {
+      "cluster": "swap-cost-benchmarking",
+      "cluster_label": "Benchmarking cross-chain swap costs",
+      "category": "markets_data",
+      "assets": [
+        "USDC",
+        "BTC"
+      ],
+      "complexity": 3,
       "podcast_fit": 4,
       "evergreen": true
     }
@@ -8518,6 +8628,41 @@
       "evergreen": false
     }
   },
+  "phantom-wallet-btc-swap-bitcoin-to-solana-native-guide": {
+    "url": "https://chainflip.io/blog/phantom-wallet-btc-swap-bitcoin-to-solana-native-guide",
+    "slug": "phantom-wallet-btc-swap-bitcoin-to-solana-native-guide",
+    "title": "Bitcoin to Solana: The Phantom Wallet Swap Guide for BTC Holders",
+    "description": "Bitcoin holders can now swap native BTC directly to SOL and other Solana assets using Phantom Wallet, powered by Chainflip's decentralized cross-chain protocol.",
+    "image": "https://framerusercontent.com/images/gNB6jFPaMN7AQxikMqUlgj58GOU.png?width=1600&height=900",
+    "published": "2026-10-16",
+    "headings": [
+      "Why Bitcoin Holders Are Moving to Solana",
+      "How Phantom Integrated Chainflip",
+      "Step-by-Step: Swapping Native BTC to SOL in Phantom",
+      "What You Need",
+      "The Swap Process",
+      "What Happens Behind the Scenes",
+      "Tips for BTC Holders New to Solana",
+      "Comparing Your Options",
+      "Start Swapping",
+      "FAQ"
+    ],
+    "words": 760,
+    "first_seen": "2026-10-24T11:00:55Z",
+    "live": true,
+    "cls": {
+      "cluster": "phantom-btc-to-solana-guide",
+      "cluster_label": "Phantom BTC to Solana swaps",
+      "category": "integrations",
+      "assets": [
+        "BTC",
+        "SOL"
+      ],
+      "complexity": 2,
+      "podcast_fit": 3,
+      "evergreen": true
+    }
+  },
   "phantom-wallet-btc-swap-solana-bitcoin-guide": {
     "url": "https://chainflip.io/blog/phantom-wallet-btc-swap-solana-bitcoin-guide",
     "slug": "phantom-wallet-btc-swap-solana-bitcoin-guide",
@@ -9621,6 +9766,40 @@
       "evergreen": true
     }
   },
+  "swap-broker-earn-affiliate-fee-revenue-model": {
+    "url": "https://chainflip.io/blog/swap-broker-earn-affiliate-fee-revenue-model",
+    "slug": "swap-broker-earn-affiliate-fee-revenue-model",
+    "title": "How Much Can a Swap Broker Actually Earn? Modeling Affiliate Fee Revenue",
+    "description": "Thinking about becoming a Chainflip broker? This data-driven analysis models affiliate fee revenue across volume tiers, with breakeven calculations and real-world scenario projections.",
+    "image": "https://framerusercontent.com/images/9DpdkvtCOkgHHXhrexY5RPGngo.png?width=1600&height=900",
+    "published": "2026-10-20",
+    "headings": [
+      "How Broker Fees Work on Chainflip",
+      "Revenue at Different Fee Tiers: Worked Examples",
+      "Conservative: 5 Basis Points (0.05%)",
+      "Moderate: 10 Basis Points (0.10%)",
+      "Premium: 25 Basis Points (0.25%)",
+      "Breakeven Analysis: What Volume Do You Actually Need?",
+      "Scenario Projections: Three Integration Types",
+      "Scenario A: Niche Wallet Integration",
+      "Scenario B: Regional Exchange with Existing Volume",
+      "Scenario C: Aggregator Route Integration",
+      "What the Protocol-Level Numbers Tell Us",
+      "The Decision Framework"
+    ],
+    "words": 838,
+    "first_seen": "2026-10-24T11:00:55Z",
+    "live": true,
+    "cls": {
+      "cluster": "partner-fee-revenue",
+      "cluster_label": "Partner fee revenue for integrators",
+      "category": "integrations",
+      "assets": [],
+      "complexity": 3,
+      "podcast_fit": 4,
+      "evergreen": true
+    }
+  },
   "swap-crypto-without-cex-market-crash": {
     "url": "https://chainflip.io/blog/swap-crypto-without-cex-market-crash",
     "slug": "swap-crypto-without-cex-market-crash",
@@ -9768,6 +9947,34 @@
       "assets": [],
       "complexity": 2,
       "podcast_fit": 2,
+      "evergreen": false
+    }
+  },
+  "tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps": {
+    "url": "https://chainflip.io/blog/tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps",
+    "slug": "tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps",
+    "title": "Tangem and SwapKit Bring Hardware Wallet Users to Chainflip for Native Cross-Chain Swaps",
+    "description": "The Tangem and SwapKit partnership is channeling increasingly large swaps through Chainflip, combining hardware wallet security with native cross-chain settlement for users who refuse to compromise on self-custody.",
+    "image": "https://framerusercontent.com/images/inl8XgMrjZN0RPqpMdD5NSlvg.png?width=3200&height=1800",
+    "published": "2026-10-22",
+    "headings": [
+      "How Tangem Users Access Native Swaps via SwapKit",
+      "Why Native Settlement Matters for Hardware Wallet Users",
+      "The Trend Toward Larger Swaps",
+      "Self-Custody Throughout the Swap",
+      "What Assets Can Tangem Users Swap?",
+      "Why This Integration Signals a Shift"
+    ],
+    "words": 844,
+    "first_seen": "2026-10-24T11:00:55Z",
+    "live": true,
+    "cls": {
+      "cluster": "tangem-swapkit-integration",
+      "cluster_label": "Tangem hardware wallet via SwapKit",
+      "category": "integrations",
+      "assets": [],
+      "complexity": 2,
+      "podcast_fit": 3,
       "evergreen": false
     }
   },
@@ -9950,6 +10157,44 @@
       "assets": [],
       "complexity": 1,
       "podcast_fit": 2,
+      "evergreen": true
+    }
+  },
+  "triangular-arbitrage-cross-chain-btc-eth-stablecoin-native-swaps": {
+    "url": "https://chainflip.io/blog/triangular-arbitrage-cross-chain-btc-eth-stablecoin-native-swaps",
+    "slug": "triangular-arbitrage-cross-chain-btc-eth-stablecoin-native-swaps",
+    "title": "Triangular Arbitrage Across Chains: How BTCâETHâUSDCâBTC Loops Work with Native Swaps",
+    "description": "Triangular arbitrage exploits price inefficiencies across three trading pairs to capture profit. When executed across multiple blockchains with native assets, it eliminates wrapped-token friction and opens new opportunities.",
+    "image": "https://framerusercontent.com/images/SzA2Aw1EJ8kO7csIjRegsYoFqs.png?width=1600&height=900",
+    "published": "2026-10-21",
+    "headings": [
+      "What Is Triangular Arbitrage?",
+      "Why Cross-Chain Triangular Arbitrage Is Different",
+      "A Concrete Example: BTCâETHâUSDCâBTC",
+      "Starting Position: 1 BTC on Bitcoin",
+      "Executing the Loop",
+      "Fee and Slippage Considerations Per Leg",
+      "Protocol Fees",
+      "Slippage Per Leg",
+      "Network Fees",
+      "Why Native Settlement Matters for Arbitrage",
+      "Practical Execution Tips",
+      "Conclusion"
+    ],
+    "words": 961,
+    "first_seen": "2026-10-24T11:00:55Z",
+    "live": true,
+    "cls": {
+      "cluster": "cross-chain-arbitrage",
+      "cluster_label": "Cross-chain arbitrage math",
+      "category": "markets_data",
+      "assets": [
+        "BTC",
+        "ETH",
+        "USDC"
+      ],
+      "complexity": 4,
+      "podcast_fit": 4,
       "evergreen": true
     }
   },

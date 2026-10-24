@@ -1,0 +1,82 @@
+[
+  {
+    "number": 1,
+    "tag": "take-001",
+    "status": "pending",
+    "slug": "chain-abstraction-gasless-any-chain-swap-protocol",
+    "post_url": "https://chainflip.io/blog/chain-abstraction-gasless-any-chain-swap-protocol",
+    "post_title": "Chain Abstraction Is the New UX Bar: Gasless, One-Address, Any-Chain Swaps",
+    "category": "multichain",
+    "cluster": "chain-abstraction-ux",
+    "format": "guest",
+    "guest": "mark",
+    "title": "Chain Abstraction Explained: Swap Bitcoin Without Connecting a Wallet",
+    "summary": "Jules, Mira and guest Mark explain chain abstraction, how it differs from account abstraction, and how deposit-address swaps give gasless, any-address, native cross-chain swaps today.",
+    "hook": "Why do you need a different gas token for every chain you touch? Mark joins Jules and Mira to break down chain abstraction, the new UX bar where you say what you want instead of which chain. Plus: a car wash analogy that, against all odds, actually holds up.",
+    "key_points": [
+      "Chain abstraction hides the chain from the user while still settling natively, with no wrapped or custodial shortcuts",
+      "Account abstraction (ERC-4337) improves single-chain UX, with 26M+ smart accounts and 99.2% of UserOperations paymaster-funded, but doesn't cover cross-chain moves like ETH to BTC",
+      "Chainflip's deposit addresses let you swap by simply sending funds from any wallet, including cold storage and exchange withdrawals, with no wallet connection",
+      "Destination gas is paid by the protocol from swap proceeds, so you never need SOL or TRX to receive SOL or USDT",
+      "The new bar: no destination gas, any source address, native settlement, and one transaction regardless of chains"
+    ],
+    "keywords": [
+      "chain abstraction",
+      "chain abstraction explained",
+      "gasless cross-chain swap",
+      "account abstraction vs chain abstraction",
+      "swap BTC to USDT on Tron",
+      "deposit address swap",
+      "native bitcoin swap without wallet connection",
+      "ERC-4337 smart accounts"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "Worked at a hometown car wash with three machines: gold tokens for the wash, silver tokens for the vacuum, real quarters for tire shine. Became his go-to analogy for needing different gas tokens per chain."
+      },
+      {
+        "character": "jules",
+        "note": "Keeps a little bitcoin on a hardware wallet in his 'metaphorical sock drawer', and has a fat-finger send story he refuses to finish."
+      },
+      {
+        "character": "mira",
+        "note": "Admitted Jules's 'one slot that takes whatever's in your pocket' analogy works; Jules demanded she 'write it down, date it.'"
+      }
+    ],
+    "words": 1191,
+    "created_at": "2026-10-24T11:02:22Z",
+    "duration": 401,
+    "chapters": [
+      {
+        "title": "The car wash token problem",
+        "start": 0.0
+      },
+      {
+        "title": "What chain abstraction actually means",
+        "start": 30.5
+      },
+      {
+        "title": "Account abstraction vs chain abstraction",
+        "start": 98.2
+      },
+      {
+        "title": "Deposit addresses and swapping from cold storage",
+        "start": 184.3
+      },
+      {
+        "title": "Smart wallets vs deposit addresses, and the volume",
+        "start": 306.7
+      },
+      {
+        "title": "The new UX bar and takeaway",
+        "start": 383.3
+      }
+    ],
+    "audio_bytes": 6420084,
+    "audio_file": "take-001-chain-abstraction-gasless-any-chain-swap-protocol.mp3",
+    "description_html": "<p>Why do you need a different gas token for every chain you touch? Mark joins Jules and Mira to break down chain abstraction, the new UX bar where you say what you want instead of which chain. Plus: a car wash analogy that, against all odds, actually holds up.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/chain-abstraction-gasless-any-chain-swap-protocol?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Chain Abstraction Is the New UX Bar: Gasless, One-Address, Any-Chain Swaps</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>Chain abstraction hides the chain from the user while still settling natively, with no wrapped or custodial shortcuts</li><li>Account abstraction (ERC-4337) improves single-chain UX, with 26M+ smart accounts and 99.2% of UserOperations paymaster-funded, but doesn&#x27;t cover cross-chain moves like ETH to BTC</li><li>Chainflip&#x27;s deposit addresses let you swap by simply sending funds from any wallet, including cold storage and exchange withdrawals, with no wallet connection</li><li>Destination gas is paid by the protocol from swap proceeds, so you never need SOL or TRX to receive SOL or USDT</li><li>The new bar: no destination gas, any source address, native settlement, and one transaction regardless of chains</li></ul><p><strong>Chapters</strong><br>00:00 The car wash token problem<br>00:30 What chain abstraction actually means<br>01:38 Account abstraction vs chain abstraction<br>03:04 Deposit addresses and swapping from cold storage<br>05:06 Smart wallets vs deposit addresses, and the volume<br>06:23 The new UX bar and takeaway</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 2,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-a161140eade0c03fee76"
+  }
+]
