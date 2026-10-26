@@ -4155,7 +4155,7 @@
     ],
     "words": 1159,
     "first_seen": "2026-05-21T12:00:00Z",
-    "live": true,
+    "live": false,
     "cls": {
       "cluster": "chainflip-vs-thorchain",
       "cluster_label": "Chainflip vs THORChain",
@@ -4167,7 +4167,8 @@
       "complexity": 4,
       "podcast_fit": 5,
       "evergreen": true
-    }
+    },
+    "unpublished_at": "2026-10-26T11:53:43Z"
   },
   "chainflip-x-staked": {
     "url": "https://chainflip.io/blog/chainflip-x-staked",

@@ -1,0 +1,283 @@
+{
+  "post": "https://chainflip.io/blog/buyback-burn-tokenomics-analysis-deflationary-supply",
+  "format": "hosts_only",
+  "guest": null,
+  "episode_title": "Buyback-and-Burn Explained: Why Most Burns Don't Shrink Supply",
+  "summary": "Jules and Mira unpack why the industry's $19B in buyback-and-burn rarely reduces circulating supply, walking through BNB, MakerDAO, the emissions problem, the burned-minus-emitted test, and FLIP's buy-and-distribute model and June 2026 net-supply milestone.",
+  "hook": "The crypto industry has burned over $19 billion worth of tokens, yet most 'deflationary' tokens still have more supply every year. Jules explains it with a bait shop owner named Dale, and Mira gives you the one subtraction that cuts through every burn announcement.",
+  "key_points": [
+    "Why buyback-and-burn is popular, and why most tokens claiming deflation still saw supply grow year over year",
+    "How BNB's utility sinks and MakerDAO's burn-when-profitable, mint-when-not model complicate the burn story",
+    "The emissions problem: burning $10M a year while emitting $50M is 'inflationary with better marketing'",
+    "The simple test: tokens burned minus tokens emitted over a period",
+    "How buy-and-distribute works, and FLIP crossing burns-exceed-emissions on June 10, 2026"
+  ],
+  "keywords": [
+    "buyback and burn",
+    "token burn explained",
+    "deflationary tokens",
+    "net supply change",
+    "token emissions vs burns",
+    "buy and distribute tokenomics",
+    "FLIP token burn",
+    "real yield staking"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "Cold open: Dale's minnow sign"
+    },
+    {
+      "line": 5,
+      "title": "What buyback-and-burn actually is"
+    },
+    {
+      "line": 14,
+      "title": "BNB and MakerDAO: big burns, mixed results"
+    },
+    {
+      "line": 26,
+      "title": "The emissions problem and the one calculation"
+    },
+    {
+      "line": 38,
+      "title": "Buy-and-distribute and FLIP's milestone"
+    },
+    {
+      "line": 46,
+      "title": "The four-question checklist and wrap"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Okay, the summer I worked at the bait shop, the owner, Dale, put a sign in the window. \"We threw out a hundred dead minnows this week. Freshest tank in the county.\""
+    },
+    {
+      "speaker": "mira",
+      "text": "That's a choice of slogan."
+    },
+    {
+      "speaker": "jules",
+      "text": "But that same week, the truck dropped off five hundred new minnows. The tank was more crowded than ever."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] So the tank grew by four hundred, and Dale advertised the hundred."
+    },
+    {
+      "speaker": "jules",
+      "text": "Dale was ahead of his time."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] Dale was running a token burn. Welcome to Cross-Chain Daily, I'm Mira, that's Jules, and today it's buyback-and-burn, and why so few tokens that burn actually end up with less supply."
+    },
+    {
+      "speaker": "jules",
+      "text": "Start me simple. What's a buyback-and-burn?"
+    },
+    {
+      "speaker": "mira",
+      "text": "A protocol makes revenue, uses it to buy its own token off the market, and destroys those tokens. BNB, MKR, FTT before it collapsed, and dozens of others use some version of it."
+    },
+    {
+      "speaker": "jules",
+      "text": "And the article says the whole industry has burned over nineteen billion dollars worth."
+    },
+    {
+      "speaker": "mira",
+      "text": "Over nineteen billion. And yet most tokens calling themselves deflationary saw circulating supply go up year over year."
+    },
+    {
+      "speaker": "jules",
+      "text": "Wait. Up?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Up. That's the whole article in one word."
+    },
+    {
+      "speaker": "jules",
+      "text": "So why does everybody love burns?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Because they're visible. A burn is an on-chain event you can screenshot, so every one becomes a marketing moment. Nobody asks the boring follow-up: is circulating supply actually going down?"
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, so, um, give me the big one. BNB."
+    },
+    {
+      "speaker": "mira",
+      "text": "Largest burn program by dollar value. Quarterly burns, calculated from trading volume and other factors. Big numbers."
+    },
+    {
+      "speaker": "jules",
+      "text": "But."
+    },
+    {
+      "speaker": "mira",
+      "text": "But BNB is also gas on BNB Chain, it's used for Launchpad allocations, it has all these utility sinks. So what's really circulating depends on way more than burn math. Big burns don't automatically mean the supply drop retail pictures."
+    },
+    {
+      "speaker": "jules",
+      "text": "Then Maker. That one confused me."
+    },
+    {
+      "speaker": "mira",
+      "text": "MKR runs a surplus buffer. Protocol's profitable, extra DAI buys and burns MKR. Protocol hits bad debt, new MKR gets minted and sold to cover it."
+    },
+    {
+      "speaker": "jules",
+      "text": "[half-laughing] So it's a burn with a refund policy."
+    },
+    {
+      "speaker": "mira",
+      "text": "Pretty much. Big burns in the profitable stretch of twenty twenty-two and twenty twenty-three, but earlier liquidation events had already diluted supply. Over multiple years, the net is less dramatic than the announcements."
+    },
+    {
+      "speaker": "jules",
+      "text": "And the article says that's a pattern."
+    },
+    {
+      "speaker": "mira",
+      "text": "Burn in good times, dilute in bad times. The burns get announced. The dilution happens quietly."
+    },
+    {
+      "speaker": "jules",
+      "text": "I mean, that's Dale. That's exactly Dale."
+    },
+    {
+      "speaker": "mira",
+      "text": "[dry] I'm starting to think Dale is the whole thesis."
+    },
+    {
+      "speaker": "jules",
+      "text": "So where do the new minnows come from, in token land?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Emissions. Validator rewards, liquidity incentives, team vesting, ecosystem grants. Those often outrun the burns by a lot. The article's example: burn ten million dollars a year while emitting fifty million in rewards."
+    },
+    {
+      "speaker": "jules",
+      "text": "That's not deflation."
+    },
+    {
+      "speaker": "mira",
+      "text": "In the article's words, it's inflationary with better marketing."
+    },
+    {
+      "speaker": "jules",
+      "text": "[grinning] That's going on a t-shirt. Right next to Dale's sign."
+    },
+    {
+      "speaker": "mira",
+      "text": "Burns get the headlines, emission schedules get buried in the docs. So \"deflationary\" has basically stopped meaning anything."
+    },
+    {
+      "speaker": "jules",
+      "text": "So how does a normal person check? Someone with, honestly, a pretty rough trade history?"
+    },
+    {
+      "speaker": "mira",
+      "text": "One calculation. Tokens burned minus tokens emitted over a period. Positive means real deflation. Negative means the burns are theater."
+    },
+    {
+      "speaker": "jules",
+      "text": "Burned minus emitted. That's it?"
+    },
+    {
+      "speaker": "mira",
+      "text": "That's it. And for most tokens it's disappointing. Staking rewards alone often beat the yearly burn. Add incentives, team unlocks and grants, and the gap widens."
+    },
+    {
+      "speaker": "jules",
+      "text": "So who actually passes?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Tokens whose burns are funded by real protocol revenue that's bigger than what they need to emit."
+    },
+    {
+      "speaker": "jules",
+      "text": "Which gets us to the alternative. Buy-and-distribute?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Instead of destroying tokens and hoping the price notices, you buy tokens and hand them straight to stakers. The article's example is Chainflip's FLIP, which moved from a pure burn to buy-and-distribute. Protocol revenue buys FLIP on the market and sends it to stakers as yield."
+    },
+    {
+      "speaker": "jules",
+      "text": "So instead of tossing minnows, Dale hands them to his regulars."
+    },
+    {
+      "speaker": "mira",
+      "text": "Hmm. Okay, that one works. Stakers can measure exactly what they got. No hoping the market turns a burn into a price move."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quick, cutting in] Write it down. Date it."
+    },
+    {
+      "speaker": "mira",
+      "text": "Noted. And there's a milestone. On June tenth, twenty twenty-six, FLIP's total tokens burned since launch passed total tokens emitted."
+    },
+    {
+      "speaker": "jules",
+      "text": "So it actually shrank."
+    },
+    {
+      "speaker": "mira",
+      "text": "Net supply reduction. The point isn't that FLIP is uniquely virtuous, it's what happens when burns are sized right against emissions. The article cites over nine point five billion dollars in all-time swap volume generating steady fees, at the time of writing."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay. Checklist, so I stop getting Dale'd."
+    },
+    {
+      "speaker": "mira",
+      "text": "Four questions. Net supply: do burns beat emissions each year? Revenue source: real revenue or treasury spending? Emission schedule: what's the full picture entering circulation? Transparency: do they publish both burns and emissions clearly?"
+    },
+    {
+      "speaker": "jules",
+      "text": "And most tokens..."
+    },
+    {
+      "speaker": "mira",
+      "text": "Fail more than one. The article says that nineteen billion includes billions in marketing spend dressed up as value accrual."
+    },
+    {
+      "speaker": "jules",
+      "text": "Ouch."
+    },
+    {
+      "speaker": "mira",
+      "text": "Good news is the market's growing up. People used to take burn announcements at face value. Now they want the math, and the data's free. On-chain data doesn't lie, even when marketing departments do."
+    },
+    {
+      "speaker": "jules",
+      "text": "So the takeaway: don't count the minnows thrown out. Count the tank."
+    },
+    {
+      "speaker": "mira",
+      "text": "Burned minus emitted. The full article is linked in the show notes, and none of this is financial advice."
+    },
+    {
+      "speaker": "jules",
+      "text": "[grinning] Dale, if you're listening, no hard feelings. Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "Spent a summer at a bait shop run by Dale, who posted a sign bragging about throwing out a hundred dead minnows the same week five hundred new ones arrived. 'Getting Dale'd' is now Jules's phrase for falling for burn-style marketing."
+    },
+    {
+      "character": "mira",
+      "note": "Her one-number rule for any deflation claim: 'burned minus emitted.' She also admitted a second Jules analogy works (Dale handing minnows to his regulars as buy-and-distribute), and Jules again made her 'date it.'"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   {
     "number": 1,
     "tag": "take-001",
-    "status": "pending",
+    "status": "published",
     "slug": "chain-abstraction-gasless-any-chain-swap-protocol",
     "post_url": "https://chainflip.io/blog/chain-abstraction-gasless-any-chain-swap-protocol",
     "post_title": "Chain Abstraction Is the New UX Bar: Gasless, One-Address, Any-Chain Swaps",
@@ -77,6 +77,84 @@
     "audio_file": "take-001-chain-abstraction-gasless-any-chain-swap-protocol.mp3",
     "description_html": "<p>Why do you need a different gas token for every chain you touch? Mark joins Jules and Mira to break down chain abstraction, the new UX bar where you say what you want instead of which chain. Plus: a car wash analogy that, against all odds, actually holds up.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/chain-abstraction-gasless-any-chain-swap-protocol?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Chain Abstraction Is the New UX Bar: Gasless, One-Address, Any-Chain Swaps</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>Chain abstraction hides the chain from the user while still settling natively, with no wrapped or custodial shortcuts</li><li>Account abstraction (ERC-4337) improves single-chain UX, with 26M+ smart accounts and 99.2% of UserOperations paymaster-funded, but doesn&#x27;t cover cross-chain moves like ETH to BTC</li><li>Chainflip&#x27;s deposit addresses let you swap by simply sending funds from any wallet, including cold storage and exchange withdrawals, with no wallet connection</li><li>Destination gas is paid by the protocol from swap proceeds, so you never need SOL or TRX to receive SOL or USDT</li><li>The new bar: no destination gas, any source address, native settlement, and one transaction regardless of chains</li></ul><p><strong>Chapters</strong><br>00:00 The car wash token problem<br>00:30 What chain abstraction actually means<br>01:38 Account abstraction vs chain abstraction<br>03:04 Deposit addresses and swapping from cold storage<br>05:06 Smart wallets vs deposit addresses, and the volume<br>06:23 The new UX bar and takeaway</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chain-abstraction-gasless-any-chain-swap-protocol&amp;utm_content=ep-1\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 2,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-a161140eade0c03fee76"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-a161140eade0c03fee76",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-001/take-001-chain-abstraction-gasless-any-chain-swap-protocol.mp3",
+    "published_at": "2026-10-26T11:53:45Z"
+  },
+  {
+    "number": 2,
+    "tag": "take-002",
+    "status": "pending",
+    "slug": "buyback-burn-tokenomics-analysis-deflationary-supply",
+    "post_url": "https://chainflip.io/blog/buyback-burn-tokenomics-analysis-deflationary-supply",
+    "post_title": "Buyback-and-Burn Is a $19B Meta, But Few Tokens Actually Shrink Their Supply",
+    "category": "flip_staking",
+    "cluster": "buyback-burn-tokenomics",
+    "format": "hosts_only",
+    "guest": null,
+    "title": "Buyback-and-Burn Explained: Why Most Burns Don't Shrink Supply",
+    "summary": "Jules and Mira unpack why the industry's $19B in buyback-and-burn rarely reduces circulating supply, walking through BNB, MakerDAO, the emissions problem, the burned-minus-emitted test, and FLIP's buy-and-distribute model and June 2026 net-supply milestone.",
+    "hook": "The crypto industry has burned over $19 billion worth of tokens, yet most 'deflationary' tokens still have more supply every year. Jules explains it with a bait shop owner named Dale, and Mira gives you the one subtraction that cuts through every burn announcement.",
+    "key_points": [
+      "Why buyback-and-burn is popular, and why most tokens claiming deflation still saw supply grow year over year",
+      "How BNB's utility sinks and MakerDAO's burn-when-profitable, mint-when-not model complicate the burn story",
+      "The emissions problem: burning $10M a year while emitting $50M is 'inflationary with better marketing'",
+      "The simple test: tokens burned minus tokens emitted over a period",
+      "How buy-and-distribute works, and FLIP crossing burns-exceed-emissions on June 10, 2026"
+    ],
+    "keywords": [
+      "buyback and burn",
+      "token burn explained",
+      "deflationary tokens",
+      "net supply change",
+      "token emissions vs burns",
+      "buy and distribute tokenomics",
+      "FLIP token burn",
+      "real yield staking"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "Spent a summer at a bait shop run by Dale, who posted a sign bragging about throwing out a hundred dead minnows the same week five hundred new ones arrived. 'Getting Dale'd' is now Jules's phrase for falling for burn-style marketing."
+      },
+      {
+        "character": "mira",
+        "note": "Her one-number rule for any deflation claim: 'burned minus emitted.' She also admitted a second Jules analogy works (Dale handing minnows to his regulars as buy-and-distribute), and Jules again made her 'date it.'"
+      }
+    ],
+    "words": 868,
+    "created_at": "2026-10-26T11:54:55Z",
+    "duration": 357,
+    "chapters": [
+      {
+        "title": "Cold open: Dale's minnow sign",
+        "start": 0.0
+      },
+      {
+        "title": "What buyback-and-burn actually is",
+        "start": 24.0
+      },
+      {
+        "title": "BNB and MakerDAO: big burns, mixed results",
+        "start": 87.8
+      },
+      {
+        "title": "The emissions problem and the one calculation",
+        "start": 161.2
+      },
+      {
+        "title": "Buy-and-distribute and FLIP's milestone",
+        "start": 234.4
+      },
+      {
+        "title": "The four-question checklist and wrap",
+        "start": 298.1
+      }
+    ],
+    "audio_bytes": 5717905,
+    "audio_file": "take-002-buyback-burn-tokenomics-analysis-deflationary-supply.mp3",
+    "description_html": "<p>The crypto industry has burned over $19 billion worth of tokens, yet most &#x27;deflationary&#x27; tokens still have more supply every year. Jules explains it with a bait shop owner named Dale, and Mira gives you the one subtraction that cuts through every burn announcement.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/buyback-burn-tokenomics-analysis-deflationary-supply?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Buyback-and-Burn Is a $19B Meta, But Few Tokens Actually Shrink Their Supply</a></p><p><strong>In this episode</strong></p><ul><li>Why buyback-and-burn is popular, and why most tokens claiming deflation still saw supply grow year over year</li><li>How BNB&#x27;s utility sinks and MakerDAO&#x27;s burn-when-profitable, mint-when-not model complicate the burn story</li><li>The emissions problem: burning $10M a year while emitting $50M is &#x27;inflationary with better marketing&#x27;</li><li>The simple test: tokens burned minus tokens emitted over a period</li><li>How buy-and-distribute works, and FLIP crossing burns-exceed-emissions on June 10, 2026</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: Dale&#x27;s minnow sign<br>00:24 What buyback-and-burn actually is<br>01:27 BNB and MakerDAO: big burns, mixed results<br>02:41 The emissions problem and the one calculation<br>03:54 Buy-and-distribute and FLIP&#x27;s milestone<br>04:58 The four-question checklist and wrap</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 3,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-981fae3814e032cb5a6f"
   }
 ]
