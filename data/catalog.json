@@ -11189,6 +11189,41 @@
       "evergreen": true
     }
   },
+  "what-is-usdc-stablecoin-explained": {
+    "url": "https://chainflip.io/blog/what-is-usdc-stablecoin-explained",
+    "slug": "what-is-usdc-stablecoin-explained",
+    "title": "What Is USDC? The Stablecoin Explained for Cross-Chain Users",
+    "description": "USDC is a regulated dollar-backed stablecoin issued by Circle. This guide covers how USDC works, its reserve structure, regulatory positioning, and why it matters for cross-chain users moving assets between blockchains.",
+    "image": "https://framerusercontent.com/images/uLHR8Qo2mDhV6nob7mO0743zA9s.png?width=1600&height=900",
+    "published": "2026-10-26",
+    "headings": [
+      "How USDC Works",
+      "USDC's Regulatory Positioning",
+      "Cross-Chain USDC Availability",
+      "Why Cross-Chain Users Choose USDC",
+      "Predictable Value During Swaps",
+      "Wide Network Support",
+      "Reserve Transparency",
+      "USDC on Chainflip",
+      "Considerations for Beginners",
+      "Conclusion",
+      "Frequently Asked Questions"
+    ],
+    "words": 1063,
+    "first_seen": "2026-10-27T11:17:09Z",
+    "live": true,
+    "cls": {
+      "cluster": "usdc-explainer",
+      "cluster_label": "USDC stablecoin explained",
+      "category": "stablecoins_tron",
+      "assets": [
+        "USDC"
+      ],
+      "complexity": 1,
+      "podcast_fit": 3,
+      "evergreen": true
+    }
+  },
   "whats-new-in-stablecoin-strategies-flexibility-balance-and-better-apys": {
     "url": "https://chainflip.io/blog/whats-new-in-stablecoin-strategies-flexibility-balance-and-better-apys",
     "slug": "whats-new-in-stablecoin-strategies-flexibility-balance-and-better-apys",
