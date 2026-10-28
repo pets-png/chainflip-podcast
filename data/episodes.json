@@ -84,7 +84,7 @@
   {
     "number": 2,
     "tag": "take-002",
-    "status": "pending",
+    "status": "published",
     "slug": "buyback-burn-tokenomics-analysis-deflationary-supply",
     "post_url": "https://chainflip.io/blog/buyback-burn-tokenomics-analysis-deflationary-supply",
     "post_title": "Buyback-and-Burn Is a $19B Meta, But Few Tokens Actually Shrink Their Supply",
@@ -155,6 +155,88 @@
     "audio_file": "take-002-buyback-burn-tokenomics-analysis-deflationary-supply.mp3",
     "description_html": "<p>The crypto industry has burned over $19 billion worth of tokens, yet most &#x27;deflationary&#x27; tokens still have more supply every year. Jules explains it with a bait shop owner named Dale, and Mira gives you the one subtraction that cuts through every burn announcement.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/buyback-burn-tokenomics-analysis-deflationary-supply?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Buyback-and-Burn Is a $19B Meta, But Few Tokens Actually Shrink Their Supply</a></p><p><strong>In this episode</strong></p><ul><li>Why buyback-and-burn is popular, and why most tokens claiming deflation still saw supply grow year over year</li><li>How BNB&#x27;s utility sinks and MakerDAO&#x27;s burn-when-profitable, mint-when-not model complicate the burn story</li><li>The emissions problem: burning $10M a year while emitting $50M is &#x27;inflationary with better marketing&#x27;</li><li>The simple test: tokens burned minus tokens emitted over a period</li><li>How buy-and-distribute works, and FLIP crossing burns-exceed-emissions on June 10, 2026</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: Dale&#x27;s minnow sign<br>00:24 What buyback-and-burn actually is<br>01:27 BNB and MakerDAO: big burns, mixed results<br>02:41 The emissions problem and the one calculation<br>03:54 Buy-and-distribute and FLIP&#x27;s milestone<br>04:58 The four-question checklist and wrap</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=buyback-burn-tokenomics-analysis-deflationary-supply&amp;utm_content=ep-2\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 3,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-981fae3814e032cb5a6f"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-981fae3814e032cb5a6f",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-002/take-002-buyback-burn-tokenomics-analysis-deflationary-supply.mp3",
+    "published_at": "2026-10-28T11:51:14Z"
+  },
+  {
+    "number": 3,
+    "tag": "take-003",
+    "status": "pending",
+    "slug": "cross-chain-arbitrage-profitable-route-pricing-guide",
+    "post_url": "https://chainflip.io/blog/cross-chain-arbitrage-profitable-route-pricing-guide",
+    "post_title": "How to Calculate If a Cross-Chain Arbitrage Trade Is Actually Profitable",
+    "category": "markets_data",
+    "cluster": "cross-chain-arbitrage",
+    "format": "guest",
+    "guest": "mark",
+    "title": "Cross-Chain Arbitrage Math: Why That Price Gap Isn't Free Money",
+    "summary": "Jules, Mira and guest Mark walk through the full cost stack of cross-chain arbitrage (protocol fee, gas, slippage), work the cbBTC and USDT examples, and teach the breakeven spread formula plus when to pass on a trade.",
+    "hook": "ETH is $4 cheaper on Arbitrum than on Ethereum, so that's free money, right? Mark joins Jules and Mira to run the real numbers on cross-chain arbitrage, including a full-bitcoin trade that nets just $40.75. Leave with one formula that tells you whether any spread is actually worth taking.",
+    "key_points": [
+      "The three cost layers on every cross-chain arb: protocol fee (0.10% on Chainflip), gas on both chains, and slippage",
+      "A worked BTC vs cbBTC trade where a 0.22% spread on 1 BTC nets only $40.75, and a 0.15% spread loses money",
+      "The breakeven formula: protocol fee % + expected slippage % + (gas / trade size)",
+      "Why pros target 0.25%+ spreads and pass on anything under 1.5x breakeven",
+      "Where spreads show up: volatility, chain events, small stablecoin depegs, new listings and new chain integrations like Tron and BNB Chain"
+    ],
+    "keywords": [
+      "cross-chain arbitrage",
+      "cross-chain arbitrage profit calculation",
+      "breakeven spread formula",
+      "crypto arbitrage fees slippage gas",
+      "cbBTC arbitrage",
+      "USDT cross-chain spread",
+      "Tron BSC USDT arbitrage",
+      "is crypto arbitrage profitable"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "At fifteen ran 'the corn route': bought sweet corn at a farm stand for a dollar a dozen, sold it at the lake for three, but his uncle's gas-guzzling truck (charged both ways) and corn wilting in the sun left him with about four dollars for the summer. Now his go-to picture of fees, gas and slippage."
+      },
+      {
+        "character": "mark",
+        "note": "His braai rule for margin of safety: you don't throw the steak on the second the fire's lit, you wait for proper coals, because something always goes wrong."
+      },
+      {
+        "character": "mira",
+        "note": "Admitted a third Jules analogy works (the uncle's truck making five trips = splitting trades multiplies fixed costs); Jules says it's 'already dated, in pen.'"
+      }
+    ],
+    "words": 1295,
+    "created_at": "2026-10-28T11:52:49Z",
+    "duration": 443,
+    "chapters": [
+      {
+        "title": "The corn route and why price gaps lie",
+        "start": 0.0
+      },
+      {
+        "title": "The fee stack: protocol fee, gas, slippage",
+        "start": 57.2
+      },
+      {
+        "title": "Worked example: bitcoin vs cbBTC",
+        "start": 174.8
+      },
+      {
+        "title": "The breakeven formula and the 1.5x rule",
+        "start": 245.2
+      },
+      {
+        "title": "New routes and USDT spreads",
+        "start": 303.4
+      },
+      {
+        "title": "Spotting gaps, passing on trades, and speed",
+        "start": 363.8
+      }
+    ],
+    "audio_bytes": 7085051,
+    "audio_file": "take-003-cross-chain-arbitrage-profitable-route-pricing-guide.mp3",
+    "description_html": "<p>ETH is $4 cheaper on Arbitrum than on Ethereum, so that&#x27;s free money, right? Mark joins Jules and Mira to run the real numbers on cross-chain arbitrage, including a full-bitcoin trade that nets just $40.75. Leave with one formula that tells you whether any spread is actually worth taking.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/cross-chain-arbitrage-profitable-route-pricing-guide?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">How to Calculate If a Cross-Chain Arbitrage Trade Is Actually Profitable</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>The three cost layers on every cross-chain arb: protocol fee (0.10% on Chainflip), gas on both chains, and slippage</li><li>A worked BTC vs cbBTC trade where a 0.22% spread on 1 BTC nets only $40.75, and a 0.15% spread loses money</li><li>The breakeven formula: protocol fee % + expected slippage % + (gas / trade size)</li><li>Why pros target 0.25%+ spreads and pass on anything under 1.5x breakeven</li><li>Where spreads show up: volatility, chain events, small stablecoin depegs, new listings and new chain integrations like Tron and BNB Chain</li></ul><p><strong>Chapters</strong><br>00:00 The corn route and why price gaps lie<br>00:57 The fee stack: protocol fee, gas, slippage<br>02:54 Worked example: bitcoin vs cbBTC<br>04:05 The breakeven formula and the 1.5x rule<br>05:03 New routes and USDT spreads<br>06:03 Spotting gaps, passing on trades, and speed</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 4,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-ca25ca21da6bb7ce1091"
   }
 ]

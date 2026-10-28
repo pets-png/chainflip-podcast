@@ -7882,6 +7882,40 @@
       "evergreen": false
     }
   },
+  "ltv-ratio-crypto-loan-to-value-explained": {
+    "url": "https://chainflip.io/blog/ltv-ratio-crypto-loan-to-value-explained",
+    "slug": "ltv-ratio-crypto-loan-to-value-explained",
+    "title": "LTV Ratio Explained: Your Bitcoin Borrowing Power",
+    "description": "LTV ratios determine how much you can borrow against your Bitcoin and how much risk you're taking on. This guide breaks down the math with concrete examples.",
+    "image": "https://framerusercontent.com/images/IclJW4orBexNSxX9a4QwyFgpQ.png?width=1600&height=900",
+    "published": "2026-10-27",
+    "headings": [
+      "What Is LTV? The Basic Formula",
+      "How LTV Affects Your Borrowing Power",
+      "Conservative: 50% LTV",
+      "Moderate: 65% LTV",
+      "Aggressive: 80% LTV",
+      "The Liquidation Connection",
+      "Worked Example: The Real Cost of Max Borrowing",
+      "Why Conservative LTV Often Wins",
+      "Choosing Your LTV: Questions to Ask",
+      "Start With Margin, Not Maximum"
+    ],
+    "words": 1066,
+    "first_seen": "2026-10-28T11:51:06Z",
+    "live": true,
+    "cls": {
+      "cluster": "btc-loan-ltv-liquidation",
+      "cluster_label": "BTC loan LTV and liquidation",
+      "category": "lending",
+      "assets": [
+        "BTC"
+      ],
+      "complexity": 2,
+      "podcast_fit": 4,
+      "evergreen": true
+    }
+  },
   "makepay-btcpay-chainflip-cross-chain-checkout": {
     "url": "https://chainflip.io/blog/makepay-btcpay-chainflip-cross-chain-checkout",
     "slug": "makepay-btcpay-chainflip-cross-chain-checkout",

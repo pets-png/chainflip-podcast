@@ -1,0 +1,343 @@
+{
+  "post": "https://chainflip.io/blog/cross-chain-arbitrage-profitable-route-pricing-guide",
+  "format": "guest",
+  "guest": "mark",
+  "episode_title": "Cross-Chain Arbitrage Math: Why That Price Gap Isn't Free Money",
+  "summary": "Jules, Mira and guest Mark walk through the full cost stack of cross-chain arbitrage (protocol fee, gas, slippage), work the cbBTC and USDT examples, and teach the breakeven spread formula plus when to pass on a trade.",
+  "hook": "ETH is $4 cheaper on Arbitrum than on Ethereum, so that's free money, right? Mark joins Jules and Mira to run the real numbers on cross-chain arbitrage, including a full-bitcoin trade that nets just $40.75. Leave with one formula that tells you whether any spread is actually worth taking.",
+  "key_points": [
+    "The three cost layers on every cross-chain arb: protocol fee (0.10% on Chainflip), gas on both chains, and slippage",
+    "A worked BTC vs cbBTC trade where a 0.22% spread on 1 BTC nets only $40.75, and a 0.15% spread loses money",
+    "The breakeven formula: protocol fee % + expected slippage % + (gas / trade size)",
+    "Why pros target 0.25%+ spreads and pass on anything under 1.5x breakeven",
+    "Where spreads show up: volatility, chain events, small stablecoin depegs, new listings and new chain integrations like Tron and BNB Chain"
+  ],
+  "keywords": [
+    "cross-chain arbitrage",
+    "cross-chain arbitrage profit calculation",
+    "breakeven spread formula",
+    "crypto arbitrage fees slippage gas",
+    "cbBTC arbitrage",
+    "USDT cross-chain spread",
+    "Tron BSC USDT arbitrage",
+    "is crypto arbitrage profitable"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "The corn route and why price gaps lie"
+    },
+    {
+      "line": 9,
+      "title": "The fee stack: protocol fee, gas, slippage"
+    },
+    {
+      "line": 26,
+      "title": "Worked example: bitcoin vs cbBTC"
+    },
+    {
+      "line": 36,
+      "title": "The breakeven formula and the 1.5x rule"
+    },
+    {
+      "line": 47,
+      "title": "New routes and USDT spreads"
+    },
+    {
+      "line": 55,
+      "title": "Spotting gaps, passing on trades, and speed"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Okay, so when I was fifteen, I ran what I called the corn route."
+    },
+    {
+      "speaker": "mira",
+      "text": "The corn route."
+    },
+    {
+      "speaker": "jules",
+      "text": "Farm stand outside town sold sweet corn for a dollar a dozen. The lake people paid three. I'm a genius, right? Buy low, sell high."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] And how did the genius get to the lake?"
+    },
+    {
+      "speaker": "jules",
+      "text": "My uncle's truck. Which, uh, drank gas like it was mad at me. He charged me for it. And half the corn sat in the sun. I made about four dollars all summer."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] So that's today's episode. Welcome to Cross-Chain Daily. I'm Mira, that's Jules the corn baron, and today we're doing the math on cross-chain arbitrage, and whether that price gap is actually profit. Mark's back with us. Hi, Mark."
+    },
+    {
+      "speaker": "mark",
+      "text": "[warm] Good to be back. And Jules, honestly, the corn route is the whole article. Price gap, truck gas, corn going soft. That's fees, gas and slippage."
+    },
+    {
+      "speaker": "jules",
+      "text": "I knew it. I was a quant at fifteen."
+    },
+    {
+      "speaker": "mark",
+      "text": "You were a quant who lost money. Happens to the best of them."
+    },
+    {
+      "speaker": "mira",
+      "text": "So set it up. What does a spread look like?"
+    },
+    {
+      "speaker": "mark",
+      "text": "The article opens with a couple. Ether at two thousand four hundred twelve dollars on Ethereum, two thousand four hundred eight on Arbitrum. Or U S D T at point nine nine nine seven on Solana and one point zero zero zero three on Tron. Your brain sees that and goes, free money."
+    },
+    {
+      "speaker": "jules",
+      "text": "My brain absolutely goes free money."
+    },
+    {
+      "speaker": "mark",
+      "text": "Look, the gap is real. Capturing it is the hard part. There are three layers of cost. First, the protocol fee. Chainflip charges a flat zero point one percent on swaps."
+    },
+    {
+      "speaker": "jules",
+      "text": "Is that a lot?"
+    },
+    {
+      "speaker": "mira",
+      "text": "The article compares it. Stargate is about zero point zero six percent. Across is variable, around zero point zero six on smaller transfers."
+    },
+    {
+      "speaker": "mark",
+      "text": "Right, so it's not the cheapest sticker. The argument is what you get for it. The native asset lands on the other side, not a wrapped token you then have to unwrap. Fewer steps."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay. Layer two."
+    },
+    {
+      "speaker": "mark",
+      "text": "Gas. And it swings wildly. Ethereum mainnet, two to fifteen dollars depending on traffic. Solana, usually under a cent. B N B Chain somewhere in between, ten to fifty cents."
+    },
+    {
+      "speaker": "mira",
+      "text": "And people forget the exit side."
+    },
+    {
+      "speaker": "mark",
+      "text": "Exactly. Your exit chain gas matters as much as your entry. That's your uncle charging you for the drive home."
+    },
+    {
+      "speaker": "jules",
+      "text": "[half-laughing] He did charge me both ways. I left that part out."
+    },
+    {
+      "speaker": "mark",
+      "text": "Third layer, slippage. How much your own trade moves the price. A one thousand dollar swap might see zero point zero two percent. A hundred thousand dollar swap on the same route could face half a percent or more."
+    },
+    {
+      "speaker": "jules",
+      "text": "So that's the corn going soft in the sun. Bigger load, bigger loss."
+    },
+    {
+      "speaker": "mira",
+      "text": "Hmm. Close. Slippage is more like, the more corn you dump at the lake, the less people will pay for each ear."
+    },
+    {
+      "speaker": "jules",
+      "text": "Fine. The lake gets sick of corn."
+    },
+    {
+      "speaker": "mark",
+      "text": "[amused] Same lesson. And the article says Chainflip's J I T A M M, that's just-in-time liquidity, helps here. Liquidity providers bunch their capital around the current price, so you get less slippage than an old-school constant product pool."
+    },
+    {
+      "speaker": "mira",
+      "text": "Let's do the worked example, because this is where it gets humbling."
+    },
+    {
+      "speaker": "mark",
+      "text": "It's bitcoin versus C B B T C, Coinbase's wrapped bitcoin, launched September twenty twenty-four on Ethereum and Base. It sometimes trades a bit above or below native bitcoin. And Chainflip is adding it on Ethereum, alongside B N B."
+    },
+    {
+      "speaker": "mira",
+      "text": "Numbers, please."
+    },
+    {
+      "speaker": "mark",
+      "text": "Native bitcoin at sixty-seven thousand five hundred. C B B T C on Ethereum at sixty-seven thousand six hundred fifty. That's a zero point two two percent spread. On one bitcoin, a hundred fifty dollars gross."
+    },
+    {
+      "speaker": "jules",
+      "text": "Hundred fifty bucks. I'm already spending it."
+    },
+    {
+      "speaker": "mark",
+      "text": "[dry] Put the wallet down. Protocol fee, sixty-seven dollars fifty. Slippage at zero point zero five percent, thirty-three dollars seventy-five. Ethereum gas to sell, about eight dollars. Total cost, a hundred nine dollars and twenty-five cents."
+    },
+    {
+      "speaker": "mira",
+      "text": "So net is forty dollars and seventy-five cents. About zero point zero six percent."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quick, cutting in] Wait. On a whole bitcoin?"
+    },
+    {
+      "speaker": "mark",
+      "text": "On a whole bitcoin. Profitable, but barely. And if the spread is zero point one five percent instead, gross drops to a hundred and one dollars twenty-five, and you're losing money."
+    },
+    {
+      "speaker": "jules",
+      "text": "That's the corn route. That's four dollars all summer."
+    },
+    {
+      "speaker": "mira",
+      "text": "Which is why the formula is the thing to take home. Mark?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Minimum profitable spread equals protocol fee percent, plus expected slippage percent, plus gas divided by trade size."
+    },
+    {
+      "speaker": "mira",
+      "text": "The article's example. Ten thousand dollar trade, five dollars of gas, zero point zero three percent slippage."
+    },
+    {
+      "speaker": "mark",
+      "text": "So zero point one, plus zero point zero three, plus five over ten thousand, which is zero point zero five. Breakeven is zero point one eight percent. Anything under that loses money."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, so I'd jump on anything at, like, zero point two?"
+    },
+    {
+      "speaker": "mark",
+      "text": "You could. Pros don't. The article says they usually target zero point two five percent or higher. It's a braai. You don't throw the steak on the second the fire's lit. You wait for proper coals, because something always goes wrong."
+    },
+    {
+      "speaker": "mira",
+      "text": "And the pass rule is sharper. If the spread is under one point five times your breakeven, skip it."
+    },
+    {
+      "speaker": "jules",
+      "text": "So with a zero point one eight breakeven, that's..."
+    },
+    {
+      "speaker": "mira",
+      "text": "Zero point two seven."
+    },
+    {
+      "speaker": "jules",
+      "text": "I was getting there."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] Sure, Jules."
+    },
+    {
+      "speaker": "mark",
+      "text": "Here's the part I like. New chain integrations are where spreads hang around, because liquidity hasn't settled yet. Tron's integration did twenty-five million dollars in volume in its first thirty days, and the article says part of that was arbitrageurs chasing U S D T spreads."
+    },
+    {
+      "speaker": "jules",
+      "text": "Stablecoins have spreads? Isn't a dollar a dollar?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Depends on the chain. Tron, B N B Chain and Ethereum all have different demand and different liquidity depth, so U S D T drifts a little."
+    },
+    {
+      "speaker": "mark",
+      "text": "The example: Tron at point nine nine nine five, B N B Chain at one point zero zero zero eight. That's zero point one three percent. On fifty thousand dollars, sixty-five gross. Fee is fifty, slippage fifteen, gas about a dollar."
+    },
+    {
+      "speaker": "jules",
+      "text": "So, nothing."
+    },
+    {
+      "speaker": "mark",
+      "text": "Breakeven or a small loss. At a hundred thousand, gas stops mattering as a percentage. That's why the pros run bigger sizes."
+    },
+    {
+      "speaker": "mira",
+      "text": "Though bigger size also means more slippage. It's not free scaling."
+    },
+    {
+      "speaker": "mark",
+      "text": "Fair. Size helps with the fixed costs and hurts you on depth. That tension is the whole job."
+    },
+    {
+      "speaker": "jules",
+      "text": "So where do these gaps even show up?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Big volatility, when dex prices lag the centralized exchanges. Chain events like congestion, gas spikes, upgrades. Small stablecoin depegs, even zero point one to zero point two percent. And new listings, like fresh C B B T C markets. The Chainflip Explorer shows which routes are getting volume, a hint that spreads might exist."
+    },
+    {
+      "speaker": "mira",
+      "text": "And when do you walk away?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Spread under one point five times breakeven. Your size would move the market. Gas spiking on the exit chain. Or you'd have to split into lots of smaller trades, which multiplies the fixed costs."
+    },
+    {
+      "speaker": "jules",
+      "text": "My uncle's truck making five trips to the lake."
+    },
+    {
+      "speaker": "mira",
+      "text": "[grudgingly] Okay. That one works. Don't make me date it."
+    },
+    {
+      "speaker": "jules",
+      "text": "[grinning] Already dated. In pen."
+    },
+    {
+      "speaker": "mark",
+      "text": "Last thing, speed. By the time you've spotted a gap and done the math, it might be gone. Arbitrage corrects itself."
+    },
+    {
+      "speaker": "jules",
+      "text": "So what do people do?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Automate, or pick quieter routes where doing it by hand still works. Native settlement helps a bit too. You're not waiting on a bridged token to finalize."
+    },
+    {
+      "speaker": "mira",
+      "text": "Takeaway: a spread is only profit after the fee, the slippage, and gas divided by size. Run the formula, and want one and a half times breakeven before you touch it."
+    },
+    {
+      "speaker": "jules",
+      "text": "The full article is linked in the show notes. Not financial advice, especially from a guy whose corn empire netted four dollars."
+    },
+    {
+      "speaker": "mark",
+      "text": "[amused] Thanks for having me, both of you."
+    },
+    {
+      "speaker": "mira",
+      "text": "Thanks, Mark. Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "At fifteen ran 'the corn route': bought sweet corn at a farm stand for a dollar a dozen, sold it at the lake for three, but his uncle's gas-guzzling truck (charged both ways) and corn wilting in the sun left him with about four dollars for the summer. Now his go-to picture of fees, gas and slippage."
+    },
+    {
+      "character": "mark",
+      "note": "His braai rule for margin of safety: you don't throw the steak on the second the fire's lit, you wait for proper coals, because something always goes wrong."
+    },
+    {
+      "character": "mira",
+      "note": "Admitted a third Jules analogy works (the uncle's truck making five trips = splitting trades multiplies fixed costs); Jules says it's 'already dated, in pen.'"
+    }
+  ]
+}
