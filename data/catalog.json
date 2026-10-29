@@ -9176,6 +9176,42 @@
       "evergreen": true
     }
   },
+  "saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide": {
+    "url": "https://chainflip.io/blog/saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide",
+    "slug": "saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide",
+    "title": "Stablecoin On-Ramps and Off-Ramps in the UAE and Saudi Arabia: Regulatory Overview",
+    "description": "A factual overview of who regulates crypto on-ramps and off-ramps in the UAE and Saudi Arabia, what licensed exchanges look like, and how non-custodial cross-chain swaps fit into the regional picture.",
+    "image": "https://framerusercontent.com/images/JELmtLyAZzGNaDKvD4m50NjJ5ew.png?width=1600&height=900",
+    "published": "2026-10-28",
+    "headings": [
+      "UAE Crypto Regulation: Three Authorities, One Country",
+      "VARA (Virtual Assets Regulatory Authority)",
+      "ADGM (Abu Dhabi Global Market)",
+      "DIFC (Dubai International Financial Centre)",
+      "Saudi Arabia: A More Restrictive Approach",
+      "SAMA (Saudi Arabian Monetary Authority)",
+      "CMA (Capital Market Authority)",
+      "What Licensed On-Ramps and Off-Ramps Look Like",
+      "Where Non-Custodial Swaps Fit",
+      "Practical Considerations for Gulf Residents",
+      "Frequently Asked Questions"
+    ],
+    "words": 1076,
+    "first_seen": "2026-10-29T11:59:01Z",
+    "live": true,
+    "cls": {
+      "cluster": "gulf-crypto-regulation",
+      "cluster_label": "UAE and Saudi crypto ramp regulation",
+      "category": "regulation_macro",
+      "assets": [
+        "USDT",
+        "USDC"
+      ],
+      "complexity": 3,
+      "podcast_fit": 3,
+      "evergreen": true
+    }
+  },
   "shapeshift-chainflip-integration-native-swaps": {
     "url": "https://chainflip.io/blog/shapeshift-chainflip-integration-native-swaps",
     "slug": "shapeshift-chainflip-integration-native-swaps",

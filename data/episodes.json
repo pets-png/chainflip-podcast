@@ -162,7 +162,7 @@
   {
     "number": 3,
     "tag": "take-003",
-    "status": "pending",
+    "status": "published",
     "slug": "cross-chain-arbitrage-profitable-route-pricing-guide",
     "post_url": "https://chainflip.io/blog/cross-chain-arbitrage-profitable-route-pricing-guide",
     "post_title": "How to Calculate If a Cross-Chain Arbitrage Trade Is Actually Profitable",
@@ -237,6 +237,84 @@
     "audio_file": "take-003-cross-chain-arbitrage-profitable-route-pricing-guide.mp3",
     "description_html": "<p>ETH is $4 cheaper on Arbitrum than on Ethereum, so that&#x27;s free money, right? Mark joins Jules and Mira to run the real numbers on cross-chain arbitrage, including a full-bitcoin trade that nets just $40.75. Leave with one formula that tells you whether any spread is actually worth taking.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/cross-chain-arbitrage-profitable-route-pricing-guide?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">How to Calculate If a Cross-Chain Arbitrage Trade Is Actually Profitable</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>The three cost layers on every cross-chain arb: protocol fee (0.10% on Chainflip), gas on both chains, and slippage</li><li>A worked BTC vs cbBTC trade where a 0.22% spread on 1 BTC nets only $40.75, and a 0.15% spread loses money</li><li>The breakeven formula: protocol fee % + expected slippage % + (gas / trade size)</li><li>Why pros target 0.25%+ spreads and pass on anything under 1.5x breakeven</li><li>Where spreads show up: volatility, chain events, small stablecoin depegs, new listings and new chain integrations like Tron and BNB Chain</li></ul><p><strong>Chapters</strong><br>00:00 The corn route and why price gaps lie<br>00:57 The fee stack: protocol fee, gas, slippage<br>02:54 Worked example: bitcoin vs cbBTC<br>04:05 The breakeven formula and the 1.5x rule<br>05:03 New routes and USDT spreads<br>06:03 Spotting gaps, passing on trades, and speed</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=cross-chain-arbitrage-profitable-route-pricing-guide&amp;utm_content=ep-3\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 4,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-ca25ca21da6bb7ce1091"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-ca25ca21da6bb7ce1091",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-003/take-003-cross-chain-arbitrage-profitable-route-pricing-guide.mp3",
+    "published_at": "2026-10-29T11:59:08Z"
+  },
+  {
+    "number": 4,
+    "tag": "take-004",
+    "status": "pending",
+    "slug": "rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing",
+    "post_url": "https://chainflip.io/blog/rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing",
+    "post_title": "Rango Exchange Multi-Hop Swaps: How Chainflip Powers Cross-Chain Routing Segments",
+    "category": "integrations",
+    "cluster": "aggregator-routing",
+    "format": "guest",
+    "guest": "mark",
+    "title": "Multi-Hop Crypto Swaps: Why Three Legs Can Beat the Direct Route",
+    "summary": "Mark joins Jules and Mira to explain how Rango Exchange builds multi-hop cross-chain swaps, where Chainflip fits as the native-asset leg, why several hops can beat one direct route, and what happens if a middle hop fails.",
+    "hook": "There's no single protocol that takes you from SOL to AVAX, so how does your swap get there? Mark breaks down how Rango chains Jupiter, Chainflip and other bridges into one route, and why the scenic route often pays better than the direct one. Plus: Jules's legendary Tuesday bus.",
+    "key_points": [
+      "A multi-hop swap splits one trade into ordered legs, each handled by the protocol best suited to that leg",
+      "Real routes: SOL to AVAX in three hops, MATIC to native BTC and DOT to SOL in two, with Chainflip handling the native cross-chain leg",
+      "Rango scores each leg on expected output, gas costs, execution time and reliability using live quotes",
+      "Multi-hop can beat a direct route through a thin pool, but single-hop Chainflip routes like native BTC to USDT still win when both sides are supported",
+      "Check route details before executing: if a middle hop fails you may end up holding the intermediate asset"
+    ],
+    "keywords": [
+      "multi-hop swap",
+      "multi-hop cross-chain swap",
+      "Rango Exchange Chainflip",
+      "cross-chain routing",
+      "swap SOL to AVAX",
+      "MATIC to native BTC",
+      "DEX aggregator routing",
+      "native bitcoin cross-chain swap"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "At sixteen the only direct bus to the state fair was 'the Tuesday bus', which broke down every other week, so he took a feed-store truck, a Greyhound and his buddy's cousin's moped instead. He once got stranded at the Greyhound station with a funnel cake coupon and no fair. Now his picture of a direct route through a thin pool vs. a multi-hop route."
+      },
+      {
+        "character": "mira",
+        "note": "Admitted a fourth Jules analogy works (the Tuesday bus = an illiquid direct route losing to three efficient legs), and dated it on air."
+      },
+      {
+        "character": "mark",
+        "note": "Frames routing as a relay race: every protocol is a 'starter, middle or anchor', and a failed hop is 'the dropped baton'. Says he's stealing Jules's 'carry the actual baton, not a photo of a baton' line for pitch meetings."
+      }
+    ],
+    "words": 1158,
+    "created_at": "2026-10-29T12:00:40Z",
+    "duration": 391,
+    "chapters": [
+      {
+        "title": "The Tuesday bus",
+        "start": 0.0
+      },
+      {
+        "title": "Who Rango is and what multi-hop means",
+        "start": 29.7
+      },
+      {
+        "title": "Three real routes, three different Chainflip legs",
+        "start": 113.6
+      },
+      {
+        "title": "How the router picks, and why more hops can win",
+        "start": 217.7
+      },
+      {
+        "title": "What you see, and what happens if a leg fails",
+        "start": 304.6
+      }
+    ],
+    "audio_bytes": 6252059,
+    "audio_file": "take-004-rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing.mp3",
+    "description_html": "<p>There&#x27;s no single protocol that takes you from SOL to AVAX, so how does your swap get there? Mark breaks down how Rango chains Jupiter, Chainflip and other bridges into one route, and why the scenic route often pays better than the direct one. Plus: Jules&#x27;s legendary Tuesday bus.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Rango Exchange Multi-Hop Swaps: How Chainflip Powers Cross-Chain Routing Segments</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>A multi-hop swap splits one trade into ordered legs, each handled by the protocol best suited to that leg</li><li>Real routes: SOL to AVAX in three hops, MATIC to native BTC and DOT to SOL in two, with Chainflip handling the native cross-chain leg</li><li>Rango scores each leg on expected output, gas costs, execution time and reliability using live quotes</li><li>Multi-hop can beat a direct route through a thin pool, but single-hop Chainflip routes like native BTC to USDT still win when both sides are supported</li><li>Check route details before executing: if a middle hop fails you may end up holding the intermediate asset</li></ul><p><strong>Chapters</strong><br>00:00 The Tuesday bus<br>00:29 Who Rango is and what multi-hop means<br>01:53 Three real routes, three different Chainflip legs<br>03:37 How the router picks, and why more hops can win<br>05:04 What you see, and what happens if a leg fails</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 5,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-6b6016cf35dfc604730f"
   }
 ]

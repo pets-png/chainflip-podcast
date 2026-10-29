@@ -1,0 +1,291 @@
+{
+  "post": "https://chainflip.io/blog/rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing",
+  "format": "guest",
+  "guest": "mark",
+  "episode_title": "Multi-Hop Crypto Swaps: Why Three Legs Can Beat the Direct Route",
+  "summary": "Mark joins Jules and Mira to explain how Rango Exchange builds multi-hop cross-chain swaps, where Chainflip fits as the native-asset leg, why several hops can beat one direct route, and what happens if a middle hop fails.",
+  "hook": "There's no single protocol that takes you from SOL to AVAX, so how does your swap get there? Mark breaks down how Rango chains Jupiter, Chainflip and other bridges into one route, and why the scenic route often pays better than the direct one. Plus: Jules's legendary Tuesday bus.",
+  "key_points": [
+    "A multi-hop swap splits one trade into ordered legs, each handled by the protocol best suited to that leg",
+    "Real routes: SOL to AVAX in three hops, MATIC to native BTC and DOT to SOL in two, with Chainflip handling the native cross-chain leg",
+    "Rango scores each leg on expected output, gas costs, execution time and reliability using live quotes",
+    "Multi-hop can beat a direct route through a thin pool, but single-hop Chainflip routes like native BTC to USDT still win when both sides are supported",
+    "Check route details before executing: if a middle hop fails you may end up holding the intermediate asset"
+  ],
+  "keywords": [
+    "multi-hop swap",
+    "multi-hop cross-chain swap",
+    "Rango Exchange Chainflip",
+    "cross-chain routing",
+    "swap SOL to AVAX",
+    "MATIC to native BTC",
+    "DEX aggregator routing",
+    "native bitcoin cross-chain swap"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "The Tuesday bus"
+    },
+    {
+      "line": 5,
+      "title": "Who Rango is and what multi-hop means"
+    },
+    {
+      "line": 15,
+      "title": "Three real routes, three different Chainflip legs"
+    },
+    {
+      "line": 30,
+      "title": "How the router picks, and why more hops can win"
+    },
+    {
+      "line": 43,
+      "title": "What you see, and what happens if a leg fails"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Okay, so when I was sixteen, the state fair was ninety miles away, and there was exactly one direct bus from my town. It came on Tuesdays. We called it the Tuesday bus."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] Creative name."
+    },
+    {
+      "speaker": "jules",
+      "text": "And the Tuesday bus broke down, like, every other Tuesday. So my buddy and I worked out a route. Feed-store truck to the county seat, Greyhound to the city, then his cousin's moped to the fairgrounds."
+    },
+    {
+      "speaker": "mira",
+      "text": "Three legs."
+    },
+    {
+      "speaker": "jules",
+      "text": "Three legs, and we beat the Tuesday bus every time. Even the times it didn't break down."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] And somehow that's today's episode. Welcome to Cross-Chain Daily, I'm Mira, that's Jules, and today it's multi-hop swaps: how an aggregator like Rango Exchange chains protocols together when there's no straight road between two coins. And Mark's back with us."
+    },
+    {
+      "speaker": "mark",
+      "text": "Good to be back. And Jules, honestly, the Tuesday bus is the whole article. I'm a little annoyed."
+    },
+    {
+      "speaker": "jules",
+      "text": "Somebody write that down."
+    },
+    {
+      "speaker": "mark",
+      "text": "[amused] Look, start with the problem. Say you hold sol on Solana and you want avax on Avalanche. No single protocol does that in one go. So Rango builds the path out of pieces."
+    },
+    {
+      "speaker": "mira",
+      "text": "Before the pieces, who is Rango, for anyone who hasn't used it?"
+    },
+    {
+      "speaker": "mark",
+      "text": "It's an aggregator. It shops your swap across a lot of venues. Per the article, it's done nine point seven one billion dollars in total volume across thirteen point two four million swaps, connecting more than seventy-three blockchains through more than a hundred and twenty dexes, aggregators and bridges."
+    },
+    {
+      "speaker": "jules",
+      "text": "That's a lot of feed-store trucks."
+    },
+    {
+      "speaker": "mark",
+      "text": "It is. And with that many options, you need real path-finding, not just pick a bridge and pray."
+    },
+    {
+      "speaker": "mira",
+      "text": "So, the definition. A multi-hop swap breaks one trade into steps, in order, and each step goes to whichever protocol is best at that exact leg."
+    },
+    {
+      "speaker": "mark",
+      "text": "Right. Instead of forcing one bridge to do the whole trip, which is often impossible or expensive, each specialist runs the bit it's good at. It's a relay race. Your best starter isn't always your best anchor."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, walk me through sol to avax. Slowly. I've had coffee, but not enough coffee."
+    },
+    {
+      "speaker": "mark",
+      "text": "Leg one, sol to U S D C, still on Solana, through Jupiter, which is great at swaps inside Solana. Leg two, that U S D C becomes E T H on Ethereum through Chainflip. Leg three, E T H to avax on Avalanche through another bridge."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quick, cutting in] Wait. Why does Chainflip get the middle?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Because that's the jump between chains, and Chainflip does it natively. No wrapped tokens in between. You leave Solana with a real asset and land on Ethereum holding real E T H."
+    },
+    {
+      "speaker": "mira",
+      "text": "And it's been doing that since mainnet in December twenty twenty-three. Over six billion dollars in cumulative swap volume, per the article. That's why the router trusts it as a middle runner."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, what's the one where it's the anchor?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Matic to bitcoin. Leg one, matic over to E T H on Ethereum through a Polygon bridge. Leg two, E T H to bitcoin through Chainflip. And that last leg matters, because you get actual B T C delivered to a Bitcoin address."
+    },
+    {
+      "speaker": "mira",
+      "text": "Not a wrapped copy pretending to be bitcoin."
+    },
+    {
+      "speaker": "mark",
+      "text": "Exactly. The article calls it native cross-chain routing with just-in-time optimization, and says that's where the real execution edge shows up."
+    },
+    {
+      "speaker": "jules",
+      "text": "So the anchor has to carry the actual baton across the line. Not a photo of a baton."
+    },
+    {
+      "speaker": "mark",
+      "text": "[half-laughing] I'm stealing that for my next pitch meeting."
+    },
+    {
+      "speaker": "mira",
+      "text": "Third example's the odd one. Polkadot to Solana."
+    },
+    {
+      "speaker": "mark",
+      "text": "Yeah, uncommon route. Dot on Polkadot Assethub goes to U S D C on Ethereum through Chainflip, then that U S D C goes to sol through a separate Solana bridge. Chainflip supports dot natively, so it handles the Polkadot exit cleanly and hands a stablecoin to the next runner."
+    },
+    {
+      "speaker": "jules",
+      "text": "So here it's the starter."
+    },
+    {
+      "speaker": "mark",
+      "text": "Starter, middle, anchor. Same athlete, different leg depending on the race."
+    },
+    {
+      "speaker": "mira",
+      "text": "Okay, so how does Rango actually choose? Because best at that leg is doing a lot of work in that sentence."
+    },
+    {
+      "speaker": "mark",
+      "text": "Four things per leg: expected output, gas costs, execution time and reliability. It compares live quotes across every protocol it has. If Chainflip gives the better rate or native delivery for a hop, it gets that hop. If someone else serves the leg better, Rango uses them instead."
+    },
+    {
+      "speaker": "mira",
+      "text": "And Chainflip tends to win legs with native assets on the chains it supports. That's Bitcoin, Ethereum, Solana, Polkadot Assethub, Arbitrum and Tron."
+    },
+    {
+      "speaker": "jules",
+      "text": "Here's my embarrassing question. I mean, more hops is more fees, right? More trucks, more gas. How do three legs beat one?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[dry] That's the real question."
+    },
+    {
+      "speaker": "mark",
+      "text": "It sounds backwards, but it happens a lot. A direct route through a thin, illiquid pool can cost you more in a bad rate than three efficient legs cost you in fees. Each leg uses the venue built for that exact conversion."
+    },
+    {
+      "speaker": "jules",
+      "text": "The Tuesday bus."
+    },
+    {
+      "speaker": "mark",
+      "text": "[grinning] The Tuesday bus! Technically direct. But if it's slow and half broken, three good connections win."
+    },
+    {
+      "speaker": "mira",
+      "text": "Hmm. I hate this, but the Tuesday bus works."
+    },
+    {
+      "speaker": "jules",
+      "text": "Date it."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] That's four. Dated."
+    },
+    {
+      "speaker": "mark",
+      "text": "To be fair to the direct route though, sometimes it wins. Native bitcoin to U S D T on Ethereum, for example. Chainflip handles both sides natively, so there's no reason to hop at all."
+    },
+    {
+      "speaker": "mira",
+      "text": "And Rango doesn't assume either way. Single-hop and multi-hop routes compete in real time, per swap, based on current market conditions."
+    },
+    {
+      "speaker": "jules",
+      "text": "So what do I actually see? Five transactions and a migraine?"
+    },
+    {
+      "speaker": "mark",
+      "text": "No. You pick where you start and where you want to end up. Rango shows the best route, single or multi-hop, and from your side it's one transaction. The plumbing stays hidden unless you open the route details."
+    },
+    {
+      "speaker": "mira",
+      "text": "Which you should open."
+    },
+    {
+      "speaker": "mark",
+      "text": "Agreed. Rango shows which protocol handles each leg before you execute. Afterwards you can track the Chainflip leg on Chainflip Scan, and Rango's screen shows the whole journey. Each leg finishes in order, and its output feeds the next one."
+    },
+    {
+      "speaker": "jules",
+      "text": "And if a leg fails? Like, the moped never shows?"
+    },
+    {
+      "speaker": "mark",
+      "text": "[serious] That's the dropped baton. Rango has fallback mechanisms, but if a middle hop fails, you might end up holding the in-between asset."
+    },
+    {
+      "speaker": "jules",
+      "text": "[half-laughing] I've lived that. Stranded at the Greyhound station with a funnel cake coupon and no fair."
+    },
+    {
+      "speaker": "mira",
+      "text": "So you're sitting on, say, U S D C on Ethereum, not the avax you wanted."
+    },
+    {
+      "speaker": "mark",
+      "text": "Which is why the article says check the route and the protocols involved before you hit go on a complex swap. And here's the bigger picture: as routes get longer, how reliable each leg is starts to matter as much as the headline rate."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay. One-line takeaway?"
+    },
+    {
+      "speaker": "mira",
+      "text": "The best route between two coins often isn't a straight line. An aggregator like Rango picks the best protocol for each leg, and Chainflip usually takes the leg where native assets cross chains."
+    },
+    {
+      "speaker": "mark",
+      "text": "Starter, middle or anchor."
+    },
+    {
+      "speaker": "jules",
+      "text": "And skip the Tuesday bus. The full article is linked in the show notes, and this is not financial advice."
+    },
+    {
+      "speaker": "mira",
+      "text": "Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "At sixteen the only direct bus to the state fair was 'the Tuesday bus', which broke down every other week, so he took a feed-store truck, a Greyhound and his buddy's cousin's moped instead. He once got stranded at the Greyhound station with a funnel cake coupon and no fair. Now his picture of a direct route through a thin pool vs. a multi-hop route."
+    },
+    {
+      "character": "mira",
+      "note": "Admitted a fourth Jules analogy works (the Tuesday bus = an illiquid direct route losing to three efficient legs), and dated it on air."
+    },
+    {
+      "character": "mark",
+      "note": "Frames routing as a relay race: every protocol is a 'starter, middle or anchor', and a failed hop is 'the dropped baton'. Says he's stealing Jules's 'carry the actual baton, not a photo of a baton' line for pitch meetings."
+    }
+  ]
+}
