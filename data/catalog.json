@@ -1795,6 +1795,39 @@
       "evergreen": false
     }
   },
+  "chainflip-bitget-wallet-swapkit-solana-native-cross-chain-swaps": {
+    "url": "https://chainflip.io/blog/chainflip-bitget-wallet-swapkit-solana-native-cross-chain-swaps",
+    "slug": "chainflip-bitget-wallet-swapkit-solana-native-cross-chain-swaps",
+    "title": "Bitget Wallet + SwapKit: $14.8M+ Solana Cross-Chain Swaps",
+    "description": "Bitget Wallet users can swap native Solana assets cross-chain through Chainflip via SwapKit, with over $14.8M in volume and 1,670+ swaps completed across SOL, BTC, ETH, and USDT routes.",
+    "image": "https://framerusercontent.com/images/mUxT0Ob5O3HO71x9OdkyksNfDG4.png?width=1600&height=900",
+    "published": "2026-10-29",
+    "headings": [
+      "How the Integration Stack Works",
+      "Why Native Swaps Matter for Self-Custody",
+      "Currently Available Routes",
+      "How to Swap in Bitget Wallet",
+      "Part of a Growing SwapKit Ecosystem",
+      "What Comes Next"
+    ],
+    "words": 648,
+    "first_seen": "2026-10-30T11:52:55Z",
+    "live": true,
+    "cls": {
+      "cluster": "wallet-native-swap-integrations",
+      "cluster_label": "Wallet integrations for native swaps",
+      "category": "integrations",
+      "assets": [
+        "SOL",
+        "BTC",
+        "ETH",
+        "USDT"
+      ],
+      "complexity": 2,
+      "podcast_fit": 3,
+      "evergreen": true
+    }
+  },
   "chainflip-boost-btc-yield-no-impermanent-loss": {
     "url": "https://chainflip.io/blog/chainflip-boost-btc-yield-no-impermanent-loss",
     "slug": "chainflip-boost-btc-yield-no-impermanent-loss",
