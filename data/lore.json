@@ -38,5 +38,20 @@
     "episode": 3,
     "character": "mira",
     "note": "Admitted a third Jules analogy works (the uncle's truck making five trips = splitting trades multiplies fixed costs); Jules says it's 'already dated, in pen.'"
+  },
+  {
+    "episode": 4,
+    "character": "jules",
+    "note": "At sixteen the only direct bus to the state fair was 'the Tuesday bus', which broke down every other week, so he took a feed-store truck, a Greyhound and his buddy's cousin's moped instead. He once got stranded at the Greyhound station with a funnel cake coupon and no fair. Now his picture of a direct route through a thin pool vs. a multi-hop route."
+  },
+  {
+    "episode": 4,
+    "character": "mira",
+    "note": "Admitted a fourth Jules analogy works (the Tuesday bus = an illiquid direct route losing to three efficient legs), and dated it on air."
+  },
+  {
+    "episode": 4,
+    "character": "mark",
+    "note": "Frames routing as a relay race: every protocol is a 'starter, middle or anchor', and a failed hop is 'the dropped baton'. Says he's stealing Jules's 'carry the actual baton, not a photo of a baton' line for pitch meetings."
   }
 ]

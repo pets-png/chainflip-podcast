@@ -244,7 +244,7 @@
   {
     "number": 4,
     "tag": "take-004",
-    "status": "pending",
+    "status": "published",
     "slug": "rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing",
     "post_url": "https://chainflip.io/blog/rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing",
     "post_title": "Rango Exchange Multi-Hop Swaps: How Chainflip Powers Cross-Chain Routing Segments",
@@ -315,6 +315,84 @@
     "audio_file": "take-004-rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing.mp3",
     "description_html": "<p>There&#x27;s no single protocol that takes you from SOL to AVAX, so how does your swap get there? Mark breaks down how Rango chains Jupiter, Chainflip and other bridges into one route, and why the scenic route often pays better than the direct one. Plus: Jules&#x27;s legendary Tuesday bus.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Rango Exchange Multi-Hop Swaps: How Chainflip Powers Cross-Chain Routing Segments</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>A multi-hop swap splits one trade into ordered legs, each handled by the protocol best suited to that leg</li><li>Real routes: SOL to AVAX in three hops, MATIC to native BTC and DOT to SOL in two, with Chainflip handling the native cross-chain leg</li><li>Rango scores each leg on expected output, gas costs, execution time and reliability using live quotes</li><li>Multi-hop can beat a direct route through a thin pool, but single-hop Chainflip routes like native BTC to USDT still win when both sides are supported</li><li>Check route details before executing: if a middle hop fails you may end up holding the intermediate asset</li></ul><p><strong>Chapters</strong><br>00:00 The Tuesday bus<br>00:29 Who Rango is and what multi-hop means<br>01:53 Three real routes, three different Chainflip legs<br>03:37 How the router picks, and why more hops can win<br>05:04 What you see, and what happens if a leg fails</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing&amp;utm_content=ep-4\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 5,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-6b6016cf35dfc604730f"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-6b6016cf35dfc604730f",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-004/take-004-rango-exchange-multi-hop-swaps-chainflip-cross-chain-routing.mp3",
+    "published_at": "2026-10-31T11:26:24Z"
+  },
+  {
+    "number": 5,
+    "tag": "take-005",
+    "status": "pending",
+    "slug": "boost-yield-fee-backed-apy-vs-emissions",
+    "post_url": "https://chainflip.io/blog/boost-yield-fee-backed-apy-vs-emissions",
+    "post_title": "Where Does Boost Yield Actually Come From: Fee-Backed APY vs Emissions-Funded APY",
+    "category": "liquidity_lp",
+    "cluster": "boost-yield-mechanics",
+    "format": "hosts_only",
+    "guest": null,
+    "title": "Boost Yield Explained: Who's Actually Paying Your APY?",
+    "summary": "Jules and Mira trace where Boost yield comes from (0.05% swap fees paid in the native asset) and compare it to emissions-funded APY, using the SushiSwap collapse, a fee-vs-emissions math example, and a one-question sustainability test.",
+    "hook": "A 500% APY sounds amazing until the token you're paid in drops 95%. Jules tells the story of the summer job that paid him in points that kept getting printed, and Mira breaks down why yield paid from real swap fees works differently from yield paid from a token printer. By the end you'll have one question to ask about any APY you see.",
+    "key_points": [
+      "Boost LPs earn a 0.05% fee, paid in the native asset (BTC in, BTC out), for fronting deposits while validators confirm",
+      "Emissions-funded APY pays LPs in newly minted tokens, so supply rises, price falls and dollar returns shrink even when the percentage looks huge",
+      "SushiSwap's TVL fell 94% from $7.9B to $0.5B, and LPs who earned 500% APY in SUSHI saw those tokens lose 95% of their value",
+      "Fee-backed yield grows with usage, while emissions yield drops as emissions slow, no matter how much the protocol is used",
+      "The sustainability test: can this yield continue at current levels indefinitely, and who is actually paying it?"
+    ],
+    "keywords": [
+      "Boost yield",
+      "fee-backed APY",
+      "emissions APY",
+      "where does crypto yield come from",
+      "bitcoin yield",
+      "sustainable DeFi yield",
+      "BTC yield no impermanent loss",
+      "Chainflip Boost"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "His door-to-door knife summer paid partly in 'Gold Star Points'; the toaster oven he saved for went from 500 to 2,000 points as the company kept printing them, and he ended up with a cutting board. Now his picture of emissions-funded yield."
+      },
+      {
+        "character": "jules",
+        "note": "Old Walt at the hometown marina sharpened knives for a dollar a blade, cash only, and 'barely had a phone'. Jules's picture of fee-backed yield: 'nobody ever printed more Walt dollars.'"
+      },
+      {
+        "character": "mira",
+        "note": "After admitting a fifth Jules analogy works, she stopped 'dating' them and now keeps a spreadsheet of his analogies that hold up."
+      }
+    ],
+    "words": 912,
+    "created_at": "2026-10-31T11:27:46Z",
+    "duration": 365,
+    "chapters": [
+      {
+        "title": "Cold open: the Gold Star Points summer",
+        "start": 0.0
+      },
+      {
+        "title": "Where Boost yield comes from",
+        "start": 33.9
+      },
+      {
+        "title": "Emissions and the SushiSwap lesson",
+        "start": 123.8
+      },
+      {
+        "title": "The math: fifty percent that loses money",
+        "start": 191.8
+      },
+      {
+        "title": "Bitcoin yield stack and the sustainability test",
+        "start": 291.1
+      }
+    ],
+    "audio_bytes": 5843284,
+    "audio_file": "take-005-boost-yield-fee-backed-apy-vs-emissions.mp3",
+    "description_html": "<p>A 500% APY sounds amazing until the token you&#x27;re paid in drops 95%. Jules tells the story of the summer job that paid him in points that kept getting printed, and Mira breaks down why yield paid from real swap fees works differently from yield paid from a token printer. By the end you&#x27;ll have one question to ask about any APY you see.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/boost-yield-fee-backed-apy-vs-emissions?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Where Does Boost Yield Actually Come From: Fee-Backed APY vs Emissions-Funded APY</a></p><p><strong>In this episode</strong></p><ul><li>Boost LPs earn a 0.05% fee, paid in the native asset (BTC in, BTC out), for fronting deposits while validators confirm</li><li>Emissions-funded APY pays LPs in newly minted tokens, so supply rises, price falls and dollar returns shrink even when the percentage looks huge</li><li>SushiSwap&#x27;s TVL fell 94% from $7.9B to $0.5B, and LPs who earned 500% APY in SUSHI saw those tokens lose 95% of their value</li><li>Fee-backed yield grows with usage, while emissions yield drops as emissions slow, no matter how much the protocol is used</li><li>The sustainability test: can this yield continue at current levels indefinitely, and who is actually paying it?</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: the Gold Star Points summer<br>00:33 Where Boost yield comes from<br>02:03 Emissions and the SushiSwap lesson<br>03:11 The math: fifty percent that loses money<br>04:51 Bitcoin yield stack and the sustainability test</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 6,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-ec2a5348ba4cfc74a9f5"
   }
 ]

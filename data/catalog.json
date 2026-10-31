@@ -118,6 +118,41 @@
       "evergreen": true
     }
   },
+  "address-poisoning-fake-swap-site-scam-verification-guide": {
+    "url": "https://chainflip.io/blog/address-poisoning-fake-swap-site-scam-verification-guide",
+    "slug": "address-poisoning-fake-swap-site-scam-verification-guide",
+    "title": "Fake Swap Sites and Address Poisoning: How to Verify a Cross-Chain Swap Before You Send",
+    "description": "Lookalike swap domains, poisoned addresses, and clipboard malware cost crypto users billions. Here's a concrete verification routine to protect yourself before every cross-chain swap.",
+    "image": "https://framerusercontent.com/images/suC2eXhuLlOquiEJM0IdwOD7bc.png?width=1600&height=900",
+    "published": "2026-10-30",
+    "headings": [
+      "The Scams Targeting Cross-Chain Swappers",
+      "Lookalike swap domains and malicious ads",
+      "Address poisoning attacks",
+      "Fake support DMs",
+      "Clipboard malware",
+      "Supply-Chain Risk: Hardware Wallet Tampering",
+      "A Verification Routine Before Every Swap",
+      "1. Verify the domain",
+      "2. Compare the full address",
+      "3. Paste, then inspect",
+      "4. Send a test amount",
+      "5. Track your swap on an explorer",
+      "Staying Safe as Cross-Chain Activity Grows"
+    ],
+    "words": 803,
+    "first_seen": "2026-10-31T11:26:19Z",
+    "live": true,
+    "cls": {
+      "cluster": "swap-scam-verification",
+      "cluster_label": "Avoiding swap scams and phishing",
+      "category": "security",
+      "assets": [],
+      "complexity": 2,
+      "podcast_fit": 5,
+      "evergreen": true
+    }
+  },
   "an-update-on-the-recent-network-incident": {
     "url": "https://chainflip.io/blog/an-update-on-the-recent-network-incident",
     "slug": "an-update-on-the-recent-network-incident",

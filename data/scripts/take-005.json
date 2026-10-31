@@ -1,0 +1,295 @@
+{
+  "post": "https://chainflip.io/blog/boost-yield-fee-backed-apy-vs-emissions",
+  "format": "hosts_only",
+  "guest": null,
+  "episode_title": "Boost Yield Explained: Who's Actually Paying Your APY?",
+  "summary": "Jules and Mira trace where Boost yield comes from (0.05% swap fees paid in the native asset) and compare it to emissions-funded APY, using the SushiSwap collapse, a fee-vs-emissions math example, and a one-question sustainability test.",
+  "hook": "A 500% APY sounds amazing until the token you're paid in drops 95%. Jules tells the story of the summer job that paid him in points that kept getting printed, and Mira breaks down why yield paid from real swap fees works differently from yield paid from a token printer. By the end you'll have one question to ask about any APY you see.",
+  "key_points": [
+    "Boost LPs earn a 0.05% fee, paid in the native asset (BTC in, BTC out), for fronting deposits while validators confirm",
+    "Emissions-funded APY pays LPs in newly minted tokens, so supply rises, price falls and dollar returns shrink even when the percentage looks huge",
+    "SushiSwap's TVL fell 94% from $7.9B to $0.5B, and LPs who earned 500% APY in SUSHI saw those tokens lose 95% of their value",
+    "Fee-backed yield grows with usage, while emissions yield drops as emissions slow, no matter how much the protocol is used",
+    "The sustainability test: can this yield continue at current levels indefinitely, and who is actually paying it?"
+  ],
+  "keywords": [
+    "Boost yield",
+    "fee-backed APY",
+    "emissions APY",
+    "where does crypto yield come from",
+    "bitcoin yield",
+    "sustainable DeFi yield",
+    "BTC yield no impermanent loss",
+    "Chainflip Boost"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "Cold open: the Gold Star Points summer"
+    },
+    {
+      "line": 7,
+      "title": "Where Boost yield comes from"
+    },
+    {
+      "line": 20,
+      "title": "Emissions and the SushiSwap lesson"
+    },
+    {
+      "line": 31,
+      "title": "The math: fifty percent that loses money"
+    },
+    {
+      "line": 47,
+      "title": "Bitcoin yield stack and the sustainability test"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[excited] Mira, did I ever finish the story about selling knives door to door?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] You've started it. Never finished it."
+    },
+    {
+      "speaker": "jules",
+      "text": "So the company paid commission partly in cash and partly in Gold Star Points. You cashed points in at their catalog. I was saving for a toaster oven. Five hundred points."
+    },
+    {
+      "speaker": "mira",
+      "text": "Let me guess."
+    },
+    {
+      "speaker": "jules",
+      "text": "By August, same toaster oven, two thousand points. They just kept printing points for everybody. I worked the whole summer and walked away with, um, a cutting board."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] Which is weirdly today's episode. Welcome to Cross-Chain Daily, I'm Mira."
+    },
+    {
+      "speaker": "jules",
+      "text": "I'm Jules, proud owner of one cutting board."
+    },
+    {
+      "speaker": "mira",
+      "text": "Today: where Boost yield actually comes from, and why fee-backed APY is a different animal from emissions-funded APY."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, dumb question first. When I see a yield number, where's the money coming from? Like, physically."
+    },
+    {
+      "speaker": "mira",
+      "text": "Not dumb. Usually two answers. Either somebody's paying for a service, or the protocol is printing new tokens and handing them out. That second one is emissions."
+    },
+    {
+      "speaker": "jules",
+      "text": "The Gold Star Points."
+    },
+    {
+      "speaker": "mira",
+      "text": "Exactly. Boost is the first kind. Say someone swaps bitcoin to ether on Chainflip. Normally they wait for the Bitcoin deposit to confirm."
+    },
+    {
+      "speaker": "jules",
+      "text": "[dry] Bitcoin blocks. Famously zippy."
+    },
+    {
+      "speaker": "mira",
+      "text": "So they can choose Boost. A pool of bitcoin fronts the deposit right away while validators confirm in the background. For that, Boost liquidity providers get zero point zero five percent of the deposit."
+    },
+    {
+      "speaker": "jules",
+      "text": "Paid in what?"
+    },
+    {
+      "speaker": "mira",
+      "text": "The native asset. Bitcoin deposit, the fee is bitcoin. Not some reward token."
+    },
+    {
+      "speaker": "jules",
+      "text": "So it's like Old Walt at the marina back home. Sharpened knives, a dollar a blade, cash. Nobody ever printed more Walt dollars."
+    },
+    {
+      "speaker": "mira",
+      "text": "[half-laughing] Walt didn't have a governance token."
+    },
+    {
+      "speaker": "jules",
+      "text": "Walt barely had a phone."
+    },
+    {
+      "speaker": "mira",
+      "text": "But yes. Real users, real fee, real service. The article calls it a closed loop. The yield depends on swap volume, which the article puts at eight point three two eight billion dollars cumulative as of October twenty twenty-six."
+    },
+    {
+      "speaker": "jules",
+      "text": "[sheepish] Okay, emissions. In twenty twenty-one I was in some of those farms. Not proud."
+    },
+    {
+      "speaker": "mira",
+      "text": "How high was the APY?"
+    },
+    {
+      "speaker": "jules",
+      "text": "Four digits."
+    },
+    {
+      "speaker": "mira",
+      "text": "The article says some platforms showed over one thousand percent at the peak. The problem is mechanical. Pay people in freshly minted tokens, those tokens hit the market. Supply up, price down."
+    },
+    {
+      "speaker": "jules",
+      "text": "The toaster oven moves."
+    },
+    {
+      "speaker": "mira",
+      "text": "[dry] The toaster oven moves. Big example is SushiSwap. At peak, seven point nine billion dollars in total value locked. After emissions dried up and the token fell, it dropped ninety-four percent, to half a billion."
+    },
+    {
+      "speaker": "jules",
+      "text": "Oof."
+    },
+    {
+      "speaker": "mira",
+      "text": "And LPs who earned five hundred percent APY in SUSHI watched those tokens lose ninety-five percent of their value."
+    },
+    {
+      "speaker": "jules",
+      "text": "So five hundred percent of something that loses ninety-five percent is..."
+    },
+    {
+      "speaker": "mira",
+      "text": "Not the number on the dashboard. The article calls emissions yield a wealth transfer from future token holders to current LPs. Works while new buyers keep showing up."
+    },
+    {
+      "speaker": "jules",
+      "text": "[grinning] So a pyramid with a nicer website."
+    },
+    {
+      "speaker": "mira",
+      "text": "Hmm, it doesn't have to be a scam to fail. It's just structural. Try the kind of example the article walks through. Fifty percent APY in the protocol's token, and the token drops sixty percent over the year."
+    },
+    {
+      "speaker": "jules",
+      "text": "But I've got more tokens."
+    },
+    {
+      "speaker": "mira",
+      "text": "One and a half times the tokens, each worth forty percent of before. Rough math, about sixty cents for every dollar you started with."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quick, cutting in] Wait. Fifty percent yield and I'm down?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Down. Now the fee version. If Boost pays eight percent APY in bitcoin, you end the year with eight percent more bitcoin. Same asset you deposited. No dilution, no reward token to dump."
+    },
+    {
+      "speaker": "jules",
+      "text": "[thoughtful] Smaller number, but it's actual bitcoin."
+    },
+    {
+      "speaker": "mira",
+      "text": "And that eight is an if, not a promise. Fee yield moves with usage."
+    },
+    {
+      "speaker": "jules",
+      "text": "So what's backing it right now?"
+    },
+    {
+      "speaker": "mira",
+      "text": "The article cites four point nine four million dollars in cumulative protocol revenue, and about thirteen point five nine million in annualized fees. From swaps, not printing."
+    },
+    {
+      "speaker": "jules",
+      "text": "And that grows as the thing grows?"
+    },
+    {
+      "speaker": "mira",
+      "text": "That's the argument. More users, more swaps, more fees, more yield. The article points to Uniswap collecting nearly a billion dollars in trading fees in twenty twenty-five, all from real trading."
+    },
+    {
+      "speaker": "jules",
+      "text": "I mean, the Gold Star guys who signed up in June got the toaster. I signed up in July."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] And that's the other half. As emissions slow, APY drops even if usage grows. Early people win, latecomers get the cutting board. Fine. The analogy works."
+    },
+    {
+      "speaker": "jules",
+      "text": "That's number five. Date it."
+    },
+    {
+      "speaker": "mira",
+      "text": "I'm done dating them. I keep a spreadsheet now."
+    },
+    {
+      "speaker": "jules",
+      "text": "[grinning] That's so much better."
+    },
+    {
+      "speaker": "mira",
+      "text": "Quick map of bitcoin yield by source. Staking rewards often come from inflation. Lending yields come from borrower interest. LP rewards on regular AMMs are trading fees minus impermanent loss."
+    },
+    {
+      "speaker": "jules",
+      "text": "And Boost?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Single-sided bitcoin, earning swap fees, no impermanent loss. With Lending 2.0, suppliers can earn Boost yield on their collateral while borrowing against it. So pick: pure yield, or yield plus liquidity."
+    },
+    {
+      "speaker": "jules",
+      "text": "Give me the one-question test."
+    },
+    {
+      "speaker": "mira",
+      "text": "[firm] Can this continue at current levels indefinitely? Emissions, usually no, because supplies have caps or shrinking emission curves. Fee-backed depends on usage. The article puts Chainflip's TVL at fourteen point zero two million dollars at the time of writing."
+    },
+    {
+      "speaker": "jules",
+      "text": "And in a bear market?"
+    },
+    {
+      "speaker": "mira",
+      "text": "That's where it matters most. Emissions yield goes to nothing in real terms. Fee yield paid in bitcoin holds its value relative to bitcoin itself."
+    },
+    {
+      "speaker": "jules",
+      "text": "So the takeaway: before you look at the APY, ask who's paying it. Someone buying a service, or a printer."
+    },
+    {
+      "speaker": "mira",
+      "text": "Walt, or the Gold Star Points. The full article is linked in the show notes."
+    },
+    {
+      "speaker": "jules",
+      "text": "Not financial advice."
+    },
+    {
+      "speaker": "mira",
+      "text": "Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "His door-to-door knife summer paid partly in 'Gold Star Points'; the toaster oven he saved for went from 500 to 2,000 points as the company kept printing them, and he ended up with a cutting board. Now his picture of emissions-funded yield."
+    },
+    {
+      "character": "jules",
+      "note": "Old Walt at the hometown marina sharpened knives for a dollar a blade, cash only, and 'barely had a phone'. Jules's picture of fee-backed yield: 'nobody ever printed more Walt dollars.'"
+    },
+    {
+      "character": "mira",
+      "note": "After admitting a fifth Jules analogy works, she stopped 'dating' them and now keeps a spreadsheet of his analogies that hold up."
+    }
+  ]
+}
