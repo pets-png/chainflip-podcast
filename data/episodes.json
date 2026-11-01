@@ -322,7 +322,7 @@
   {
     "number": 5,
     "tag": "take-005",
-    "status": "pending",
+    "status": "published",
     "slug": "boost-yield-fee-backed-apy-vs-emissions",
     "post_url": "https://chainflip.io/blog/boost-yield-fee-backed-apy-vs-emissions",
     "post_title": "Where Does Boost Yield Actually Come From: Fee-Backed APY vs Emissions-Funded APY",
@@ -393,6 +393,88 @@
     "audio_file": "take-005-boost-yield-fee-backed-apy-vs-emissions.mp3",
     "description_html": "<p>A 500% APY sounds amazing until the token you&#x27;re paid in drops 95%. Jules tells the story of the summer job that paid him in points that kept getting printed, and Mira breaks down why yield paid from real swap fees works differently from yield paid from a token printer. By the end you&#x27;ll have one question to ask about any APY you see.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/boost-yield-fee-backed-apy-vs-emissions?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Where Does Boost Yield Actually Come From: Fee-Backed APY vs Emissions-Funded APY</a></p><p><strong>In this episode</strong></p><ul><li>Boost LPs earn a 0.05% fee, paid in the native asset (BTC in, BTC out), for fronting deposits while validators confirm</li><li>Emissions-funded APY pays LPs in newly minted tokens, so supply rises, price falls and dollar returns shrink even when the percentage looks huge</li><li>SushiSwap&#x27;s TVL fell 94% from $7.9B to $0.5B, and LPs who earned 500% APY in SUSHI saw those tokens lose 95% of their value</li><li>Fee-backed yield grows with usage, while emissions yield drops as emissions slow, no matter how much the protocol is used</li><li>The sustainability test: can this yield continue at current levels indefinitely, and who is actually paying it?</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: the Gold Star Points summer<br>00:33 Where Boost yield comes from<br>02:03 Emissions and the SushiSwap lesson<br>03:11 The math: fifty percent that loses money<br>04:51 Bitcoin yield stack and the sustainability test</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=boost-yield-fee-backed-apy-vs-emissions&amp;utm_content=ep-5\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 6,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-ec2a5348ba4cfc74a9f5"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-ec2a5348ba4cfc74a9f5",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-005/take-005-boost-yield-fee-backed-apy-vs-emissions.mp3",
+    "published_at": "2026-11-01T12:21:00Z"
+  },
+  {
+    "number": 6,
+    "tag": "take-006",
+    "status": "pending",
+    "slug": "btc-loan-health-factor-ltv-liquidation-risk-management",
+    "post_url": "https://chainflip.io/blog/btc-loan-health-factor-ltv-liquidation-risk-management",
+    "post_title": "Health Factor, LTV, and Liquidation Price: A BTC Borrower's Risk Playbook for Volatile Markets",
+    "category": "lending",
+    "cluster": "btc-loan-ltv-liquidation",
+    "format": "guest",
+    "guest": "mark",
+    "title": "BTC Loan Health Factor Zones: When to Add Collateral or Repay",
+    "summary": "Mark joins Jules and Mira to explain how bitcoin borrowers manage loan risk in volatile markets using health factor, LTV and liquidation price, green/yellow/red zones, tiered price alerts, pre-calculated moves, and soft vs hard liquidation.",
+    "hook": "Your BTC loan was safe when you opened it. That doesn't mean it's safe now. Mark walks through the three numbers that decide whether you keep your collateral, the exact health factor where you should stop hoping and start acting, and why Jules's cousin Derek should never have driven on March ice.",
+    "key_points": [
+      "How LTV, health factor and liquidation price fit together, using a BTC at $60,000 and liquidation at $48,000 example",
+      "The three-zone framework: green above 1.8, yellow 1.3 to 1.8, red below 1.3, and what to do in each",
+      "When to add collateral, when to repay debt, and the hybrid move for sudden crashes",
+      "How to set price alerts at liquidation price plus 15%, 10% and 5%, and pre-calculate your moves before a panic",
+      "Why soft liquidation gives more recovery options than hard liquidation, and why pre-committing beats freezing"
+    ],
+    "keywords": [
+      "BTC loan health factor",
+      "bitcoin-backed loan liquidation",
+      "BTC loan risk management",
+      "health factor vs LTV",
+      "liquidation price bitcoin loan",
+      "add collateral or repay debt",
+      "soft liquidation crypto lending",
+      "borrow against native bitcoin"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "Mr. Halvorsen kept an ice-thickness chalkboard by the hometown gas station coffee (four inches to walk, eight for a snowmobile, twelve for a pickup). Jules's cousin Derek checked once in January, drove his pickup onto March ice, went through to the front wheels, and got winched out for a tow fee. He's now 'Derek who drove on March ice', Jules's picture of passive monitoring and soft liquidation."
+      },
+      {
+        "character": "mira",
+        "note": "Her spreadsheet of Jules analogies that hold up has exactly one column, 'Held up'. Derek and the March ice is entry number six."
+      },
+      {
+        "character": "mark",
+        "note": "His braai rule for pre-commitment: decide when the steak comes off before you light the fire, not when six uncles are shouting opinions at you."
+      }
+    ],
+    "words": 1201,
+    "created_at": "2026-11-01T12:23:20Z",
+    "duration": 411,
+    "chapters": [
+      {
+        "title": "Cold open: the ice chalkboard",
+        "start": 0.0
+      },
+      {
+        "title": "LTV, health factor and liquidation price",
+        "start": 52.5
+      },
+      {
+        "title": "Why checking once a day fails",
+        "start": 122.2
+      },
+      {
+        "title": "Green, yellow and red zones",
+        "start": 200.7
+      },
+      {
+        "title": "Alerts and pre-calculated moves",
+        "start": 272.7
+      },
+      {
+        "title": "Soft vs hard liquidation and the freeze",
+        "start": 329.7
+      }
+    ],
+    "audio_bytes": 6583497,
+    "audio_file": "take-006-btc-loan-health-factor-ltv-liquidation-risk-management.mp3",
+    "description_html": "<p>Your BTC loan was safe when you opened it. That doesn&#x27;t mean it&#x27;s safe now. Mark walks through the three numbers that decide whether you keep your collateral, the exact health factor where you should stop hoping and start acting, and why Jules&#x27;s cousin Derek should never have driven on March ice.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/btc-loan-health-factor-ltv-liquidation-risk-management?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Health Factor, LTV, and Liquidation Price: A BTC Borrower&#x27;s Risk Playbook for Volatile Markets</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>How LTV, health factor and liquidation price fit together, using a BTC at $60,000 and liquidation at $48,000 example</li><li>The three-zone framework: green above 1.8, yellow 1.3 to 1.8, red below 1.3, and what to do in each</li><li>When to add collateral, when to repay debt, and the hybrid move for sudden crashes</li><li>How to set price alerts at liquidation price plus 15%, 10% and 5%, and pre-calculate your moves before a panic</li><li>Why soft liquidation gives more recovery options than hard liquidation, and why pre-committing beats freezing</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: the ice chalkboard<br>00:52 LTV, health factor and liquidation price<br>02:02 Why checking once a day fails<br>03:20 Green, yellow and red zones<br>04:32 Alerts and pre-calculated moves<br>05:29 Soft vs hard liquidation and the freeze</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 7,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-ebfea92656131de4ca86"
   }
 ]

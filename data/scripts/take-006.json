@@ -1,0 +1,355 @@
+{
+  "post": "https://chainflip.io/blog/btc-loan-health-factor-ltv-liquidation-risk-management",
+  "format": "guest",
+  "guest": "mark",
+  "episode_title": "BTC Loan Health Factor Zones: When to Add Collateral or Repay",
+  "summary": "Mark joins Jules and Mira to explain how bitcoin borrowers manage loan risk in volatile markets using health factor, LTV and liquidation price, green/yellow/red zones, tiered price alerts, pre-calculated moves, and soft vs hard liquidation.",
+  "hook": "Your BTC loan was safe when you opened it. That doesn't mean it's safe now. Mark walks through the three numbers that decide whether you keep your collateral, the exact health factor where you should stop hoping and start acting, and why Jules's cousin Derek should never have driven on March ice.",
+  "key_points": [
+    "How LTV, health factor and liquidation price fit together, using a BTC at $60,000 and liquidation at $48,000 example",
+    "The three-zone framework: green above 1.8, yellow 1.3 to 1.8, red below 1.3, and what to do in each",
+    "When to add collateral, when to repay debt, and the hybrid move for sudden crashes",
+    "How to set price alerts at liquidation price plus 15%, 10% and 5%, and pre-calculate your moves before a panic",
+    "Why soft liquidation gives more recovery options than hard liquidation, and why pre-committing beats freezing"
+  ],
+  "keywords": [
+    "BTC loan health factor",
+    "bitcoin-backed loan liquidation",
+    "BTC loan risk management",
+    "health factor vs LTV",
+    "liquidation price bitcoin loan",
+    "add collateral or repay debt",
+    "soft liquidation crypto lending",
+    "borrow against native bitcoin"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "Cold open: the ice chalkboard"
+    },
+    {
+      "line": 10,
+      "title": "LTV, health factor and liquidation price"
+    },
+    {
+      "line": 21,
+      "title": "Why checking once a day fails"
+    },
+    {
+      "line": 36,
+      "title": "Green, yellow and red zones"
+    },
+    {
+      "line": 49,
+      "title": "Alerts and pre-calculated moves"
+    },
+    {
+      "line": 58,
+      "title": "Soft vs hard liquidation and the freeze"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Mira, how thick does lake ice have to be before you'll walk on it?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] I don't walk on lakes, Jules. I have sidewalks."
+    },
+    {
+      "speaker": "jules",
+      "text": "Four inches to walk, eight for a snowmobile, twelve for a pickup. Mr. Halvorsen had it on a chalkboard next to the gas station coffee."
+    },
+    {
+      "speaker": "mira",
+      "text": "And this matters because..."
+    },
+    {
+      "speaker": "jules",
+      "text": "[conspiratorial] Because my cousin Derek ignored the chalkboard. Hold that thought."
+    },
+    {
+      "speaker": "mira",
+      "text": "Welcome to Cross-Chain Daily. I'm Mira, that's Jules, and today it's how to keep a bitcoin-backed loan alive when markets get wild. Mark's back with us."
+    },
+    {
+      "speaker": "mark",
+      "text": "Good to be back. I need to hear about Derek."
+    },
+    {
+      "speaker": "jules",
+      "text": "[smug] Later. Earn it."
+    },
+    {
+      "speaker": "mira",
+      "text": "The article starts with bitcoin's average annual volatility: thirty-five point four eight percent. Mark, what does that mean for a borrower?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Look, it means a fifteen or twenty percent swing can show up without warning. If you've borrowed against your bitcoin, that's a comfy loan at breakfast and a liquidation risk by dinner."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, give me the three numbers. Slowly. Pretend I used to sell knives."
+    },
+    {
+      "speaker": "mira",
+      "text": "[dry] You did sell knives."
+    },
+    {
+      "speaker": "mark",
+      "text": "[amused] Perfect student. First, loan-to-value. Debt divided by collateral. Fifty percent L T V means you owe half of what your bitcoin is worth."
+    },
+    {
+      "speaker": "mark",
+      "text": "The article puts the industry average for bitcoin-backed loans at forty-two point six eight percent. Chainflip allows up to eighty percent, but that ceiling is for edge cases, not comfort."
+    },
+    {
+      "speaker": "jules",
+      "text": "So eighty is the \"you can, but should you\" number."
+    },
+    {
+      "speaker": "mark",
+      "text": "Exactly. Second, health factor. It turns that into a buffer. A health factor of two means your collateral could drop fifty percent before liquidation triggers."
+    },
+    {
+      "speaker": "mira",
+      "text": "At one point five, roughly thirty-three percent of buffer. Below one, liquidation begins."
+    },
+    {
+      "speaker": "mark",
+      "text": "Third, liquidation price. The actual bitcoin price where it all goes wrong. The article's example: bitcoin at sixty thousand dollars, liquidation price at forty-eight thousand. A twenty percent drop and you're out."
+    },
+    {
+      "speaker": "jules",
+      "text": "That's the one I can actually stare at on my phone."
+    },
+    {
+      "speaker": "mark",
+      "text": "Right. Health factor is abstract. Liquidation price is a number you can set an alarm on."
+    },
+    {
+      "speaker": "mira",
+      "text": "And the point is to watch all three as one system, because they all move with every tick."
+    },
+    {
+      "speaker": "jules",
+      "text": "So, um, if people know all this, why do they still get wrecked?"
+    },
+    {
+      "speaker": "mark",
+      "text": "[flat] Because knowing isn't watching. In the August twenty twenty-four selloff, DeFi liquidations topped three hundred fifty million dollars in twenty-four hours. Aave V three alone did two hundred thirty-seven point two million in one day."
+    },
+    {
+      "speaker": "mira",
+      "text": "And plenty of those borrowers started at ratios they thought were safe."
+    },
+    {
+      "speaker": "mark",
+      "text": "The problem wasn't ignorance, it was passive monitoring. Checking once a day works in a sideways market. In a crash, a daily check is a postcard from yesterday."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quick, cutting in] Okay. Derek time."
+    },
+    {
+      "speaker": "mira",
+      "text": "Here we go."
+    },
+    {
+      "speaker": "jules",
+      "text": "So the old guys didn't check the ice once in December and call it good. Every warm spell, they'd go back out with the auger and drill again."
+    },
+    {
+      "speaker": "jules",
+      "text": "Derek drilled once in January. Eight inches, great. Then March, after a warm week, he drives his pickup out to his fish house. Front wheels go straight through."
+    },
+    {
+      "speaker": "mark",
+      "text": "[wincing] Oh no."
+    },
+    {
+      "speaker": "jules",
+      "text": "He's fine! Truck's fine, like, mostly. Halvorsen winched it out, charged him for the tow, and now he's forever \"Derek who drove on March ice.\""
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] So January was his starting L T V."
+    },
+    {
+      "speaker": "jules",
+      "text": "Yes! He set it safe and stopped looking. The ice changed. His number didn't."
+    },
+    {
+      "speaker": "mira",
+      "text": "Hmm. Fine. That's number six in the spreadsheet."
+    },
+    {
+      "speaker": "jules",
+      "text": "Six! Is there a column for style points?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[patiently] There's one column. \"Held up.\" That's it."
+    },
+    {
+      "speaker": "mark",
+      "text": "There's a second Derek lesson coming, but first the zones. Green is a health factor above one point eight. Buffer over forty percent. Daily checks, no action unless you see macro warning signs."
+    },
+    {
+      "speaker": "mark",
+      "text": "Yellow is one point three to one point eight. Buffer between twenty and forty percent. Not danger yet, but a sharp fifteen to twenty percent drop could push you into liquidation territory."
+    },
+    {
+      "speaker": "jules",
+      "text": "Yellow means, I guess, start sweating?"
+    },
+    {
+      "speaker": "mark",
+      "text": "[half-laughing] Yellow means start calculating. Work out adding collateral versus paying down debt, before you need either one."
+    },
+    {
+      "speaker": "mira",
+      "text": "And red is below one point three."
+    },
+    {
+      "speaker": "mark",
+      "text": "Red, you act immediately. A twenty percent move could liquidate you. Add collateral or repay debt."
+    },
+    {
+      "speaker": "jules",
+      "text": "How do you pick?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Add collateral if you're bullish on bitcoin, you've got idle bitcoin not earning anywhere else, and your loan rate still looks good. You keep the full loan and widen the buffer."
+    },
+    {
+      "speaker": "mark",
+      "text": "Repay debt if you want less exposure, you've got stablecoins but no spare bitcoin, or interest has piled up. That permanently cuts your risk and lowers the interest still accruing."
+    },
+    {
+      "speaker": "mira",
+      "text": "And for a sudden crash, the article suggests doing both."
+    },
+    {
+      "speaker": "mark",
+      "text": "The hybrid. Add a little collateral to buy time while you execute a partial repayment, so a delay mid-fix doesn't get you liquidated."
+    },
+    {
+      "speaker": "jules",
+      "text": "[proud of himself] Throw a plank down while somebody runs for the winch."
+    },
+    {
+      "speaker": "mark",
+      "text": "[grinning] I'll allow it."
+    },
+    {
+      "speaker": "mira",
+      "text": "Now alerts, which is the most practical bit."
+    },
+    {
+      "speaker": "mark",
+      "text": "Three price alerts: liquidation price plus fifteen percent, plus ten, plus five. First one, you review. Second, you prepare. Third, you act."
+    },
+    {
+      "speaker": "mira",
+      "text": "With the forty-eight thousand example, that's fifty-five thousand two hundred, fifty-two thousand eight hundred, and fifty thousand four hundred."
+    },
+    {
+      "speaker": "jules",
+      "text": "[stage whisper] She did that in her head."
+    },
+    {
+      "speaker": "mira",
+      "text": "I did it before the show. Which is also the point."
+    },
+    {
+      "speaker": "mark",
+      "text": "Exactly. And for health factor, check any time bitcoin moves more than three percent either way. When it's really wild, make that two. Chainflip's lending interface shows health factor and L T V in real time."
+    },
+    {
+      "speaker": "mark",
+      "text": "Then pre-calculate. The worst time to do math is mid-panic. If your health factor drops to one point two, what gets it back to one point eight?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Rough math, if prices hold still: about fifty percent more collateral, or paying off about a third of the debt."
+    },
+    {
+      "speaker": "mark",
+      "text": "Have those numbers ready at today's prices. Then build tables for twenty, forty and sixty percent drops."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, second Derek lesson. Go."
+    },
+    {
+      "speaker": "mark",
+      "text": "Soft versus hard liquidation. Aave V three sets c b B T C liquidation at eighty-five percent L T V on Ethereum Core, and W B T C at eighty-four point five on Ethereum V four Bluechip."
+    },
+    {
+      "speaker": "mark",
+      "text": "Chainflip's eighty percent max is a lower ceiling, but its soft liquidation protects borrowers from the full liquidation penalty common elsewhere. You get more recovery options even after you breach the threshold."
+    },
+    {
+      "speaker": "jules",
+      "text": "[delighted] So Derek got soft-liquidated. Paid the tow, kept the truck."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] And hard liquidation is the truck at the bottom of the lake."
+    },
+    {
+      "speaker": "mark",
+      "text": "Which is why hard liquidation protocols demand earlier action. Soft gives you room. It's not permission to nap."
+    },
+    {
+      "speaker": "jules",
+      "text": "Last one. Why do people freeze? Honestly, I would."
+    },
+    {
+      "speaker": "mark",
+      "text": "[gently] Everyone would. You watch the number slide and tell yourself it'll bounce. The article calls that gambling, not risk management. So pre-commit. Write it down. Health factor hits one point three, you act."
+    },
+    {
+      "speaker": "mark",
+      "text": "Same as a braai. You decide when the steak comes off before you light the fire, not when six uncles are shouting opinions at you."
+    },
+    {
+      "speaker": "jules",
+      "text": "Nobody argued with Halvorsen's chalkboard."
+    },
+    {
+      "speaker": "mira",
+      "text": "So the takeaway: managing a bitcoin loan is an ongoing process, not a one-time setup. Set alerts, pre-calculate your moves, and pre-commit to your thresholds."
+    },
+    {
+      "speaker": "mark",
+      "text": "The borrowers who keep their collateral aren't luckier. They're more prepared."
+    },
+    {
+      "speaker": "jules",
+      "text": "The full article is linked in the show notes. Not financial advice. And check the ice in March."
+    },
+    {
+      "speaker": "mira",
+      "text": "Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "Mr. Halvorsen kept an ice-thickness chalkboard by the hometown gas station coffee (four inches to walk, eight for a snowmobile, twelve for a pickup). Jules's cousin Derek checked once in January, drove his pickup onto March ice, went through to the front wheels, and got winched out for a tow fee. He's now 'Derek who drove on March ice', Jules's picture of passive monitoring and soft liquidation."
+    },
+    {
+      "character": "mira",
+      "note": "Her spreadsheet of Jules analogies that hold up has exactly one column, 'Held up'. Derek and the March ice is entry number six."
+    },
+    {
+      "character": "mark",
+      "note": "His braai rule for pre-commitment: decide when the steak comes off before you light the fire, not when six uncles are shouting opinions at you."
+    }
+  ]
+}
