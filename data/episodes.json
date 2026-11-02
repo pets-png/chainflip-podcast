@@ -400,7 +400,7 @@
   {
     "number": 6,
     "tag": "take-006",
-    "status": "pending",
+    "status": "published",
     "slug": "btc-loan-health-factor-ltv-liquidation-risk-management",
     "post_url": "https://chainflip.io/blog/btc-loan-health-factor-ltv-liquidation-risk-management",
     "post_title": "Health Factor, LTV, and Liquidation Price: A BTC Borrower's Risk Playbook for Volatile Markets",
@@ -475,6 +475,88 @@
     "audio_file": "take-006-btc-loan-health-factor-ltv-liquidation-risk-management.mp3",
     "description_html": "<p>Your BTC loan was safe when you opened it. That doesn&#x27;t mean it&#x27;s safe now. Mark walks through the three numbers that decide whether you keep your collateral, the exact health factor where you should stop hoping and start acting, and why Jules&#x27;s cousin Derek should never have driven on March ice.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/btc-loan-health-factor-ltv-liquidation-risk-management?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Health Factor, LTV, and Liquidation Price: A BTC Borrower&#x27;s Risk Playbook for Volatile Markets</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>How LTV, health factor and liquidation price fit together, using a BTC at $60,000 and liquidation at $48,000 example</li><li>The three-zone framework: green above 1.8, yellow 1.3 to 1.8, red below 1.3, and what to do in each</li><li>When to add collateral, when to repay debt, and the hybrid move for sudden crashes</li><li>How to set price alerts at liquidation price plus 15%, 10% and 5%, and pre-calculate your moves before a panic</li><li>Why soft liquidation gives more recovery options than hard liquidation, and why pre-committing beats freezing</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: the ice chalkboard<br>00:52 LTV, health factor and liquidation price<br>02:02 Why checking once a day fails<br>03:20 Green, yellow and red zones<br>04:32 Alerts and pre-calculated moves<br>05:29 Soft vs hard liquidation and the freeze</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btc-loan-health-factor-ltv-liquidation-risk-management&amp;utm_content=ep-6\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 7,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-ebfea92656131de4ca86"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-ebfea92656131de4ca86",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-006/take-006-btc-loan-health-factor-ltv-liquidation-risk-management.mp3",
+    "published_at": "2026-11-02T14:15:09Z"
+  },
+  {
+    "number": 7,
+    "tag": "take-007",
+    "status": "pending",
+    "slug": "chainflip-lp-returns-fees-volume-apy-october-2026",
+    "post_url": "https://chainflip.io/blog/chainflip-lp-returns-fees-volume-apy-october-2026",
+    "post_title": "LP Returns, Measured: Where to find Fees, Volume, and APY on Chainflip Right Now",
+    "category": "markets_data",
+    "cluster": "lp-returns-data",
+    "format": "guest",
+    "guest": "mark",
+    "title": "Chainflip LP Returns: How to Read APY Without Getting Fooled",
+    "summary": "Guest Mark joins Jules and Mira to explain how liquidity providers earn on Chainflip, comparing JIT and Boost risk profiles, walking pool by pool through BTC, ETH, SOL and stablecoins, and showing why 7-day and 30-day fee data beat one hot day when judging APY.",
+    "hook": "Jules once made $800 in a day at a fireworks tent, multiplied it by 365, and told his mom he might skip school. That is exactly how people misread LP yield. Mark joins to explain where Chainflip LP returns really come from, which pools earn what, and how to check the numbers yourself instead of trusting a headline APY.",
+    "key_points": [
+      "All Chainflip LP yield comes from real swap fees, not token emissions: no swaps, no earnings.",
+      "JIT LPs compete to fill swaps and carry inventory risk; Boost LPs hold single-sided BTC with no impermanent loss and earn steadier, usually lower returns.",
+      "BTC pools have the highest absolute fee volume but the toughest competition; SOL market-making competition is currently lighter; stablecoin pools are high volume with tight spreads.",
+      "Use 24-hour data to see current activity, but judge sustainable returns on 7-day and 30-day rolling totals in Chainflip Scan.",
+      "APY moves with swap volume (including aggregator integrations like Rango and LI.FI), LP competition, and asset volatility."
+    ],
+    "keywords": [
+      "Chainflip LP returns",
+      "liquidity provider APY",
+      "JIT liquidity",
+      "Boost pool APY",
+      "Chainflip Boost",
+      "impermanent loss",
+      "Chainflip Scan fees and volume",
+      "real yield from swap fees"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "At seventeen worked Bev's Boom Barn, a fireworks tent off Highway 9 with a fire extinguisher named Gerald. Made $800 on July 3rd, multiplied it by 365, told his mom he might skip school, then sold one box of sparklers (to Bev) on July 5th. Now his picture of annualizing a 24-hour snapshot; Gerald is his picture of low utilization."
+      },
+      {
+        "character": "mira",
+        "note": "The fireworks tent is entry number seven in her 'Held up' spreadsheet of Jules analogies."
+      },
+      {
+        "character": "mark",
+        "note": "New lines: 'Big braai, lots of uncles' (more LPs at the grill means a thinner slice each), and 'you don't print a striker's season stats off one hat trick' for judging returns on 7 and 30 days, not one day."
+      }
+    ],
+    "words": 1213,
+    "created_at": "2026-11-02T14:16:54Z",
+    "duration": 417,
+    "chapters": [
+      {
+        "title": "Bev's fireworks tent and the worst APY math ever",
+        "start": 0.0
+      },
+      {
+        "title": "Where LP yield comes from: JIT vs Boost",
+        "start": 55.3
+      },
+      {
+        "title": "Wait, where's the APY number?",
+        "start": 125.5
+      },
+      {
+        "title": "Pool by pool: BTC, ETH, SOL and stablecoins",
+        "start": 168.6
+      },
+      {
+        "title": "One hot day vs 30 days of data",
+        "start": 262.0
+      },
+      {
+        "title": "What moves APY and how to get in",
+        "start": 311.2
+      }
+    ],
+    "audio_bytes": 6675029,
+    "audio_file": "take-007-chainflip-lp-returns-fees-volume-apy-october-2026.mp3",
+    "description_html": "<p>Jules once made $800 in a day at a fireworks tent, multiplied it by 365, and told his mom he might skip school. That is exactly how people misread LP yield. Mark joins to explain where Chainflip LP returns really come from, which pools earn what, and how to check the numbers yourself instead of trusting a headline APY.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/chainflip-lp-returns-fees-volume-apy-october-2026?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chainflip-lp-returns-fees-volume-apy-october-2026&amp;utm_content=ep-7\">LP Returns, Measured: Where to find Fees, Volume, and APY on Chainflip Right Now</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>All Chainflip LP yield comes from real swap fees, not token emissions: no swaps, no earnings.</li><li>JIT LPs compete to fill swaps and carry inventory risk; Boost LPs hold single-sided BTC with no impermanent loss and earn steadier, usually lower returns.</li><li>BTC pools have the highest absolute fee volume but the toughest competition; SOL market-making competition is currently lighter; stablecoin pools are high volume with tight spreads.</li><li>Use 24-hour data to see current activity, but judge sustainable returns on 7-day and 30-day rolling totals in Chainflip Scan.</li><li>APY moves with swap volume (including aggregator integrations like Rango and LI.FI), LP competition, and asset volatility.</li></ul><p><strong>Chapters</strong><br>00:00 Bev&#x27;s fireworks tent and the worst APY math ever<br>00:55 Where LP yield comes from: JIT vs Boost<br>02:05 Wait, where&#x27;s the APY number?<br>02:48 Pool by pool: BTC, ETH, SOL and stablecoins<br>04:22 One hot day vs 30 days of data<br>05:11 What moves APY and how to get in</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chainflip-lp-returns-fees-volume-apy-october-2026&amp;utm_content=ep-7\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chainflip-lp-returns-fees-volume-apy-october-2026&amp;utm_content=ep-7\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chainflip-lp-returns-fees-volume-apy-october-2026&amp;utm_content=ep-7\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chainflip-lp-returns-fees-volume-apy-october-2026&amp;utm_content=ep-7\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chainflip-lp-returns-fees-volume-apy-october-2026&amp;utm_content=ep-7\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chainflip-lp-returns-fees-volume-apy-october-2026&amp;utm_content=ep-7\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chainflip-lp-returns-fees-volume-apy-october-2026&amp;utm_content=ep-7\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chainflip-lp-returns-fees-volume-apy-october-2026&amp;utm_content=ep-7\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=chainflip-lp-returns-fees-volume-apy-october-2026&amp;utm_content=ep-7\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 8,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-fad9050bb323b92b8ceb"
   }
 ]

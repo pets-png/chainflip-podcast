@@ -1,0 +1,307 @@
+{
+  "post": "https://chainflip.io/blog/chainflip-lp-returns-fees-volume-apy-october-2026",
+  "format": "guest",
+  "guest": "mark",
+  "episode_title": "Chainflip LP Returns: How to Read APY Without Getting Fooled",
+  "summary": "Guest Mark joins Jules and Mira to explain how liquidity providers earn on Chainflip, comparing JIT and Boost risk profiles, walking pool by pool through BTC, ETH, SOL and stablecoins, and showing why 7-day and 30-day fee data beat one hot day when judging APY.",
+  "hook": "Jules once made $800 in a day at a fireworks tent, multiplied it by 365, and told his mom he might skip school. That is exactly how people misread LP yield. Mark joins to explain where Chainflip LP returns really come from, which pools earn what, and how to check the numbers yourself instead of trusting a headline APY.",
+  "key_points": [
+    "All Chainflip LP yield comes from real swap fees, not token emissions: no swaps, no earnings.",
+    "JIT LPs compete to fill swaps and carry inventory risk; Boost LPs hold single-sided BTC with no impermanent loss and earn steadier, usually lower returns.",
+    "BTC pools have the highest absolute fee volume but the toughest competition; SOL market-making competition is currently lighter; stablecoin pools are high volume with tight spreads.",
+    "Use 24-hour data to see current activity, but judge sustainable returns on 7-day and 30-day rolling totals in Chainflip Scan.",
+    "APY moves with swap volume (including aggregator integrations like Rango and LI.FI), LP competition, and asset volatility."
+  ],
+  "keywords": [
+    "Chainflip LP returns",
+    "liquidity provider APY",
+    "JIT liquidity",
+    "Boost pool APY",
+    "Chainflip Boost",
+    "impermanent loss",
+    "Chainflip Scan fees and volume",
+    "real yield from swap fees"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "Bev's fireworks tent and the worst APY math ever"
+    },
+    {
+      "line": 8,
+      "title": "Where LP yield comes from: JIT vs Boost"
+    },
+    {
+      "line": 16,
+      "title": "Wait, where's the APY number?"
+    },
+    {
+      "line": 23,
+      "title": "Pool by pool: BTC, ETH, SOL and stablecoins"
+    },
+    {
+      "line": 35,
+      "title": "One hot day vs 30 days of data"
+    },
+    {
+      "line": 43,
+      "title": "What moves APY and how to get in"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Okay, so the summer I was seventeen I worked a fireworks tent off Highway 9. Bev's Boom Barn. Plywood counter, folding chairs, one fire extinguisher she named Gerald."
+    },
+    {
+      "speaker": "mark",
+      "text": "[amused] Gerald."
+    },
+    {
+      "speaker": "jules",
+      "text": "Gerald. And on July third, we did eight hundred dollars in one day. So I went home, got a calculator, and multiplied it by three sixty-five."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] Oh no."
+    },
+    {
+      "speaker": "jules",
+      "text": "Two hundred ninety-two thousand dollars a year, Mira. I told my mom I might not go back to school. July fifth, we sold one box of sparklers. To Bev."
+    },
+    {
+      "speaker": "mira",
+      "text": "[half-laughing] Welcome to Cross-Chain Daily, everybody. I'm Mira, that's Jules, who just accidentally introduced today's topic, and Mark is back with us. Hey, Mark."
+    },
+    {
+      "speaker": "mark",
+      "text": "Good to be back. And Jules, that's the most honest A P Y calculation I've heard all year."
+    },
+    {
+      "speaker": "mira",
+      "text": "Today is about what liquidity providers on Chainflip actually earn, and how to read the numbers without doing what Jules did."
+    },
+    {
+      "speaker": "jules",
+      "text": "So, um, start me at zero. Who's an L P here, and where does their money come from?"
+    },
+    {
+      "speaker": "mark",
+      "text": "The article's first line says it: L Ps want numbers, not promises. On Chainflip, all L P yield comes from actual swap fees paid by users. No token emissions, no inflationary rewards topping it up. If nobody swaps, nobody earns."
+    },
+    {
+      "speaker": "jules",
+      "text": "So it's the fireworks tent. No customers, no money."
+    },
+    {
+      "speaker": "mark",
+      "text": "Exactly. And there are two ways to be an L P. Way one is just-in-time liquidity, J I T. Market makers don't park assets in a static pool. They provide liquidity right when a swap executes, and they compete to fill it."
+    },
+    {
+      "speaker": "mira",
+      "text": "So you earn based on how much volume you fill and the spread you capture. Not just for showing up."
+    },
+    {
+      "speaker": "mark",
+      "text": "Right. Way two is Boost. You deposit single-sided bitcoin. When someone sends bitcoin in and doesn't want to wait for the normal confirmations, they pay a premium to get liquidity right away. That premium goes to Boost L Ps."
+    },
+    {
+      "speaker": "jules",
+      "text": "Wait, so it's the express lane? People pay to skip the line, and you're the guy fronting them?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] Close enough. And because you only hold bitcoin, there's no impermanent loss. You're not holding a pair that drifts apart."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, give me the numbers. What's the A P Y?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[dry] Here's the fun part. The article doesn't print one."
+    },
+    {
+      "speaker": "jules",
+      "text": "No."
+    },
+    {
+      "speaker": "mark",
+      "text": "And honestly, I respect it. It's a snapshot from mid-October twenty twenty-six, and instead of slapping a big percentage on top, it sends you to live data. Chainflip Scan, at scan dot chainflip dot io, for fees, volume and pool activity. The Boost interface for current Boost A P Y and utilization."
+    },
+    {
+      "speaker": "mira",
+      "text": "And Token Terminal now tracks Chainflip's revenue and fees for the historical view. For scale, the article puts all-time swap volume at nine point five six billion dollars."
+    },
+    {
+      "speaker": "jules",
+      "text": "So it's, here's the scoreboard, go read it yourself."
+    },
+    {
+      "speaker": "mark",
+      "text": "Which is what I'd want. A number someone hands you is marketing. A number you can check is data."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, pool by pool. Where's the money?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Bitcoin pools generate the highest absolute fee volume. Bitcoin to U S D C, bitcoin to E T H, people swapping native bitcoin across chains all day. But competition is fiercest there, so spreads are tight."
+    },
+    {
+      "speaker": "jules",
+      "text": "Big pie, lots of forks."
+    },
+    {
+      "speaker": "mark",
+      "text": "[grinning] Big braai, lots of uncles. The more people crowding the grill, the thinner your slice. Your return comes down to your market-making skill and how much capital you put to work."
+    },
+    {
+      "speaker": "mira",
+      "text": "Ethereum pools pick up cross-chain E T H demand, plus routing through E T H as a middle step. E T H to U S D C is especially busy. Returns there tend to be steadier than bitcoin, but with less fee capture when it's quiet."
+    },
+    {
+      "speaker": "jules",
+      "text": "And Solana?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Solana's the one I'd circle. S O L to U S D C sees consistent volume, lots of people moving between Solana and other ecosystems. And the article says competition among S O L market makers is currently less intense than bitcoin or E T H."
+    },
+    {
+      "speaker": "mira",
+      "text": "[pointed] Which can mean better spreads for active L Ps. Can. The article says potentially."
+    },
+    {
+      "speaker": "mark",
+      "text": "Fair. An underserved pool is an opportunity right up until everyone notices it."
+    },
+    {
+      "speaker": "jules",
+      "text": "The secret fishing spot. Until somebody posts it online."
+    },
+    {
+      "speaker": "mira",
+      "text": "Then stablecoins. U S D C and U S D T pools across Ethereum, Solana, Arbitrum, Polkadot Asset Hub and Tron. High volume, tight spreads, because the price barely moves between stablecoin versions."
+    },
+    {
+      "speaker": "mark",
+      "text": "And there are stablecoin yield strategies that bundle returns across those pools. So you get a piece of that volume without running a market-making desk."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, back to my fireworks tent, because I feel like that's the actual lesson here."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] It is, sadly."
+    },
+    {
+      "speaker": "mark",
+      "text": "It really is. The article says daily fee data has high variance. One large swap can move a pool's twenty-four hour returns a lot. So use daily data to see what's happening now, not to project a yearly yield."
+    },
+    {
+      "speaker": "jules",
+      "text": "[sheepish] So my July third was one big swap."
+    },
+    {
+      "speaker": "mark",
+      "text": "And you annualized it. Sports version: a striker scores a hat trick on Saturday. You don't print his season stats off one game. You look at seven days, thirty days. Weekly and monthly data smooth out the noise."
+    },
+    {
+      "speaker": "mira",
+      "text": "And Scan shows rolling fee totals, so you can tell whether today is typical or an outlier. Hmm, I'm adding the fireworks tent to the spreadsheet. Entry seven."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quick, cutting in] Held up?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Held up. One peak day times three sixty-five is exactly how people fool themselves."
+    },
+    {
+      "speaker": "jules",
+      "text": "So what actually moves the A P Y over time?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Three things. One, swap volume, the main driver. More swaps, more fees. Aggregators like Rango and Li Fi route a lot of volume through Chainflip, and a new integration can create a step change in activity."
+    },
+    {
+      "speaker": "mira",
+      "text": "Two being competition?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Two, competition. More L Ps chasing the same volume means tighter spreads and lower earnings per L P. That's the uncles at the braai again."
+    },
+    {
+      "speaker": "mira",
+      "text": "And three is volatility."
+    },
+    {
+      "speaker": "mark",
+      "text": "Right. When prices swing, swap demand usually goes up, and the spreads L Ps can capture get wider. So choppy markets tend to mean more fees on the table."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, real talk. I'm not a market maker. I have a laptop with a sticker on it. What do I do?"
+    },
+    {
+      "speaker": "mark",
+      "text": "[amused] Then J I T probably isn't your lane. Professional market makers connect through Chainflip's L P A P I. That takes real infrastructure and active position management. And J I T L Ps carry inventory risk, because they're holding assets that move."
+    },
+    {
+      "speaker": "jules",
+      "text": "And Boost?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Boost is the passive option. Single-sided bitcoin, no impermanent loss, lower but steadier returns. Fees are a percentage of the deposit amount. Busy times, swappers pay more for speed. Quiet times, you earn less. And it compounds based on how often your bitcoin gets used."
+    },
+    {
+      "speaker": "mira",
+      "text": "So utilization is the number to watch. Bitcoin sitting idle in the pool isn't earning."
+    },
+    {
+      "speaker": "jules",
+      "text": "Like Gerald. Very important, rarely used, technically earning nothing."
+    },
+    {
+      "speaker": "mark",
+      "text": "[half-laughing] Gerald has a terrible utilization rate."
+    },
+    {
+      "speaker": "mira",
+      "text": "Okay, takeaway."
+    },
+    {
+      "speaker": "mark",
+      "text": "Look, judge on seven and thirty day numbers, not one hot day. Remember it's all real swap fees. Then pick by risk: J I T if you're a skilled market maker, Boost or stablecoin strategies if you want simple."
+    },
+    {
+      "speaker": "mira",
+      "text": "The full article is linked in the show notes. None of this is financial advice."
+    },
+    {
+      "speaker": "jules",
+      "text": "And don't quit school over one good day at the fireworks tent. Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "At seventeen worked Bev's Boom Barn, a fireworks tent off Highway 9 with a fire extinguisher named Gerald. Made $800 on July 3rd, multiplied it by 365, told his mom he might skip school, then sold one box of sparklers (to Bev) on July 5th. Now his picture of annualizing a 24-hour snapshot; Gerald is his picture of low utilization."
+    },
+    {
+      "character": "mira",
+      "note": "The fireworks tent is entry number seven in her 'Held up' spreadsheet of Jules analogies."
+    },
+    {
+      "character": "mark",
+      "note": "New lines: 'Big braai, lots of uncles' (more LPs at the grill means a thinner slice each), and 'you don't print a striker's season stats off one hat trick' for judging returns on 7 and 30 days, not one day."
+    }
+  ]
+}
