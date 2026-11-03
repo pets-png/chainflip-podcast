@@ -6639,6 +6639,37 @@
       "evergreen": true
     }
   },
+  "flip-2-1-performance-report-real-yield-staker-data": {
+    "url": "https://chainflip.io/blog/flip-2-1-performance-report-real-yield-staker-data",
+    "slug": "flip-2-1-performance-report-real-yield-staker-data",
+    "title": "FLIP 2.1 Performance Report: Real Yield Data",
+    "description": "FLIP 2.1 promised to replace inflation with protocol-driven yield. After months of live data, we can now measure what stakers actually received versus what was projected.",
+    "image": "https://framerusercontent.com/images/uU6hNAcP5OdZ7fofMMgPRn9tP8.png?width=1600&height=900",
+    "published": "2026-12-12",
+    "headings": [
+      "Distribution Volume Since Launch",
+      "What We Projected vs What Happened",
+      "Yield Comparison: Buy-and-Distribute vs Inflation",
+      "Supply Trajectory Under the New Model",
+      "Concrete Staker Earnings Patterns",
+      "What the Data Confirms",
+      "FAQ"
+    ],
+    "words": 1000,
+    "first_seen": "2026-11-03T13:17:38Z",
+    "live": true,
+    "cls": {
+      "cluster": "flip-2-1-tokenomics",
+      "cluster_label": "FLIP 2.1 buy-and-distribute",
+      "category": "flip_staking",
+      "assets": [
+        "FLIP"
+      ],
+      "complexity": 3,
+      "podcast_fit": 4,
+      "evergreen": true
+    }
+  },
   "flip-2-1-tokenomics-buy-and-distribute-staking-rewards": {
     "url": "https://chainflip.io/blog/flip-2-1-tokenomics-buy-and-distribute-staking-rewards",
     "slug": "flip-2-1-tokenomics-buy-and-distribute-staking-rewards",
@@ -8183,6 +8214,42 @@
       "evergreen": true
     }
   },
+  "mpc-custody-threshold-signatures-google-multisig": {
+    "url": "https://chainflip.io/blog/mpc-custody-threshold-signatures-google-multisig",
+    "slug": "mpc-custody-threshold-signatures-google-multisig",
+    "title": "MPC Custody vs Multisig: Why Google Bets on TSS",
+    "description": "Google is previewing an MPC custody service. Here's how threshold signatures compare to multisig and single-key wallets, and where Chainflip uses them.",
+    "image": "https://framerusercontent.com/images/vwsEA1X7npuU1AoqbGjhrVbPyc.png?width=1600&height=900",
+    "published": "2026-11-02",
+    "headings": [
+      "Single-key vs multisig vs MPC at a glance",
+      "Single-key wallets",
+      "Multisig wallets",
+      "MPC custody and threshold signatures",
+      "Why Google and other institutions are converging on MPC",
+      "How Chainflip uses threshold signatures for native swaps",
+      "Which one fits you",
+      "The takeaway",
+      "FAQ",
+      "What is MPC custody?",
+      "What is the difference between MPC and multisig?",
+      "Is Google's MPC wallet available yet?",
+      "How does Chainflip use threshold signatures?",
+      "Do threshold signatures make a protocol risk-free?"
+    ],
+    "words": 1422,
+    "first_seen": "2026-11-03T13:17:38Z",
+    "live": true,
+    "cls": {
+      "cluster": "mpc-vs-multisig-custody",
+      "cluster_label": "MPC/TSS vs multisig custody",
+      "category": "security",
+      "assets": [],
+      "complexity": 3,
+      "podcast_fit": 4,
+      "evergreen": true
+    }
+  },
   "native-bitcoin-2026-btc-holders-update": {
     "url": "https://chainflip.io/blog/native-bitcoin-2026-btc-holders-update",
     "slug": "native-bitcoin-2026-btc-holders-update",
@@ -8211,6 +8278,46 @@
       "complexity": 2,
       "podcast_fit": 4,
       "evergreen": true
+    }
+  },
+  "native-bitcoin-flows-btc-cross-chain-destinations": {
+    "url": "https://chainflip.io/blog/native-bitcoin-flows-btc-cross-chain-destinations",
+    "slug": "native-bitcoin-flows-btc-cross-chain-destinations",
+    "title": "Native Bitcoin Flows: Where BTC Goes on Chainflip",
+    "description": "Native bitcoin flows on Chainflip: 3,391 BTC to USDT swaps worth $67.2M in 30 days, plus how to map every other BTC destination on Scan.",
+    "image": "https://framerusercontent.com/images/Nkf7S3i1jvmr5I8Kv885Jk6kkI.png?width=1600&height=900",
+    "published": "2026-11-02",
+    "headings": [
+      "Key figures at time of writing",
+      "BTC to USDT: 3,391 swaps and $67.2M in 30 days",
+      "8.5 minutes from deposit to payout",
+      "42% of BTC to USDT swaps used Boost",
+      "The Tron route and the 736,442.17 USDT exploit",
+      "BNB Chain and cbBTC: too new to show a meaningful share",
+      "How to map every BTC destination yourself",
+      "Outbound vs inbound: the Tron baseline",
+      "What the BTC flow data means",
+      "FAQ",
+      "How much BTC was swapped to USDT on Chainflip recently?",
+      "How long does a BTC to USDT swap take on Chainflip?",
+      "Did the September 2026 Tron exploit affect BTC swap data?",
+      "Can I see BTC flows to BNB Chain or cbBTC?",
+      "How can I verify these figures myself?"
+    ],
+    "words": 1544,
+    "first_seen": "2026-11-03T13:17:38Z",
+    "live": true,
+    "cls": {
+      "cluster": "btc-flow-destinations-data",
+      "cluster_label": "Where native BTC flows on Chainflip",
+      "category": "markets_data",
+      "assets": [
+        "BTC",
+        "USDT"
+      ],
+      "complexity": 3,
+      "podcast_fit": 3,
+      "evergreen": false
     }
   },
   "native-bitcoin-swap-no-wrapped-btc-chainflip-architecture": {
