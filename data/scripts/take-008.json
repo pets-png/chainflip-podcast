@@ -1,0 +1,283 @@
+{
+  "post": "https://chainflip.io/blog/usdt-bnb-chain-bep20-beginners-guide",
+  "format": "hosts_only",
+  "guest": null,
+  "episode_title": "USDT on BNB Chain: Same Dollar, Cheaper Rails, One Big Gotcha",
+  "summary": "Jules and Mira explain what BEP-20 USDT is, why BNB Chain fees are so low, how wallet setup and BNB gas work, how it compares to TRC-20 on Tron, the wrong-network address trap, and the upcoming Chainflip swaps from USDT on BNB Chain to native BTC, ETH and SOL.",
+  "hook": "Same Tether, different rails, wildly different fees. Jules tells the story of the two Elm Streets and the pizza he delivered to the wrong one, which turns out to be exactly how people lose USDT by picking the wrong network. Mira breaks down BEP-20 fees, the BNB gas rule, and how to swap to native BTC.",
+  "key_points": [
+    "USDT-BEP20 is the same 1:1 dollar-pegged Tether, just settling on BNB Chain instead of Ethereum, Tron or Solana",
+    "BNB Chain's median fee was about $0.0038 in Q1 2026, versus several dollars for ERC-20 transfers on a busy Ethereum mainnet",
+    "You always need a little BNB for gas; if it hits zero, your USDT is stuck",
+    "BNB Chain uses the same 0x address format as Ethereum, so sending USDT-ERC20 to it without bridging loses funds: always check the network",
+    "Chainflip plans native swaps from USDT on BNB Chain to BTC, ETH, SOL and more in October 2026, with a flat 0.10% protocol fee plus network fees"
+  ],
+  "keywords": [
+    "USDT on BNB Chain",
+    "BEP-20 USDT",
+    "USDT BEP20 vs TRC20",
+    "BNB Chain transaction fees",
+    "how to send USDT on BNB Chain",
+    "swap USDT BEP20 to bitcoin",
+    "USDT wrong network lost funds",
+    "BNB gas fees for USDT"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "Two Elm Streets"
+    },
+    {
+      "line": 5,
+      "title": "What BEP-20 USDT actually is"
+    },
+    {
+      "line": 13,
+      "title": "Fees and liquidity on BNB Chain"
+    },
+    {
+      "line": 22,
+      "title": "Wallet setup and the BNB gas rule"
+    },
+    {
+      "line": 30,
+      "title": "BEP-20 vs TRC-20 and the address trap"
+    },
+    {
+      "line": 41,
+      "title": "Swapping to native BTC, ETH and SOL"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Mira, the winter I was nineteen I delivered pizzas for Sal's. Our county had two Elm Streets. One in town, one twenty minutes out in Pine Hollow."
+    },
+    {
+      "speaker": "mira",
+      "text": "Oh no."
+    },
+    {
+      "speaker": "jules",
+      "text": "Order comes in, four twelve Elm. Perfect address. I drive to the wrong Elm, knock, guy says he didn't order anything, and, uh, I ate the evidence in the truck."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] So the pizza was lost to the network."
+    },
+    {
+      "speaker": "jules",
+      "text": "Lost to the network. Which is weirdly today's whole show."
+    },
+    {
+      "speaker": "mira",
+      "text": "Welcome to Cross-Chain Daily. I'm Mira, that's Jules, and today it's USDT on BNB Chain, also called BEP-20 Tether, and why the chain you hold your dollars on matters."
+    },
+    {
+      "speaker": "jules",
+      "text": "Start me at zero. What's BEP-20?"
+    },
+    {
+      "speaker": "mira",
+      "text": "It's BNB Chain's token standard. Same idea as ERC-20 on Ethereum. So USDT-BEP20 is Tether's dollar stablecoin issued on BNB Chain, pegged one to one with the US dollar."
+    },
+    {
+      "speaker": "jules",
+      "text": "So it's the same dollar."
+    },
+    {
+      "speaker": "mira",
+      "text": "Same asset, different rails. What changes is where it settles. That means different fees, different confirmation times, and different wallet requirements."
+    },
+    {
+      "speaker": "jules",
+      "text": "Same pizza, different Elm Street."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] Let me get through the fees before you serve dessert."
+    },
+    {
+      "speaker": "jules",
+      "text": "Fine. Fees. Go."
+    },
+    {
+      "speaker": "mira",
+      "text": "The article cites VanEck: BNB Chain's median transaction fee in the first quarter of twenty twenty-six was around zero point three eight of a cent. The mean was about two point seven cents."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quick] Wait, why's the mean so much higher?"
+    },
+    {
+      "speaker": "mira",
+      "text": "A few pricey transactions drag the average up. The median is what a typical send costs. And for USDT transfers, CryptoTicker found the most expensive one in late September twenty twenty-six was zero point three five euro cents."
+    },
+    {
+      "speaker": "jules",
+      "text": "The most expensive one."
+    },
+    {
+      "speaker": "mira",
+      "text": "The most expensive. Compare Ethereum mainnet, where an ERC-20 transfer can cost several dollars when it's busy."
+    },
+    {
+      "speaker": "jules",
+      "text": "[half-laughing] So if I'm paying my buddy back twenty bucks for lunch, on a busy day the fee could eat a real bite of the lunch."
+    },
+    {
+      "speaker": "mira",
+      "text": "Right. Small or frequent transfers are exactly where this matters."
+    },
+    {
+      "speaker": "jules",
+      "text": "But is anybody actually there? I mean, a cheap empty mall is still empty."
+    },
+    {
+      "speaker": "mira",
+      "text": "[dry] Not empty. Per Eco, BNB Chain held fourteen billion dollars in stablecoin supply as of the first quarter of twenty twenty-six, and USDT was roughly sixty percent of that. Deeper liquidity means better trading and easier on and off ramps."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, okay. How do I set it up?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Most big wallets support it out of the box. Trust Wallet, MetaMask, Binance Web3 Wallet. In MetaMask you add BNB Chain manually or through chainlist dot org, same as any EVM network."
+    },
+    {
+      "speaker": "jules",
+      "text": "Then I drop USDT in and go?"
+    },
+    {
+      "speaker": "mira",
+      "text": "You also need a little BNB. That's the gas token. Every transaction on BNB Chain gets paid in BNB, not USDT."
+    },
+    {
+      "speaker": "jules",
+      "text": "How little is a little?"
+    },
+    {
+      "speaker": "mira",
+      "text": "The article says even zero point zero one BNB goes a long way at these fees. But if your BNB hits zero, your USDT is stuck until you get more."
+    },
+    {
+      "speaker": "jules",
+      "text": "[groaning] So it's a delivery truck full of hot pizzas and an empty tank."
+    },
+    {
+      "speaker": "mira",
+      "text": "Rude. But yes."
+    },
+    {
+      "speaker": "jules",
+      "text": "Now, everybody I know pulls USDT off exchanges on Tron. Who wins?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Both are cheap, they're just different neighborhoods. Tron has historically dominated exchange withdrawals, especially in Asia. BNB Chain plugs more directly into the wider EVM world."
+    },
+    {
+      "speaker": "jules",
+      "text": "Meaning what, for me?"
+    },
+    {
+      "speaker": "mira",
+      "text": "BEP-20 tokens work with any Ethereum-compatible wallet. TRC-20 needs a Tron-specific wallet. If you already use MetaMask, BNB Chain needs no extra software."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, here's my Elm Street moment. You said the addresses look the same?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Yes, and this is the gotcha. BNB Chain addresses look exactly like Ethereum ones, zero x and so on. But send USDT-ERC20 to a BNB Chain address without proper bridging, and those funds are lost."
+    },
+    {
+      "speaker": "jules",
+      "text": "Perfect address, wrong town."
+    },
+    {
+      "speaker": "mira",
+      "text": "[slowly] Perfect address, wrong town. Always check the network before you withdraw from an exchange."
+    },
+    {
+      "speaker": "jules",
+      "text": "Is that going in the spreadsheet?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[resigned] Entry number eight. Sal's pizza. Held up."
+    },
+    {
+      "speaker": "jules",
+      "text": "[grinning] Two Elm Streets, baby."
+    },
+    {
+      "speaker": "mira",
+      "text": "Last piece. Per the article, Chainflip will, in October twenty twenty-six, support native swaps between USDT on BNB Chain and assets on Bitcoin, Ethereum, Solana, Polkadot, Arbitrum and Tron."
+    },
+    {
+      "speaker": "jules",
+      "text": "Native meaning real bitcoin in my real bitcoin wallet?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Real bitcoin, not a wrapped version on another chain. Secured by validators, not a central custodian. A flat zero point one zero percent protocol fee, plus network fees on both chains."
+    },
+    {
+      "speaker": "jules",
+      "text": "Walk me through the clicks."
+    },
+    {
+      "speaker": "mira",
+      "text": "Go to swap dot chainflip dot io. Connect your BNB Chain wallet or paste a deposit address. Pick USDT on BNB Chain as the source, choose your destination asset, enter your receiving address, review the quote, confirm."
+    },
+    {
+      "speaker": "jules",
+      "text": "And no detour through Ethereum first."
+    },
+    {
+      "speaker": "mira",
+      "text": "Right. Start with USDT-BEP20, go to native B T C for cold storage, SOL for Solana DeFi, or ETH for Ethereum apps. Chainflip Scan shows live data on completed swaps and routes."
+    },
+    {
+      "speaker": "jules",
+      "text": "Honestly, that receiving address step is where I'd slow way down."
+    },
+    {
+      "speaker": "mira",
+      "text": "[warmly] Look at you. Growth."
+    },
+    {
+      "speaker": "jules",
+      "text": "Sal would be proud."
+    },
+    {
+      "speaker": "mira",
+      "text": "So the takeaway: USDT on BNB Chain is the same dollar on cheaper rails. Keep a little BNB for gas, and match the network, not just the address."
+    },
+    {
+      "speaker": "jules",
+      "text": "The full article is linked in the show notes. Not financial advice, just a guy who ate a pizza that wasn't his."
+    },
+    {
+      "speaker": "mira",
+      "text": "Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "At nineteen he delivered pizzas for Sal's one winter. His county had two Elm Streets (one in town, one out in Pine Hollow); he took an order for 412 Elm to the wrong one and ate the pizza in the truck. 'Perfect address, wrong town' is now his picture of sending tokens on the wrong network."
+    },
+    {
+      "character": "mira",
+      "note": "Sal's pizza and the two Elm Streets is entry number eight in her 'Held up' spreadsheet of Jules analogies."
+    },
+    {
+      "character": "jules",
+      "note": "His picture of running out of gas tokens: 'a delivery truck full of hot pizzas and an empty tank.'"
+    }
+  ]
+}

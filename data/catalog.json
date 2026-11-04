@@ -3812,6 +3812,43 @@
       "evergreen": true
     }
   },
+  "chainflip-upgrade-release-process-testnet-runtime-vote": {
+    "url": "https://chainflip.io/blog/chainflip-upgrade-release-process-testnet-runtime-vote",
+    "slug": "chainflip-upgrade-release-process-testnet-runtime-vote",
+    "title": "Chainflip Upgrade: How a Decentralized Release Ships",
+    "description": "A Chainflip upgrade can't just push to prod. Here's how a release ships: Perseverance testnet, operators upgrading up to 150 validators, then an on-chain runtime upgrade.",
+    "image": "https://framerusercontent.com/images/VDTPXgsBmD7lGYK1MO7GnfPcyl0.png?width=1600&height=900",
+    "published": "2026-11-03",
+    "headings": [
+      "How a Chainflip upgrade works, step by step",
+      "Step 1: Perseverance testnet",
+      "Step 2: Operators upgrade their own nodes",
+      "Step 3: The runtime upgrade goes live on-chain",
+      "Step 4: Apps and integrators catch up",
+      "Worked example: two swaps during release season",
+      "Why the release process matters",
+      "Limits and risks of this approach",
+      "How to use Chainflip during an upgrade",
+      "FAQ",
+      "Can I swap on Chainflip while an upgrade is happening?",
+      "What is Perseverance?",
+      "Is BNB Chain live on Chainflip?",
+      "Why can't Chainflip Labs upgrade the validators itself?",
+      "When does the runtime upgrade go live?"
+    ],
+    "words": 1448,
+    "first_seen": "2026-11-04T13:29:37Z",
+    "live": true,
+    "cls": {
+      "cluster": "decentralized-release-process",
+      "cluster_label": "How protocol upgrades ship",
+      "category": "releases_protocol",
+      "assets": [],
+      "complexity": 3,
+      "podcast_fit": 4,
+      "evergreen": true
+    }
+  },
   "chainflip-v1-8-upgrade": {
     "url": "https://chainflip.io/blog/chainflip-v1-8-upgrade",
     "slug": "chainflip-v1-8-upgrade",
@@ -4537,7 +4574,7 @@
     ],
     "words": 915,
     "first_seen": "2026-10-24T11:00:55Z",
-    "live": true,
+    "live": false,
     "cls": {
       "cluster": "swap-cost-benchmarking",
       "cluster_label": "Benchmarking cross-chain swap costs",
@@ -4549,7 +4586,8 @@
       "complexity": 3,
       "podcast_fit": 4,
       "evergreen": true
-    }
+    },
+    "unpublished_at": "2026-11-04T13:29:37Z"
   },
   "cross-chain-2026-recap-chainflip-volume-routes-milestones": {
     "url": "https://chainflip.io/blog/cross-chain-2026-recap-chainflip-volume-routes-milestones",
@@ -6657,7 +6695,7 @@
     ],
     "words": 1000,
     "first_seen": "2026-11-03T13:17:38Z",
-    "live": true,
+    "live": false,
     "cls": {
       "cluster": "flip-2-1-tokenomics",
       "cluster_label": "FLIP 2.1 buy-and-distribute",
@@ -6668,7 +6706,8 @@
       "complexity": 3,
       "podcast_fit": 4,
       "evergreen": true
-    }
+    },
+    "unpublished_at": "2026-11-04T13:29:37Z"
   },
   "flip-2-1-tokenomics-buy-and-distribute-staking-rewards": {
     "url": "https://chainflip.io/blog/flip-2-1-tokenomics-buy-and-distribute-staking-rewards",
@@ -10854,7 +10893,7 @@
     ],
     "words": 1052,
     "first_seen": "2026-08-10T12:00:00Z",
-    "live": true,
+    "live": false,
     "cls": {
       "cluster": "usdc-to-btc-strategy",
       "cluster_label": "Rotating stablecoins into BTC",
@@ -10866,7 +10905,8 @@
       "complexity": 2,
       "podcast_fit": 4,
       "evergreen": true
-    }
+    },
+    "unpublished_at": "2026-11-04T13:29:37Z"
   },
   "usdc-vs-usdt-chainflip-stablecoin-comparison": {
     "url": "https://chainflip.io/blog/usdc-vs-usdt-chainflip-stablecoin-comparison",
@@ -11062,6 +11102,43 @@
       "complexity": 3,
       "podcast_fit": 2,
       "evergreen": false
+    }
+  },
+  "wallet-in-app-swap-cross-chain-settlement-layer": {
+    "url": "https://chainflip.io/blog/wallet-in-app-swap-cross-chain-settlement-layer",
+    "slug": "wallet-in-app-swap-cross-chain-settlement-layer",
+    "title": "In-App Swap: Picking a Cross-Chain Settlement Layer",
+    "description": "In-app swap is now table stakes for wallet super-apps. Here is how wallet teams can fix cross-chain with a native settlement layer instead of bridges.",
+    "image": "https://framerusercontent.com/images/14BggGxvkl0NXoPDRrdpjsSpI.png?width=1600&height=900",
+    "published": "2026-11-03",
+    "headings": [
+      "What you need",
+      "Step 1: Study how super-apps actually add features",
+      "Step 2: Audit your swap menu for wrapped assets and same-chain limits",
+      "Step 3: Trace every bridge hop and routing decision",
+      "Step 4: Require native settlement on the chains your users hold",
+      "Step 5: Model swap revenue with broker fees",
+      "Step 6: Choose a direct integration or an aggregator path",
+      "Troubleshooting",
+      "Build the swap tab users already expect",
+      "FAQ",
+      "Does Chainflip have a direct partnership with Phantom or MetaMask?",
+      "Is BNB Chain live on Chainflip?",
+      "How do wallets earn revenue from Chainflip swaps?",
+      "Why does native settlement matter more than wrapped tokens?",
+      "Who holds funds during a Chainflip swap?"
+    ],
+    "words": 1410,
+    "first_seen": "2026-11-04T13:29:37Z",
+    "live": true,
+    "cls": {
+      "cluster": "wallet-native-swap-integrations",
+      "cluster_label": "Wallet integrations for native swaps",
+      "category": "integrations",
+      "assets": [],
+      "complexity": 3,
+      "podcast_fit": 4,
+      "evergreen": true
     }
   },
   "was-vitalik-right-about-his-cross-chain-comments": {
