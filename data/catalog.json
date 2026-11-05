@@ -153,6 +153,41 @@
       "evergreen": true
     }
   },
+  "ai-agent-crypto-swap-mcp-cross-chain": {
+    "url": "https://chainflip.io/blog/ai-agent-crypto-swap-mcp-cross-chain",
+    "slug": "ai-agent-crypto-swap-mcp-cross-chain",
+    "title": "AI Agent Crypto Swaps: How MCP Changes Cross-Chain UX",
+    "description": "An AI agent crypto swap needs more than a chat window. Here is how MCP works, what a cross-chain swap looks like in chat, and which safeguards matter.",
+    "image": "https://framerusercontent.com/images/O9bUPHr1MttxrVh4l9w5Cui5w4.png?width=1600&height=900",
+    "published": "2026-11-04",
+    "headings": [
+      "What is the Model Context Protocol (MCP)?",
+      "What does a cross-chain swap look like inside a chat?",
+      "Why does human confirmation matter more when an AI agent is involved?",
+      "How does prompt injection raise the stakes?",
+      "What happens if the model hallucinates an address?",
+      "Why do deposit channels and refund addresses suit AI agents?",
+      "Where does Chainflip fit as swap UX moves into chat?",
+      "Conclusion",
+      "FAQ",
+      "What is MCP in crypto?",
+      "Can AI agents execute swaps on Chainflip today?",
+      "Why should an AI agent ask for confirmation before a crypto swap?",
+      "What happens if a Chainflip swap cannot meet the minimum price?"
+    ],
+    "words": 1570,
+    "first_seen": "2026-11-05T13:44:03Z",
+    "live": true,
+    "cls": {
+      "cluster": "ai-agent-swaps-mcp",
+      "cluster_label": "AI agent swaps via MCP",
+      "category": "education_basics",
+      "assets": [],
+      "complexity": 3,
+      "podcast_fit": 5,
+      "evergreen": true
+    }
+  },
   "an-update-on-the-recent-network-incident": {
     "url": "https://chainflip.io/blog/an-update-on-the-recent-network-incident",
     "slug": "an-update-on-the-recent-network-incident",
@@ -177,6 +212,43 @@
       "category": "security",
       "assets": [],
       "complexity": 3,
+      "podcast_fit": 3,
+      "evergreen": false
+    }
+  },
+  "android-security-update-cve-58868-mobile-wallet": {
+    "url": "https://chainflip.io/blog/android-security-update-cve-58868-mobile-wallet",
+    "slug": "android-security-update-cve-58868-mobile-wallet",
+    "title": "Android Security Update CVE-2026-58868: Patch Your Phone",
+    "description": "Android security update CVE-2026-58868 fixes a critical remote code execution flaw. Check your patch level and protect your mobile crypto wallet today.",
+    "image": "https://framerusercontent.com/images/wSZI5Ya3sv6D2hBddU7XJfGK2s.png?width=1600&height=900",
+    "published": "2026-11-04",
+    "headings": [
+      "1. Know what CVE-2026-58868 affects",
+      "2. Check your Android patch level",
+      "3. Install the Android update as soon as it's offered",
+      "4. Move large holdings to a hardware wallet",
+      "5. Get your seed phrase off the phone",
+      "6. Update wallet apps from official sources only",
+      "7. Verify every swap before and after you send",
+      "8. Ignore anyone who DMs you a \"patch\"",
+      "9. Retire phones that no longer get security updates",
+      "Patch first, then swap",
+      "FAQ",
+      "What is CVE-2026-58868?",
+      "Which Android versions are affected?",
+      "Which Android patch level fixes the flaw?",
+      "Does this flaw affect Chainflip itself?"
+    ],
+    "words": 1114,
+    "first_seen": "2026-11-05T13:44:03Z",
+    "live": true,
+    "cls": {
+      "cluster": "mobile-wallet-security",
+      "cluster_label": "Mobile wallet security hygiene",
+      "category": "security",
+      "assets": [],
+      "complexity": 2,
       "podcast_fit": 3,
       "evergreen": false
     }
@@ -3778,6 +3850,42 @@
       "evergreen": false
     }
   },
+  "chainflip-trezor-suite-swapkit-native-swaps": {
+    "url": "https://chainflip.io/blog/chainflip-trezor-suite-swapkit-native-swaps",
+    "slug": "chainflip-trezor-suite-swapkit-native-swaps",
+    "title": "Chainflip in Trezor Suite: Native Swaps via SwapKit",
+    "description": "Chainflip in Trezor Suite is live via SwapKit. Trezor users can now swap native BTC, ETH and SOL cross-chain and confirm every swap on their device.",
+    "image": "https://framerusercontent.com/images/Hbbt6oaaQKs9NXSqoTR85N2wms.png?width=3200&height=1800",
+    "published": "2026-11-05",
+    "headings": [
+      "What's new in Trezor Suite",
+      "How to swap with Chainflip in Trezor Suite",
+      "Why it matters for Trezor users",
+      "Get started",
+      "FAQ",
+      "Is Chainflip available in Trezor Suite?",
+      "Did Trezor partner with Chainflip directly?",
+      "Will I receive wrapped tokens when swapping through Chainflip in Trezor Suite?",
+      "Which assets can Chainflip quote in Trezor Suite?",
+      "Do my keys leave my Trezor during a swap?"
+    ],
+    "words": 853,
+    "first_seen": "2026-11-05T13:44:03Z",
+    "live": true,
+    "cls": {
+      "cluster": "trezor-swapkit-integration",
+      "cluster_label": "Trezor Suite via SwapKit",
+      "category": "integrations",
+      "assets": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "complexity": 2,
+      "podcast_fit": 3,
+      "evergreen": true
+    }
+  },
   "chainflip-trust-wallet-swap-guide-2026": {
     "url": "https://chainflip.io/blog/chainflip-trust-wallet-swap-guide-2026",
     "slug": "chainflip-trust-wallet-swap-guide-2026",
@@ -4954,6 +5062,42 @@
       "complexity": 2,
       "podcast_fit": 4,
       "evergreen": true
+    }
+  },
+  "crypto-com-hong-kong-closing-withdrawal-checklist": {
+    "url": "https://chainflip.io/blog/crypto-com-hong-kong-closing-withdrawal-checklist",
+    "slug": "crypto-com-hong-kong-closing-withdrawal-checklist",
+    "title": "Crypto.com Hong Kong Closing: Safe Withdrawal Checklist",
+    "description": "Crypto.com Hong Kong closing: the consumer app shuts February 1, 2027. Use this checklist to withdraw to a self-custody wallet on the right network.",
+    "image": "https://framerusercontent.com/images/4a67n6c20KOBCoycxVxXEHGRXU.png?width=1600&height=900",
+    "published": "2026-11-04",
+    "headings": [
+      "1. Note the key dates",
+      "2. Confirm what the shutdown covers",
+      "3. Set up a wallet where you hold the keys",
+      "4. Pick the correct withdrawal network for each asset",
+      "5. Send a small test transaction",
+      "6. Check the destination address before every send",
+      "7. Export your records before access ends",
+      "8. Rebalance across chains without a centralized exchange",
+      "Final steps before the deadline",
+      "FAQ",
+      "When does Crypto.com close its app in Hong Kong?",
+      "Is the Crypto.com Onchain wallet affected by the Hong Kong shutdown?",
+      "Which network should I use to withdraw USDT from Crypto.com?",
+      "Can I swap across chains without a centralized exchange?"
+    ],
+    "words": 1358,
+    "first_seen": "2026-11-05T13:44:03Z",
+    "live": true,
+    "cls": {
+      "cluster": "cex-exit-withdrawal-checklist",
+      "cluster_label": "Withdrawing from closing exchanges",
+      "category": "regulation_macro",
+      "assets": [],
+      "complexity": 2,
+      "podcast_fit": 3,
+      "evergreen": false
     }
   },
   "crypto-com-wallet-chainflip-native-bitcoin-swap-guide": {
@@ -9678,6 +9822,43 @@
       ],
       "complexity": 3,
       "podcast_fit": 5,
+      "evergreen": true
+    }
+  },
+  "solana-alpenglow-sol-swap-speed-finality": {
+    "url": "https://chainflip.io/blog/solana-alpenglow-sol-swap-speed-finality",
+    "slug": "solana-alpenglow-sol-swap-speed-finality",
+    "title": "Solana Alpenglow and SOL Swap Speed: Measure It Yourself",
+    "description": "Solana Alpenglow cut finality from 12.8 seconds to a 150ms target. Here's how to measure SOL swap speed on Chainflip and where the time really goes.",
+    "image": "https://framerusercontent.com/images/R4fIbWPgnr8XQhRn7l5SplGiqaM.png?width=1600&height=900",
+    "published": "2026-11-05",
+    "headings": [
+      "What you need",
+      "Step 1: Open the swap app and pick SOL as the source",
+      "Step 2: Send the SOL deposit and record the timestamp",
+      "Step 3: Watch validators witness the deposit",
+      "Step 4: Calculate your deposit-to-swap time",
+      "Step 5: Check the destination leg",
+      "Troubleshooting",
+      "So, did our swaps get faster?",
+      "FAQ",
+      "What is Solana Alpenglow?",
+      "How long does Chainflip wait before crediting a SOL deposit?",
+      "Did Alpenglow make Chainflip SOL swaps 85x faster?",
+      "Why does a SOL to BTC swap still take minutes?"
+    ],
+    "words": 1170,
+    "first_seen": "2026-11-05T13:44:03Z",
+    "live": true,
+    "cls": {
+      "cluster": "solana-alpenglow-swap-speed",
+      "cluster_label": "Alpenglow finality and SOL swap speed",
+      "category": "solana",
+      "assets": [
+        "SOL"
+      ],
+      "complexity": 3,
+      "podcast_fit": 4,
       "evergreen": true
     }
   },

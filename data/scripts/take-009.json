@@ -1,0 +1,331 @@
+{
+  "post": "https://chainflip.io/blog/btcfi-yield-risk-ranking-staking-lending-lp-swap-fees",
+  "format": "guest",
+  "guest": "mark",
+  "episode_title": "BTCFi Yield Risk, Ranked: Which Bitcoin Yield Bites Back?",
+  "summary": "Jules, Mira and guest Mark rank four kinds of bitcoin yield (Babylon staking, DeFi lending, AMM liquidity provision and single-sided swap-fee yield like Boost) by smart contract risk, return volatility and structural risk instead of headline APY.",
+  "hook": "A guy at a wedding swears he gets 20% on his bitcoin 'from the app.' Mark joins Jules and Mira to rank BTCFi yield by what can actually go wrong: exploits, slashing, liquidation and impermanent loss. Bonus: Jules explains impermanent loss with a baseball card trade binder from a VFW swap meet.",
+  "key_points": [
+    "The three-part risk framework: smart contract risk, return volatility and structural risk",
+    "Why Babylon staking's 1-3% APY is paid in protocol tokens, not BTC, and comes with slashing risk",
+    "Lending's $526M in exploits across 48 incidents, and how native BTC collateral removes bridge risk",
+    "Why over half of Uniswap V3 LPs in volatile pairs saw 11-17% annual impermanent loss",
+    "How single-sided swap-fee yield like Boost avoids IL, and what it gives up in return"
+  ],
+  "keywords": [
+    "BTCFi yield",
+    "bitcoin yield risk",
+    "BTC yield comparison",
+    "Babylon bitcoin staking",
+    "impermanent loss explained",
+    "single-sided liquidity",
+    "native BTC lending",
+    "Chainflip Boost"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "Cold open: twenty percent from the app"
+    },
+    {
+      "line": 5,
+      "title": "The BTCFi boom and the risk framework"
+    },
+    {
+      "line": 13,
+      "title": "Bitcoin staking and Babylon"
+    },
+    {
+      "line": 22,
+      "title": "DeFi lending and its exploit record"
+    },
+    {
+      "line": 33,
+      "title": "LPing and the trade binder"
+    },
+    {
+      "line": 50,
+      "title": "Single-sided swap-fee yield and picking your spot"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Okay, so I'm at my cousin's wedding, and a guy at the dessert table finds out I do a crypto show."
+    },
+    {
+      "speaker": "mira",
+      "text": "Oh no."
+    },
+    {
+      "speaker": "jules",
+      "text": "He tells me he's getting twenty percent on his bitcoin. I ask, twenty percent from what? He says, and I quote, \"from the app.\""
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] From the app. Solid research."
+    },
+    {
+      "speaker": "jules",
+      "text": "I had no follow-up. I just ate a cream puff and walked away."
+    },
+    {
+      "speaker": "mira",
+      "text": "Welcome to Cross-Chain Daily. I'm Mira, that's Jules, and today we're ranking bitcoin yield by what can actually go wrong, not by the biggest number. Mark's back with us. Hey, Mark."
+    },
+    {
+      "speaker": "mark",
+      "text": "Good to be back. And look, your cream puff guy is the whole reason this article exists."
+    },
+    {
+      "speaker": "jules",
+      "text": "He'd be thrilled to hear it."
+    },
+    {
+      "speaker": "mark",
+      "text": "[amused] He'd want twenty percent of the credit. Here's the setup. B T C fi, bitcoin DeFi, went from three hundred seven million dollars locked to six point five billion in twenty twenty-four alone. That's about a two thousand percent jump."
+    },
+    {
+      "speaker": "mira",
+      "text": "And with it, dozens of yield options. Some of them very different animals."
+    },
+    {
+      "speaker": "mark",
+      "text": "Right. So the article scores four categories on three things. Smart contract risk, meaning how often that category gets exploited and how much people lost. Return volatility, how predictable the yield is month to month. And structural risk: impermanent loss, slashing, liquidation."
+    },
+    {
+      "speaker": "jules",
+      "text": "So it's less \"who wins\" and more \"who are you.\""
+    },
+    {
+      "speaker": "mark",
+      "text": "Exactly. The article says the goal isn't to declare winners. It's to match the strategy to how much pain you can handle."
+    },
+    {
+      "speaker": "mira",
+      "text": "Start with staking?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Bitcoin staking, through protocols like Babylon. Your bitcoin helps secure proof-of-stake networks and you earn rewards. Babylon controls over eighty percent of B T C fi value locked, and it grew two hundred twenty-two percent from October to December twenty twenty-four."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, so that's the big dog. What's it pay?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Modest. Around one to three percent a year, realistically. And here's the catch: it's paid in the protocol's token, not in bitcoin."
+    },
+    {
+      "speaker": "mira",
+      "text": "So two variables. The rate, and whatever that token is worth when you go to sell it."
+    },
+    {
+      "speaker": "jules",
+      "text": "So, uh, it's like getting tipped in arcade tickets. Great, until you see what the prizes cost."
+    },
+    {
+      "speaker": "mark",
+      "text": "[half-laughing] Pretty much. On the tech side, Babylon uses Bitcoin script covenants instead of Solidity contracts, so less of the classic exploit surface. But it's newer and less battle-tested than Ethereum DeFi. The article calls that risk moderate."
+    },
+    {
+      "speaker": "mira",
+      "text": "And slashing."
+    },
+    {
+      "speaker": "mark",
+      "text": "Yes. Malicious or offline behavior can cost you part of your actual bitcoin. And return volatility is high, because of that token pricing."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay. Lending. This one I've actually heard of."
+    },
+    {
+      "speaker": "mark",
+      "text": "Longest track record in DeFi. You deposit bitcoin, usually wrapped, as collateral to borrow stablecoins. Or you supply stablecoins and earn interest from borrowers. The article's table puts it at three to eight percent."
+    },
+    {
+      "speaker": "mira",
+      "text": "And the longest track record comes with the longest incident list."
+    },
+    {
+      "speaker": "mark",
+      "text": "[flat] Five hundred twenty-six million dollars in smart contract exploits, across forty-eight incidents. Lending protocols only, in the twelve months ending January twenty twenty-six."
+    },
+    {
+      "speaker": "jules",
+      "text": "Forty-eight? That's almost one a week."
+    },
+    {
+      "speaker": "mira",
+      "text": "Close, yeah. Why lending specifically?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Complex liquidation logic and oracle dependencies. Lots of moving parts, lots of places to attack. Borrowers also face liquidation if collateral drops below the threshold. Rates swing with utilization, but they're usually in stablecoins, so return volatility is moderate."
+    },
+    {
+      "speaker": "mira",
+      "text": "There's a good-news number too, to be fair."
+    },
+    {
+      "speaker": "mark",
+      "text": "There is. DeFi exploit losses dropped seventy-four percent from the twenty twenty-two peak, down to six hundred eighty million dollars in twenty twenty-five. Security's maturing. Lending is still higher risk than some alternatives, though."
+    },
+    {
+      "speaker": "mira",
+      "text": "And the native bitcoin angle."
+    },
+    {
+      "speaker": "mark",
+      "text": "Right. Wrapped bitcoin adds a bridge, and bridges break. Chainflip Lending, for example, takes bitcoin on the Bitcoin chain as collateral, with an eighty percent max loan-to-value. One less thing that can go wrong."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, LPing. And I have a story."
+    },
+    {
+      "speaker": "mira",
+      "text": "[grinning] Of course you do."
+    },
+    {
+      "speaker": "jules",
+      "text": "Twelve years old, Saturday swap meet at the VFW hall. I had a trade binder. Rule was, anybody could swap one of my cards for one of theirs, even trade, plus a dollar to me."
+    },
+    {
+      "speaker": "mark",
+      "text": "You were running a pool."
+    },
+    {
+      "speaker": "jules",
+      "text": "I was running a pool! And I had this one rookie pitcher card. Kid gets hot, card's worth fifty bucks. But my binder still says even trade. So who shows up?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Everyone who knows it's worth fifty."
+    },
+    {
+      "speaker": "jules",
+      "text": "Every kid in the county. End of summer, I've got eleven dollars in fees and a binder full of backup catchers."
+    },
+    {
+      "speaker": "mark",
+      "text": "[amused] That's impermanent loss, mate. When prices move apart, the pool keeps handing out the thing that went up. Your fees were real. The binder just lost value faster."
+    },
+    {
+      "speaker": "mira",
+      "text": "And the article's number is ugly. Over half of Uniswap V three liquidity providers in volatile pairs had impermanent losses averaging eleven to seventeen percent a year."
+    },
+    {
+      "speaker": "mark",
+      "text": "And that's not some rare disaster. The article calls it the median outcome for concentrated positions in volatile markets. Gross A P Y might say five to twenty percent plus, but after that loss you can be negative."
+    },
+    {
+      "speaker": "jules",
+      "text": "So the eleven dollars was the gross A P Y."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] And the backup catchers were the net."
+    },
+    {
+      "speaker": "mark",
+      "text": "Plus AMMs are frequent exploit targets, so high smart contract risk, and fees swing with trading volume. Most passive LPs underperform just holding. Two-sided LP is basically a job. You have to actively manage it."
+    },
+    {
+      "speaker": "mira",
+      "text": "Okay, I'll say it. Entry nine in the spreadsheet. The trade binder held up."
+    },
+    {
+      "speaker": "jules",
+      "text": "Nine! Under \"Held up\"!"
+    },
+    {
+      "speaker": "mira",
+      "text": "It's the only column, Jules."
+    },
+    {
+      "speaker": "jules",
+      "text": "Still counts."
+    },
+    {
+      "speaker": "mark",
+      "text": "Which brings us to number four: swap-fee yield, single-sided. Chainflip's Boost is the article's example. You put in one asset, it gets used to fill incoming swap orders, the protocol earns the spread, and you get your principal back plus fees."
+    },
+    {
+      "speaker": "jules",
+      "text": "So no second card in the binder."
+    },
+    {
+      "speaker": "mark",
+      "text": "Exactly. One asset, so no impermanent loss by design. And no reward token you have to go dump."
+    },
+    {
+      "speaker": "mira",
+      "text": "Smart contract risk?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Moderate. Chainflip uses a validator-secured custody model, which is different from typical DeFi smart contracts, but protocol risk still exists. Return volatility is low to moderate. Fees follow swap volume, but your principal stays intact."
+    },
+    {
+      "speaker": "jules",
+      "text": "What's the catch? There's always a catch."
+    },
+    {
+      "speaker": "mark",
+      "text": "The ceiling. Swap-fee returns usually land below what aggressive lending or LP can do in a bull market. The table just says variable. But they also don't hand you eleven to seventeen percent annual losses in a sideways market."
+    },
+    {
+      "speaker": "mira",
+      "text": "So how do you actually pick?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Look, it's like a braai. The hottest spot on the grill cooks fastest and burns fastest. You don't put every piece of meat there."
+    },
+    {
+      "speaker": "jules",
+      "text": "So where does grandpa's steak go?"
+    },
+    {
+      "speaker": "mark",
+      "text": "[grinning] Conservative holders who care about keeping their capital, the article says lean toward swap-fee yield and selective lending on native bitcoin. Higher risk tolerance, the whole grill's open. Babylon if you're fine holding protocol tokens. Two-sided LP if you'll actually rebalance."
+    },
+    {
+      "speaker": "mira",
+      "text": "And none of that is \"chase the biggest number.\""
+    },
+    {
+      "speaker": "jules",
+      "text": "Sorry, cream puff guy."
+    },
+    {
+      "speaker": "mira",
+      "text": "Takeaway: rank yield by what you're risking first, smart contracts, impermanent loss, slashing, liquidation, and only then look at the A P Y. The full article is linked in the show notes. Not financial advice."
+    },
+    {
+      "speaker": "mark",
+      "text": "Thanks for having me, both of you."
+    },
+    {
+      "speaker": "jules",
+      "text": "Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "At twelve he ran a baseball card 'trade binder' at the Saturday VFW hall swap meet: even trades plus a dollar fee. When his rookie pitcher card got hot, every kid traded him out of it, leaving him with eleven dollars in fees and a binder full of backup catchers. His picture of impermanent loss (fees = gross APY, backup catchers = net). Entry nine in Mira's 'Held up' spreadsheet."
+    },
+    {
+      "character": "mark",
+      "note": "New braai rule for risk tolerance: 'The hottest spot on the grill cooks fastest and burns fastest. You don't put every piece of meat there.'"
+    },
+    {
+      "character": "jules",
+      "note": "Met a guy at his cousin's wedding dessert table who claimed twenty percent on his bitcoin 'from the app'; Jules ate a cream puff and walked away. 'From the app' / 'cream puff guy' is now shorthand for yield with no idea where it comes from."
+    }
+  ]
+}

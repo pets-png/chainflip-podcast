@@ -564,7 +564,7 @@
   {
     "number": 8,
     "tag": "take-008",
-    "status": "pending",
+    "status": "published",
     "slug": "usdt-bnb-chain-bep20-beginners-guide",
     "post_url": "https://chainflip.io/blog/usdt-bnb-chain-bep20-beginners-guide",
     "post_title": "USDT on BNB Chain: A Beginner's Guide to BEP-20 Tether",
@@ -639,6 +639,88 @@
     "audio_file": "take-008-usdt-bnb-chain-bep20-beginners-guide.mp3",
     "description_html": "<p>Same Tether, different rails, wildly different fees. Jules tells the story of the two Elm Streets and the pizza he delivered to the wrong one, which turns out to be exactly how people lose USDT by picking the wrong network. Mira breaks down BEP-20 fees, the BNB gas rule, and how to swap to native BTC.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/usdt-bnb-chain-bep20-beginners-guide?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=usdt-bnb-chain-bep20-beginners-guide&amp;utm_content=ep-8\">USDT on BNB Chain: A Beginner&#x27;s Guide to BEP-20 Tether</a></p><p><strong>In this episode</strong></p><ul><li>USDT-BEP20 is the same 1:1 dollar-pegged Tether, just settling on BNB Chain instead of Ethereum, Tron or Solana</li><li>BNB Chain&#x27;s median fee was about $0.0038 in Q1 2026, versus several dollars for ERC-20 transfers on a busy Ethereum mainnet</li><li>You always need a little BNB for gas; if it hits zero, your USDT is stuck</li><li>BNB Chain uses the same 0x address format as Ethereum, so sending USDT-ERC20 to it without bridging loses funds: always check the network</li><li>Chainflip plans native swaps from USDT on BNB Chain to BTC, ETH, SOL and more in October 2026, with a flat 0.10% protocol fee plus network fees</li></ul><p><strong>Chapters</strong><br>00:00 Two Elm Streets<br>00:28 What BEP-20 USDT actually is<br>01:16 Fees and liquidity on BNB Chain<br>02:29 Wallet setup and the BNB gas rule<br>03:15 BEP-20 vs TRC-20 and the address trap<br>04:23 Swapping to native BTC, ETH and SOL</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=usdt-bnb-chain-bep20-beginners-guide&amp;utm_content=ep-8\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=usdt-bnb-chain-bep20-beginners-guide&amp;utm_content=ep-8\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=usdt-bnb-chain-bep20-beginners-guide&amp;utm_content=ep-8\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=usdt-bnb-chain-bep20-beginners-guide&amp;utm_content=ep-8\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=usdt-bnb-chain-bep20-beginners-guide&amp;utm_content=ep-8\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=usdt-bnb-chain-bep20-beginners-guide&amp;utm_content=ep-8\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=usdt-bnb-chain-bep20-beginners-guide&amp;utm_content=ep-8\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=usdt-bnb-chain-bep20-beginners-guide&amp;utm_content=ep-8\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=usdt-bnb-chain-bep20-beginners-guide&amp;utm_content=ep-8\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 9,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-aff085f9010cc9b90e49"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-aff085f9010cc9b90e49",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-008/take-008-usdt-bnb-chain-bep20-beginners-guide.mp3",
+    "published_at": "2026-11-05T13:44:12Z"
+  },
+  {
+    "number": 9,
+    "tag": "take-009",
+    "status": "pending",
+    "slug": "btcfi-yield-risk-ranking-staking-lending-lp-swap-fees",
+    "post_url": "https://chainflip.io/blog/btcfi-yield-risk-ranking-staking-lending-lp-swap-fees",
+    "post_title": "BTCFi Yield Stack Ranked by Real Risk: Staking, Lending, LPing, and Swap-Fee Returns Compared",
+    "category": "bitcoin",
+    "cluster": "btc-yield-playbook",
+    "format": "guest",
+    "guest": "mark",
+    "title": "BTCFi Yield Risk, Ranked: Which Bitcoin Yield Bites Back?",
+    "summary": "Jules, Mira and guest Mark rank four kinds of bitcoin yield (Babylon staking, DeFi lending, AMM liquidity provision and single-sided swap-fee yield like Boost) by smart contract risk, return volatility and structural risk instead of headline APY.",
+    "hook": "A guy at a wedding swears he gets 20% on his bitcoin 'from the app.' Mark joins Jules and Mira to rank BTCFi yield by what can actually go wrong: exploits, slashing, liquidation and impermanent loss. Bonus: Jules explains impermanent loss with a baseball card trade binder from a VFW swap meet.",
+    "key_points": [
+      "The three-part risk framework: smart contract risk, return volatility and structural risk",
+      "Why Babylon staking's 1-3% APY is paid in protocol tokens, not BTC, and comes with slashing risk",
+      "Lending's $526M in exploits across 48 incidents, and how native BTC collateral removes bridge risk",
+      "Why over half of Uniswap V3 LPs in volatile pairs saw 11-17% annual impermanent loss",
+      "How single-sided swap-fee yield like Boost avoids IL, and what it gives up in return"
+    ],
+    "keywords": [
+      "BTCFi yield",
+      "bitcoin yield risk",
+      "BTC yield comparison",
+      "Babylon bitcoin staking",
+      "impermanent loss explained",
+      "single-sided liquidity",
+      "native BTC lending",
+      "Chainflip Boost"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "At twelve he ran a baseball card 'trade binder' at the Saturday VFW hall swap meet: even trades plus a dollar fee. When his rookie pitcher card got hot, every kid traded him out of it, leaving him with eleven dollars in fees and a binder full of backup catchers. His picture of impermanent loss (fees = gross APY, backup catchers = net). Entry nine in Mira's 'Held up' spreadsheet."
+      },
+      {
+        "character": "mark",
+        "note": "New braai rule for risk tolerance: 'The hottest spot on the grill cooks fastest and burns fastest. You don't put every piece of meat there.'"
+      },
+      {
+        "character": "jules",
+        "note": "Met a guy at his cousin's wedding dessert table who claimed twenty percent on his bitcoin 'from the app'; Jules ate a cream puff and walked away. 'From the app' / 'cream puff guy' is now shorthand for yield with no idea where it comes from."
+      }
+    ],
+    "words": 1187,
+    "created_at": "2026-11-05T13:45:49Z",
+    "duration": 411,
+    "chapters": [
+      {
+        "title": "Cold open: twenty percent from the app",
+        "start": 0.0
+      },
+      {
+        "title": "The BTCFi boom and the risk framework",
+        "start": 20.0
+      },
+      {
+        "title": "Bitcoin staking and Babylon",
+        "start": 83.0
+      },
+      {
+        "title": "DeFi lending and its exploit record",
+        "start": 142.1
+      },
+      {
+        "title": "LPing and the trade binder",
+        "start": 218.2
+      },
+      {
+        "title": "Single-sided swap-fee yield and picking your spot",
+        "start": 313.6
+      }
+    ],
+    "audio_bytes": 6574716,
+    "audio_file": "take-009-btcfi-yield-risk-ranking-staking-lending-lp-swap-fees.mp3",
+    "description_html": "<p>A guy at a wedding swears he gets 20% on his bitcoin &#x27;from the app.&#x27; Mark joins Jules and Mira to rank BTCFi yield by what can actually go wrong: exploits, slashing, liquidation and impermanent loss. Bonus: Jules explains impermanent loss with a baseball card trade binder from a VFW swap meet.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/btcfi-yield-risk-ranking-staking-lending-lp-swap-fees?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">BTCFi Yield Stack Ranked by Real Risk: Staking, Lending, LPing, and Swap-Fee Returns Compared</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>The three-part risk framework: smart contract risk, return volatility and structural risk</li><li>Why Babylon staking&#x27;s 1-3% APY is paid in protocol tokens, not BTC, and comes with slashing risk</li><li>Lending&#x27;s $526M in exploits across 48 incidents, and how native BTC collateral removes bridge risk</li><li>Why over half of Uniswap V3 LPs in volatile pairs saw 11-17% annual impermanent loss</li><li>How single-sided swap-fee yield like Boost avoids IL, and what it gives up in return</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: twenty percent from the app<br>00:20 The BTCFi boom and the risk framework<br>01:23 Bitcoin staking and Babylon<br>02:22 DeFi lending and its exploit record<br>03:38 LPing and the trade binder<br>05:13 Single-sided swap-fee yield and picking your spot</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 10,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-630dfa82ab072dc7dd36"
   }
 ]
