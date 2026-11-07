@@ -646,7 +646,7 @@
   {
     "number": 9,
     "tag": "take-009",
-    "status": "pending",
+    "status": "published",
     "slug": "btcfi-yield-risk-ranking-staking-lending-lp-swap-fees",
     "post_url": "https://chainflip.io/blog/btcfi-yield-risk-ranking-staking-lending-lp-swap-fees",
     "post_title": "BTCFi Yield Stack Ranked by Real Risk: Staking, Lending, LPing, and Swap-Fee Returns Compared",
@@ -721,6 +721,88 @@
     "audio_file": "take-009-btcfi-yield-risk-ranking-staking-lending-lp-swap-fees.mp3",
     "description_html": "<p>A guy at a wedding swears he gets 20% on his bitcoin &#x27;from the app.&#x27; Mark joins Jules and Mira to rank BTCFi yield by what can actually go wrong: exploits, slashing, liquidation and impermanent loss. Bonus: Jules explains impermanent loss with a baseball card trade binder from a VFW swap meet.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/btcfi-yield-risk-ranking-staking-lending-lp-swap-fees?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">BTCFi Yield Stack Ranked by Real Risk: Staking, Lending, LPing, and Swap-Fee Returns Compared</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>The three-part risk framework: smart contract risk, return volatility and structural risk</li><li>Why Babylon staking&#x27;s 1-3% APY is paid in protocol tokens, not BTC, and comes with slashing risk</li><li>Lending&#x27;s $526M in exploits across 48 incidents, and how native BTC collateral removes bridge risk</li><li>Why over half of Uniswap V3 LPs in volatile pairs saw 11-17% annual impermanent loss</li><li>How single-sided swap-fee yield like Boost avoids IL, and what it gives up in return</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: twenty percent from the app<br>00:20 The BTCFi boom and the risk framework<br>01:23 Bitcoin staking and Babylon<br>02:22 DeFi lending and its exploit record<br>03:38 LPing and the trade binder<br>05:13 Single-sided swap-fee yield and picking your spot</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=btcfi-yield-risk-ranking-staking-lending-lp-swap-fees&amp;utm_content=ep-9\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 10,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-630dfa82ab072dc7dd36"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-630dfa82ab072dc7dd36",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-009/take-009-btcfi-yield-risk-ranking-staking-lending-lp-swap-fees.mp3",
+    "published_at": "2026-11-07T12:07:29Z"
+  },
+  {
+    "number": 10,
+    "tag": "take-010",
+    "status": "pending",
+    "slug": "tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps",
+    "post_url": "https://chainflip.io/blog/tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps",
+    "post_title": "Tangem and SwapKit Bring Hardware Wallet Users to Chainflip for Native Cross-Chain Swaps",
+    "category": "integrations",
+    "cluster": "tangem-swapkit-integration",
+    "format": "guest",
+    "guest": "mark",
+    "title": "Hardware Wallet Cross-Chain Swaps: Trading Straight From Cold Storage",
+    "summary": "Mark joins Jules and Mira to explain how Tangem hardware wallet users swap native assets across chains through SwapKit and Chainflip, why native settlement beats wrapped tokens, how the brief deposit custody works, and why swap sizes are growing.",
+    "hook": "Hardware wallet users used to face a choice: keep keys in cold storage, or wrap their coins and trust a bridge to go anywhere. Jules's summer as a valet, and the night the key board fell off the wall, explains why wrapped tokens are just a ticket. Mark breaks down how Tangem and SwapKit route native swaps through Chainflip, and why the trades keep getting bigger.",
+    "key_points": [
+      "How a Tangem card wallet, SwapKit's routing layer and Chainflip fit together, without ever leaving the wallet app",
+      "Why native BTC-to-ETH settlement matters and why wBTC is a claim, not bitcoin",
+      "What actually happens at the Chainflip deposit address: a distributed validator set, consensus, and a custody window measured in minutes",
+      "Why larger swaps (with $2M+ single swaps expected) can get tighter pricing through JIT liquidity",
+      "Which chains and assets Tangem users can swap natively, from BTC to USDT on Tron"
+    ],
+    "keywords": [
+      "hardware wallet cross-chain swap",
+      "Tangem swap",
+      "SwapKit Chainflip",
+      "native bitcoin swap",
+      "swap from cold storage",
+      "wrapped bitcoin risk",
+      "self-custody crypto swap",
+      "JIT liquidity"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "Spent a summer as a valet at the Cattleman Steakhouse (swan-folded napkins). His buddy Rusty ran the key board, which fell off the wall one Saturday, leaving forty customers holding useless tickets for an hour. 'The valet ticket' is now his picture of wrapped tokens, and he still has a swan napkin."
+      },
+      {
+        "character": "mark",
+        "note": "New braai line for JIT liquidity: 'Small sausage, nobody looks up. Bring out a whole lamb and every uncle shows up with tongs.' Also compared self-custody swapping to a goalkeeper taking the free kick and getting back in goal, which Mira says he'll regret."
+      },
+      {
+        "character": "mira",
+        "note": "Grudgingly admitted the valet ticket analogy for wrapped tokens works on air."
+      }
+    ],
+    "words": 1162,
+    "created_at": "2026-11-07T12:09:05Z",
+    "duration": 393,
+    "chapters": [
+      {
+        "title": "Cold open: Jules the valet",
+        "start": 0.0
+      },
+      {
+        "title": "The old hardware wallet tradeoff",
+        "start": 45.7
+      },
+      {
+        "title": "Native vs wrapped: the valet ticket",
+        "start": 123.7
+      },
+      {
+        "title": "Who holds your coins mid-swap?",
+        "start": 188.6
+      },
+      {
+        "title": "Seven-figure swaps and JIT liquidity",
+        "start": 241.9
+      },
+      {
+        "title": "What you can swap and the big picture",
+        "start": 308.6
+      }
+    ],
+    "audio_bytes": 6291770,
+    "audio_file": "take-010-tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-.mp3",
+    "description_html": "<p>Hardware wallet users used to face a choice: keep keys in cold storage, or wrap their coins and trust a bridge to go anywhere. Jules&#x27;s summer as a valet, and the night the key board fell off the wall, explains why wrapped tokens are just a ticket. Mark breaks down how Tangem and SwapKit route native swaps through Chainflip, and why the trades keep getting bigger.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Tangem and SwapKit Bring Hardware Wallet Users to Chainflip for Native Cross-Chain Swaps</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>How a Tangem card wallet, SwapKit&#x27;s routing layer and Chainflip fit together, without ever leaving the wallet app</li><li>Why native BTC-to-ETH settlement matters and why wBTC is a claim, not bitcoin</li><li>What actually happens at the Chainflip deposit address: a distributed validator set, consensus, and a custody window measured in minutes</li><li>Why larger swaps (with $2M+ single swaps expected) can get tighter pricing through JIT liquidity</li><li>Which chains and assets Tangem users can swap natively, from BTC to USDT on Tron</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: Jules the valet<br>00:45 The old hardware wallet tradeoff<br>02:03 Native vs wrapped: the valet ticket<br>03:08 Who holds your coins mid-swap?<br>04:01 Seven-figure swaps and JIT liquidity<br>05:08 What you can swap and the big picture</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 11,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-7b15a170999fe757f128"
   }
 ]

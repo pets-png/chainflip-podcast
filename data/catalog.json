@@ -6583,6 +6583,43 @@
       "evergreen": false
     }
   },
+  "dex-vs-cex-spot-volume-cross-chain-swaps": {
+    "url": "https://chainflip.io/blog/dex-vs-cex-spot-volume-cross-chain-swaps",
+    "slug": "dex-vs-cex-spot-volume-cross-chain-swaps",
+    "title": "DEX vs CEX: DEXs Are Eating Spot, Cross-Chain Is Next",
+    "description": "DEX vs CEX: DEX spot volume hit a record 24% of CEX spot in July 2026. Cross-chain swaps are the last convenience moat exchanges still hold.",
+    "image": "https://framerusercontent.com/images/f6P8cv3PhoRsTrlaonukWZaKYW4.avif?width=1600&height=900",
+    "published": "2026-11-06",
+    "headings": [
+      "DEX vs CEX vs cross-chain swaps at a glance",
+      "Centralized exchanges: the cross-chain middleman",
+      "Single-chain DEXs: where onchain has largely won",
+      "Bridges plus DEXs: cross-chain with extra steps",
+      "Native cross-chain swaps: closing the CEX gap",
+      "What the old CEX round trip looks like onchain",
+      "The volume trend, set against the ratio",
+      "TRX and Tron USDT, with a caveat",
+      "Which one fits you",
+      "Where this leaves CEXs",
+      "FAQ",
+      "What is the DEX to CEX ratio?",
+      "Is DEX volume bigger than CEX volume?",
+      "Can I swap native BTC to USDT without a centralized exchange?",
+      "Is a cross-chain swap safer than using a CEX?"
+    ],
+    "words": 1636,
+    "first_seen": "2026-11-07T12:07:23Z",
+    "live": true,
+    "cls": {
+      "cluster": "dex-vs-cex-market-share",
+      "cluster_label": "DEX vs CEX spot volume share",
+      "category": "markets_data",
+      "assets": [],
+      "complexity": 2,
+      "podcast_fit": 4,
+      "evergreen": true
+    }
+  },
   "dexes-the-story-so-far-and-where-we-are-headed": {
     "url": "https://chainflip.io/blog/dexes-the-story-so-far-and-where-we-are-headed",
     "slug": "dexes-the-story-so-far-and-where-we-are-headed",

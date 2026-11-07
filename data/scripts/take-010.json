@@ -1,0 +1,311 @@
+{
+  "post": "https://chainflip.io/blog/tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps",
+  "format": "guest",
+  "guest": "mark",
+  "episode_title": "Hardware Wallet Cross-Chain Swaps: Trading Straight From Cold Storage",
+  "summary": "Mark joins Jules and Mira to explain how Tangem hardware wallet users swap native assets across chains through SwapKit and Chainflip, why native settlement beats wrapped tokens, how the brief deposit custody works, and why swap sizes are growing.",
+  "hook": "Hardware wallet users used to face a choice: keep keys in cold storage, or wrap their coins and trust a bridge to go anywhere. Jules's summer as a valet, and the night the key board fell off the wall, explains why wrapped tokens are just a ticket. Mark breaks down how Tangem and SwapKit route native swaps through Chainflip, and why the trades keep getting bigger.",
+  "key_points": [
+    "How a Tangem card wallet, SwapKit's routing layer and Chainflip fit together, without ever leaving the wallet app",
+    "Why native BTC-to-ETH settlement matters and why wBTC is a claim, not bitcoin",
+    "What actually happens at the Chainflip deposit address: a distributed validator set, consensus, and a custody window measured in minutes",
+    "Why larger swaps (with $2M+ single swaps expected) can get tighter pricing through JIT liquidity",
+    "Which chains and assets Tangem users can swap natively, from BTC to USDT on Tron"
+  ],
+  "keywords": [
+    "hardware wallet cross-chain swap",
+    "Tangem swap",
+    "SwapKit Chainflip",
+    "native bitcoin swap",
+    "swap from cold storage",
+    "wrapped bitcoin risk",
+    "self-custody crypto swap",
+    "JIT liquidity"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "Cold open: Jules the valet"
+    },
+    {
+      "line": 8,
+      "title": "The old hardware wallet tradeoff"
+    },
+    {
+      "line": 21,
+      "title": "Native vs wrapped: the valet ticket"
+    },
+    {
+      "line": 31,
+      "title": "Who holds your coins mid-swap?"
+    },
+    {
+      "line": 38,
+      "title": "Seven-figure swaps and JIT liquidity"
+    },
+    {
+      "line": 48,
+      "title": "What you can swap and the big picture"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Mira, did you know I was a valet for one summer?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] I did not, and I sense I'm about to."
+    },
+    {
+      "speaker": "jules",
+      "text": "The Cattleman Steakhouse, next town over. Fanciest place in the county. They folded the cloth napkins like swans."
+    },
+    {
+      "speaker": "mira",
+      "text": "Okay."
+    },
+    {
+      "speaker": "jules",
+      "text": "And the big lesson of valet is, the second you hand over your keys, you're not holding a car anymore. You're holding a little paper ticket with a number on it."
+    },
+    {
+      "speaker": "mira",
+      "text": "That is, uh, that's actually today's episode. Welcome to Cross-Chain Daily, I'm Mira, that's Jules, and today it's hardware wallet users doing native cross-chain swaps straight from cold storage, through Tangem, SwapKit and Chainflip. And back with us, Mark."
+    },
+    {
+      "speaker": "mark",
+      "text": "[warmly] Good to be back. And Jules, I need the rest of that valet story."
+    },
+    {
+      "speaker": "jules",
+      "text": "It gets there. Trust me."
+    },
+    {
+      "speaker": "mira",
+      "text": "Mark, set it up. What's the old problem?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Look, hardware wallet people have always had a frustrating choice. Keep your keys in cold storage and sit still, or go get cross-chain liquidity through wrapped tokens and centralized bridges. Security or access. Pick one."
+    },
+    {
+      "speaker": "jules",
+      "text": "That's me. I've got a little bitcoin in my metaphorical sock drawer. It just sits there, like nice wool socks I'm saving for a wedding."
+    },
+    {
+      "speaker": "mira",
+      "text": "[dry] The sock drawer returns."
+    },
+    {
+      "speaker": "mark",
+      "text": "And that's the assumption the market made. Hardware wallet folks are holders, a niche. Active traders would just accept hot wallets and custodians for convenience. This partnership says no, you can do both."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay so, um, what is Tangem? I've heard of it, but I'd nod through it at a party."
+    },
+    {
+      "speaker": "mark",
+      "text": "Tangem is a hardware wallet shaped like a card. Your private keys live in a secure chip, similar tech to what's in a bank card. You tap it, you sign."
+    },
+    {
+      "speaker": "jules",
+      "text": "My wallet's in my wallet."
+    },
+    {
+      "speaker": "mark",
+      "text": "[amused] Exactly that."
+    },
+    {
+      "speaker": "mira",
+      "text": "And SwapKit is the middle piece?"
+    },
+    {
+      "speaker": "mark",
+      "text": "SwapKit is the routing layer. A Tangem user starts a swap inside their wallet. SwapKit checks the available routes, including Chainflip. If Chainflip gives the best execution for that pair, the swap goes through Chainflip's decentralized protocol."
+    },
+    {
+      "speaker": "mira",
+      "text": "And you never leave the wallet."
+    },
+    {
+      "speaker": "mark",
+      "text": "Never visit a separate site, never move funds to a hot wallet. SwapKit already does similar routing for Wormhole Portal, so this follows the same pattern."
+    },
+    {
+      "speaker": "jules",
+      "text": "Here's the one I'm embarrassed to ask. Why does native matter so much? A swap's a swap, right?"
+    },
+    {
+      "speaker": "mark",
+      "text": "That's the whole ballgame. When a Tangem user swaps bitcoin for ether, they send real bitcoin on the Bitcoin network and get real ether on Ethereum. No wrapped tokens, no bridge IOUs."
+    },
+    {
+      "speaker": "mira",
+      "text": "Versus wrapped bitcoin, w B T C, where you're holding a claim. A custodian or a protocol has the actual bitcoin."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quick, cutting in] The valet ticket!"
+    },
+    {
+      "speaker": "mira",
+      "text": "Go on."
+    },
+    {
+      "speaker": "jules",
+      "text": "So my buddy Rusty ran the key board at the Cattleman. One Saturday the whole board fell off the wall. Forty sets of keys on the floor, forty tickets that meant nothing. People stood in the parking lot for an hour holding paper."
+    },
+    {
+      "speaker": "mark",
+      "text": "[half-laughing] That's a bridge exploit with a swan napkin."
+    },
+    {
+      "speaker": "jules",
+      "text": "Wrapped bitcoin is the ticket. It's only good as long as the key board stays on the wall."
+    },
+    {
+      "speaker": "mira",
+      "text": "[grudging] Fine. That works. A wrapped token is only as good as whoever's holding the real thing."
+    },
+    {
+      "speaker": "mark",
+      "text": "And the article points out bridge exploits have added up to billions of dollars. The whole point of a hardware wallet is cutting out counterparty risk. Wrap your coins and you've undone it."
+    },
+    {
+      "speaker": "mira",
+      "text": "[skeptical] Okay, but let me push. With Chainflip you still send your bitcoin to a deposit address. Isn't that handing over the keys too?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Fair, and the article doesn't dodge it. You do send to a Chainflip deposit address. But that address is controlled by a distributed validator set, not one company. The validators have to reach consensus to move anything."
+    },
+    {
+      "speaker": "jules",
+      "text": "So it's a valet stand where, like, the whole crew has to agree before anyone touches the car."
+    },
+    {
+      "speaker": "mark",
+      "text": "Right. And the car comes back fast, on the other side of town. For most swaps, the whole thing, deposit to native assets landing on the destination chain, takes minutes."
+    },
+    {
+      "speaker": "mira",
+      "text": "So the custody window is short, and even inside it, no single party can move the funds."
+    },
+    {
+      "speaker": "mark",
+      "text": "Validators witness the deposit, the swap runs through Chainflip's A M M, and native assets go out to your address. For the Tangem user, the only thing touching the outside world is the deposit transaction. They sign it on the card. That's it."
+    },
+    {
+      "speaker": "jules",
+      "text": "Tap, wait, done."
+    },
+    {
+      "speaker": "mira",
+      "text": "Now the part that caught my eye. Swap sizes."
+    },
+    {
+      "speaker": "mark",
+      "text": "[leaning in] This is my favorite bit. Tangem users aren't poking at it with twenty bucks. Swap sizes are growing, and market watchers expect single swaps over two million dollars soon. Seven-figure swaps becoming routine."
+    },
+    {
+      "speaker": "jules",
+      "text": "[incredulous] Who's honestly swapping two million dollars from a card in their pocket?"
+    },
+    {
+      "speaker": "mark",
+      "text": "High-net-worth holders, institutions. The people most careful about custody are, you know, often the ones with the most to protect. They need cross-chain liquidity too, but they won't give up self-custody for convenience."
+    },
+    {
+      "speaker": "mira",
+      "text": "And big trades usually mean big slippage. That's my trading-desk brain talking."
+    },
+    {
+      "speaker": "mark",
+      "text": "Usually. Here's the second-order bit. Chainflip has J I T, just-in-time liquidity. Market makers compete to fill an order with better pricing than the base A M M pools. Bigger trades pull in more of that competition."
+    },
+    {
+      "speaker": "mira",
+      "text": "Hmm. So size attracts bidders instead of just eating through the pool."
+    },
+    {
+      "speaker": "mark",
+      "text": "It's a braai thing. Small sausage on the grill, nobody looks up. Bring out a whole lamb and every uncle in the yard shows up with tongs. The article says that often means tighter spreads than on centralized exchanges."
+    },
+    {
+      "speaker": "jules",
+      "text": "[amused] More uncles is good now?"
+    },
+    {
+      "speaker": "mark",
+      "text": "For whoever brought the lamb, yes."
+    },
+    {
+      "speaker": "mira",
+      "text": "What can you actually swap?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Native swaps across Bitcoin, Ethereum, Solana, Polkadot Assethub, Arbitrum, Tron and BNB Chain. Assets like bitcoin, ether, SOL, DOT, FLIP, and stablecoins, USDC and USDT, native to each chain."
+    },
+    {
+      "speaker": "jules",
+      "text": "Wait, actually, so I could take the sock drawer bitcoin and turn it into USDT on Tron?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Straight from native bitcoin to native USDT on Tron, or native SOL. No exchange, no bridge, no wrapped token. Check Chainflip Scan for current pairs and live activity."
+    },
+    {
+      "speaker": "mira",
+      "text": "And for scale, the article puts Chainflip's all-time swap volume at nine point eight billion dollars, at the time of writing."
+    },
+    {
+      "speaker": "jules",
+      "text": "Mark, big picture. Why does this matter beyond one wallet?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Because it kills the idea that cold storage means sitting on the bench. Your goalkeeper can take the free kick and still be back in goal before anyone notices. Security and activity stop being a trade-off."
+    },
+    {
+      "speaker": "mira",
+      "text": "[dry] A goalkeeper taking free kicks. You'll regret that one."
+    },
+    {
+      "speaker": "mark",
+      "text": "[grinning] Some of the best did."
+    },
+    {
+      "speaker": "jules",
+      "text": "So the takeaway: you don't have to hand your keys to Rusty to go somewhere."
+    },
+    {
+      "speaker": "mira",
+      "text": "Takeaway: with Tangem and SwapKit routing through Chainflip, you sign one deposit on your card and get real native assets on the other chain. No paper tickets. The full article is linked in the show notes, and this is not financial advice."
+    },
+    {
+      "speaker": "mark",
+      "text": "[warm] Thanks for having me back."
+    },
+    {
+      "speaker": "jules",
+      "text": "And Rusty, if you're out there, I still have the swan napkin. Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "Spent a summer as a valet at the Cattleman Steakhouse (swan-folded napkins). His buddy Rusty ran the key board, which fell off the wall one Saturday, leaving forty customers holding useless tickets for an hour. 'The valet ticket' is now his picture of wrapped tokens, and he still has a swan napkin."
+    },
+    {
+      "character": "mark",
+      "note": "New braai line for JIT liquidity: 'Small sausage, nobody looks up. Bring out a whole lamb and every uncle shows up with tongs.' Also compared self-custody swapping to a goalkeeper taking the free kick and getting back in goal, which Mira says he'll regret."
+    },
+    {
+      "character": "mira",
+      "note": "Grudgingly admitted the valet ticket analogy for wrapped tokens works on air."
+    }
+  ]
+}
