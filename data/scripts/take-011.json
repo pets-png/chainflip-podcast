@@ -1,0 +1,275 @@
+{
+  "post": "https://chainflip.io/blog/borrow-against-bitcoin-chainflip-lending-guide-october-2026",
+  "format": "hosts_only",
+  "guest": null,
+  "episode_title": "Bitcoin-Backed Loans Without KYC, Click by Click (Plus Boost Yield)",
+  "summary": "Jules and Mira walk through opening a no-KYC bitcoin-backed loan on Chainflip Lending 2.0, covering why to borrow instead of sell, the three stablecoin markets, 80% max LTV, the new optional Boost yield on collateral, the six setup steps, and soft liquidation.",
+  "hook": "Jules once pawned his guitar at a shop that was half pawn counter, half tanning bed, and had to watch the owner play it badly every day. Today, he and Mira walk through the opposite experience: borrowing stablecoins against native BTC with no KYC, no custodian, and collateral that can now earn Boost fees while your loan is open.",
+  "key_points": [
+    "Why borrowing against BTC can beat selling it: you keep your position and avoid a sale",
+    "The three markets you can borrow from: USDT and USDC on Ethereum, plus USDT on TRON (launched June 2026)",
+    "How the 80% max LTV works, and why most borrowers stay well below it",
+    "What the new optional Lending 2.0 Boost yield toggle does with your collateral",
+    "The six steps to open a position, from connecting a wallet to 3 Bitcoin confirmations, plus how soft liquidation trims a position gradually"
+  ],
+  "keywords": [
+    "bitcoin-backed loan without KYC",
+    "BTC loan no KYC",
+    "borrow against bitcoin",
+    "Chainflip Lending 2.0",
+    "borrow USDT against BTC",
+    "Boost yield on collateral",
+    "TRON USDT loan",
+    "native bitcoin collateral"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "Cold open: Lonnie's Pawn and Tan"
+    },
+    {
+      "line": 5,
+      "title": "Why borrow instead of sell"
+    },
+    {
+      "line": 16,
+      "title": "What you can borrow and the 80% line"
+    },
+    {
+      "line": 22,
+      "title": "Lending 2.0: Boost yield on collateral"
+    },
+    {
+      "line": 28,
+      "title": "Six steps to open a loan"
+    },
+    {
+      "line": 42,
+      "title": "Repaying, soft liquidation and the takeaway"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Mira, have you ever pawned anything?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] No. Have you?"
+    },
+    {
+      "speaker": "jules",
+      "text": "Eighteen years old. Lonnie's Pawn and Tan, out by the grain elevator. Half pawn shop, half tanning bed. I pawned my electric guitar for eighty bucks to buy concert tickets."
+    },
+    {
+      "speaker": "mira",
+      "text": "And?"
+    },
+    {
+      "speaker": "jules",
+      "text": "And every time I walked past, Lonnie was behind the counter playing my guitar. Badly. Boots up on the glass case."
+    },
+    {
+      "speaker": "mira",
+      "text": "[half-laughing] Okay, that's actually today's episode. Welcome to Cross-Chain Daily, I'm Mira, that's Jules, and today we're walking through how to get a bitcoin-backed loan without K Y C, using Chainflip Lending two point oh."
+    },
+    {
+      "speaker": "jules",
+      "text": "So, um, the Lonnie question. Why borrow against bitcoin at all? Why not just sell it?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Selling means you exit your position, and you can trigger a taxable event. Borrowing means you get dollars and your bitcoin stays yours."
+    },
+    {
+      "speaker": "jules",
+      "text": "Concert money, and I still own the guitar."
+    },
+    {
+      "speaker": "mira",
+      "text": "Right. And people do this a lot. The article says outstanding crypto-backed loans hit seventy-three point five nine billion dollars by the third quarter of twenty twenty-five."
+    },
+    {
+      "speaker": "jules",
+      "text": "Billion. With a B."
+    },
+    {
+      "speaker": "mira",
+      "text": "Chainflip itself is much smaller, about one point two million dollars in active loans at the time of writing. But here's the big difference from Lonnie."
+    },
+    {
+      "speaker": "jules",
+      "text": "Lonnie isn't holding it."
+    },
+    {
+      "speaker": "mira",
+      "text": "No single person is holding it. You deposit native bitcoin, on the Bitcoin network, and it's secured by Chainflip's validator network. No wrapped token, no centralized custodian, no one entity controls the keys."
+    },
+    {
+      "speaker": "jules",
+      "text": "So the guitar's in a case with a lock that, like, a whole committee has to open together. Nobody plays it on their lunch break."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] Close enough. And the article says that same setup has handled over six billion dollars in cumulative swap volume."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay. What can I actually borrow?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Three markets. U S D T on Ethereum, U S D C on Ethereum, and U S D T on TRON, which launched in June twenty twenty-six for lower gas costs. All three pull from the same collateral, so your bitcoin backs whichever one you pick."
+    },
+    {
+      "speaker": "jules",
+      "text": "And how much? Because eighteen-year-old me would've asked for everything."
+    },
+    {
+      "speaker": "mira",
+      "text": "Max loan-to-value is eighty percent. So one bitcoin worth sixty thousand dollars lets you borrow up to forty-eight thousand."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quick, cutting in] Which I should not do."
+    },
+    {
+      "speaker": "mira",
+      "text": "Which most people don't. If bitcoin drops, your loan-to-value climbs toward that line. Interest is utilization-based, so the rate moves with how much of the pool is borrowed. Check the dashboard for current rates."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, the new thing. Boost yield."
+    },
+    {
+      "speaker": "mira",
+      "text": "The big Lending two point oh change. Before, your collateral just sat there. Now there's an optional toggle so your bitcoin adds to swap liquidity when demand is high, and you earn a share of swap fees while your loan stays open."
+    },
+    {
+      "speaker": "jules",
+      "text": "Wait. So it's like Lonnie renting my guitar to a wedding band on weekends and mailing me a cut."
+    },
+    {
+      "speaker": "mira",
+      "text": "[grudgingly] Hmm. That half works. The guitar earns while it's in hock. But here you choose whether it goes out, and there's no Lonnie."
+    },
+    {
+      "speaker": "jules",
+      "text": "Spreadsheet?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] I'm adding a second column. Half held up."
+    },
+    {
+      "speaker": "jules",
+      "text": "[grinning] I'm making history. Okay, walk me through it. Click by click."
+    },
+    {
+      "speaker": "mira",
+      "text": "Step one, go to lp dot chainflip dot io slash lending and connect an Ethereum wallet. MetaMask, Rabby, or anything that works with WalletConnect. You also need a Bitcoin wallet to send the collateral."
+    },
+    {
+      "speaker": "jules",
+      "text": "Two wallets. Got it."
+    },
+    {
+      "speaker": "mira",
+      "text": "Step two, hit Open Position and enter how much bitcoin you're depositing. It shows your max at eighty percent, a recommended safe amount below that, and in the October twenty twenty-six interface, a liquidation price estimate."
+    },
+    {
+      "speaker": "jules",
+      "text": "Liquidation price. The number I stare at."
+    },
+    {
+      "speaker": "mira",
+      "text": "The number you tape to your fridge. Step three, pick your stablecoin and type an amount. It updates live with your loan-to-value, estimated interest, and liquidation threshold."
+    },
+    {
+      "speaker": "jules",
+      "text": "Step four's the wedding band toggle."
+    },
+    {
+      "speaker": "mira",
+      "text": "Earn Boost yield on collateral. Optional, and the current estimated A P R shows right next to it."
+    },
+    {
+      "speaker": "jules",
+      "text": "Then I send the bitcoin."
+    },
+    {
+      "speaker": "mira",
+      "text": "Step five. Click Deposit Collateral, you get a unique Bitcoin deposit address, send from any wallet. It needs three Bitcoin confirmations before your collateral is active."
+    },
+    {
+      "speaker": "jules",
+      "text": "Step six. Money."
+    },
+    {
+      "speaker": "mira",
+      "text": "Stablecoins go to the address you specified. Ethereum tokens land in your connected wallet. For TRON U S D T, you enter a T R C twenty address during the borrow step."
+    },
+    {
+      "speaker": "jules",
+      "text": "Don't paste your Ethereum address there."
+    },
+    {
+      "speaker": "mira",
+      "text": "[dry] Please don't."
+    },
+    {
+      "speaker": "jules",
+      "text": "I mean, paying it back? Lonnie gave me thirty days or the guitar was his."
+    },
+    {
+      "speaker": "mira",
+      "text": "No lock-up here. Repay part or all of it any time. The dashboard shows your loan-to-value, accrued interest, and Boost earnings if you turned them on."
+    },
+    {
+      "speaker": "jules",
+      "text": "And if bitcoin tanks?"
+    },
+    {
+      "speaker": "mira",
+      "text": "If your loan-to-value gets close to eighty percent, soft liquidation trims your position gradually instead of liquidating everything at once. That protects you from flash crashes and still makes sure lenders get repaid."
+    },
+    {
+      "speaker": "jules",
+      "text": "So Lonnie sells one string at a time, not the whole guitar."
+    },
+    {
+      "speaker": "mira",
+      "text": "[half-laughing] Fine, that's not bad. But the best plan is never getting near the line."
+    },
+    {
+      "speaker": "jules",
+      "text": "Takeaway?"
+    },
+    {
+      "speaker": "mira",
+      "text": "You can borrow dollars against native bitcoin without selling it, without K Y C, and without handing it to a custodian, and now that collateral can earn Boost fees too. Just borrow way under eighty percent."
+    },
+    {
+      "speaker": "jules",
+      "text": "The full article is linked in the show notes. Not financial advice, and please don't pawn your guitar."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "At eighteen he pawned his electric guitar for $80 at Lonnie's Pawn and Tan (half pawn shop, half tanning bed, out by the grain elevator) to buy concert tickets, then watched Lonnie play it badly behind the counter with his boots on the glass case. Lonnie is his picture of a custodian holding your collateral."
+    },
+    {
+      "character": "mira",
+      "note": "Added a second column to her Jules-analogy spreadsheet, 'Half held up'; its first entry is Lonnie renting the pawned guitar to a wedding band (Boost yield on collateral)."
+    },
+    {
+      "character": "jules",
+      "note": "His picture of soft liquidation: 'Lonnie sells one string at a time, not the whole guitar.' Mira admitted it's 'not bad.'"
+    }
+  ]
+}

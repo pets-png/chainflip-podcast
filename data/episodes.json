@@ -728,7 +728,7 @@
   {
     "number": 10,
     "tag": "take-010",
-    "status": "pending",
+    "status": "published",
     "slug": "tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps",
     "post_url": "https://chainflip.io/blog/tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps",
     "post_title": "Tangem and SwapKit Bring Hardware Wallet Users to Chainflip for Native Cross-Chain Swaps",
@@ -803,6 +803,88 @@
     "audio_file": "take-010-tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-.mp3",
     "description_html": "<p>Hardware wallet users used to face a choice: keep keys in cold storage, or wrap their coins and trust a bridge to go anywhere. Jules&#x27;s summer as a valet, and the night the key board fell off the wall, explains why wrapped tokens are just a ticket. Mark breaks down how Tangem and SwapKit route native swaps through Chainflip, and why the trades keep getting bigger.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Tangem and SwapKit Bring Hardware Wallet Users to Chainflip for Native Cross-Chain Swaps</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>How a Tangem card wallet, SwapKit&#x27;s routing layer and Chainflip fit together, without ever leaving the wallet app</li><li>Why native BTC-to-ETH settlement matters and why wBTC is a claim, not bitcoin</li><li>What actually happens at the Chainflip deposit address: a distributed validator set, consensus, and a custody window measured in minutes</li><li>Why larger swaps (with $2M+ single swaps expected) can get tighter pricing through JIT liquidity</li><li>Which chains and assets Tangem users can swap natively, from BTC to USDT on Tron</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: Jules the valet<br>00:45 The old hardware wallet tradeoff<br>02:03 Native vs wrapped: the valet ticket<br>03:08 Who holds your coins mid-swap?<br>04:01 Seven-figure swaps and JIT liquidity<br>05:08 What you can swap and the big picture</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-swaps&amp;utm_content=ep-10\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 11,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-7b15a170999fe757f128"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-7b15a170999fe757f128",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-010/take-010-tangem-swapkit-chainflip-hardware-wallet-native-cross-chain-.mp3",
+    "published_at": "2026-11-08T12:28:33Z"
+  },
+  {
+    "number": 11,
+    "tag": "take-011",
+    "status": "pending",
+    "slug": "borrow-against-bitcoin-chainflip-lending-guide-october-2026",
+    "post_url": "https://chainflip.io/blog/borrow-against-bitcoin-chainflip-lending-guide-october-2026",
+    "post_title": "Get a Bitcoin-Backed Loan Without KYC: Chainflip Lending 2.0 Tutorial",
+    "category": "lending",
+    "cluster": "btc-loan-how-to-guide",
+    "format": "hosts_only",
+    "guest": null,
+    "title": "Bitcoin-Backed Loans Without KYC, Click by Click (Plus Boost Yield)",
+    "summary": "Jules and Mira walk through opening a no-KYC bitcoin-backed loan on Chainflip Lending 2.0, covering why to borrow instead of sell, the three stablecoin markets, 80% max LTV, the new optional Boost yield on collateral, the six setup steps, and soft liquidation.",
+    "hook": "Jules once pawned his guitar at a shop that was half pawn counter, half tanning bed, and had to watch the owner play it badly every day. Today, he and Mira walk through the opposite experience: borrowing stablecoins against native BTC with no KYC, no custodian, and collateral that can now earn Boost fees while your loan is open.",
+    "key_points": [
+      "Why borrowing against BTC can beat selling it: you keep your position and avoid a sale",
+      "The three markets you can borrow from: USDT and USDC on Ethereum, plus USDT on TRON (launched June 2026)",
+      "How the 80% max LTV works, and why most borrowers stay well below it",
+      "What the new optional Lending 2.0 Boost yield toggle does with your collateral",
+      "The six steps to open a position, from connecting a wallet to 3 Bitcoin confirmations, plus how soft liquidation trims a position gradually"
+    ],
+    "keywords": [
+      "bitcoin-backed loan without KYC",
+      "BTC loan no KYC",
+      "borrow against bitcoin",
+      "Chainflip Lending 2.0",
+      "borrow USDT against BTC",
+      "Boost yield on collateral",
+      "TRON USDT loan",
+      "native bitcoin collateral"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "At eighteen he pawned his electric guitar for $80 at Lonnie's Pawn and Tan (half pawn shop, half tanning bed, out by the grain elevator) to buy concert tickets, then watched Lonnie play it badly behind the counter with his boots on the glass case. Lonnie is his picture of a custodian holding your collateral."
+      },
+      {
+        "character": "mira",
+        "note": "Added a second column to her Jules-analogy spreadsheet, 'Half held up'; its first entry is Lonnie renting the pawned guitar to a wedding band (Boost yield on collateral)."
+      },
+      {
+        "character": "jules",
+        "note": "His picture of soft liquidation: 'Lonnie sells one string at a time, not the whole guitar.' Mira admitted it's 'not bad.'"
+      }
+    ],
+    "words": 877,
+    "created_at": "2026-11-08T12:29:50Z",
+    "duration": 339,
+    "chapters": [
+      {
+        "title": "Cold open: Lonnie's Pawn and Tan",
+        "start": 0.0
+      },
+      {
+        "title": "Why borrow instead of sell",
+        "start": 22.2
+      },
+      {
+        "title": "What you can borrow and the 80% line",
+        "start": 108.0
+      },
+      {
+        "title": "Lending 2.0: Boost yield on collateral",
+        "start": 154.8
+      },
+      {
+        "title": "Six steps to open a loan",
+        "start": 190.5
+      },
+      {
+        "title": "Repaying, soft liquidation and the takeaway",
+        "start": 280.4
+      }
+    ],
+    "audio_bytes": 5429518,
+    "audio_file": "take-011-borrow-against-bitcoin-chainflip-lending-guide-october-2026.mp3",
+    "description_html": "<p>Jules once pawned his guitar at a shop that was half pawn counter, half tanning bed, and had to watch the owner play it badly every day. Today, he and Mira walk through the opposite experience: borrowing stablecoins against native BTC with no KYC, no custodian, and collateral that can now earn Boost fees while your loan is open.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/borrow-against-bitcoin-chainflip-lending-guide-october-2026?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Get a Bitcoin-Backed Loan Without KYC: Chainflip Lending 2.0 Tutorial</a></p><p><strong>In this episode</strong></p><ul><li>Why borrowing against BTC can beat selling it: you keep your position and avoid a sale</li><li>The three markets you can borrow from: USDT and USDC on Ethereum, plus USDT on TRON (launched June 2026)</li><li>How the 80% max LTV works, and why most borrowers stay well below it</li><li>What the new optional Lending 2.0 Boost yield toggle does with your collateral</li><li>The six steps to open a position, from connecting a wallet to 3 Bitcoin confirmations, plus how soft liquidation trims a position gradually</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: Lonnie&#x27;s Pawn and Tan<br>00:22 Why borrow instead of sell<br>01:48 What you can borrow and the 80% line<br>02:34 Lending 2.0: Boost yield on collateral<br>03:10 Six steps to open a loan<br>04:40 Repaying, soft liquidation and the takeaway</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 12,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-6927656e1c2c2016536e"
   }
 ]
