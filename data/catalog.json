@@ -4439,6 +4439,42 @@
       "evergreen": false
     }
   },
+  "claude-code-secret-leak-settings-file-checklist": {
+    "url": "https://chainflip.io/blog/claude-code-secret-leak-settings-file-checklist",
+    "slug": "claude-code-secret-leak-settings-file-checklist",
+    "title": "Claude Code Secret Leak: Check Your Repo Settings Files",
+    "description": "Claude Code secret leak: 1,122 public settings files held real secrets. Use this checklist to find exposed keys, rotate them and lock down your repos.",
+    "image": "https://framerusercontent.com/images/wSZI5Ya3sv6D2hBddU7XJfGK2s.png?width=1600&height=900",
+    "published": "2026-11-09",
+    "headings": [
+      "1. Find every Claude settings file in your repos",
+      "2. Rotate every secret the file has ever held",
+      "3. Clean the file out of git history after rotating",
+      "4. Add .claude/settings.local.json to your repo's .gitignore",
+      "5. Pass secrets through environment variables, not inline commands",
+      "6. Turn on secret scanning for your repos",
+      "7. Take fixes only from official channels",
+      "Make secret hygiene part of your AI workflow",
+      "FAQ",
+      "Where does Claude Code store \"Yes, and don't ask again\" approvals?",
+      "Has Anthropic fixed the Claude Code secret leak?",
+      "Is deleting settings.local.json from my repo enough?",
+      "Does this only affect Claude Code?",
+      "Will Chainflip contact me about exposed keys?"
+    ],
+    "words": 1157,
+    "first_seen": "2026-11-09T14:43:50Z",
+    "live": true,
+    "cls": {
+      "cluster": "ai-dev-secret-hygiene",
+      "cluster_label": "AI coding tool secret leaks",
+      "category": "security",
+      "assets": [],
+      "complexity": 2,
+      "podcast_fit": 3,
+      "evergreen": true
+    }
+  },
   "coldcard-hack-ai-attackers-chainflip-lp-security": {
     "url": "https://chainflip.io/blog/coldcard-hack-ai-attackers-chainflip-lp-security",
     "slug": "coldcard-hack-ai-attackers-chainflip-lp-security",
@@ -7406,6 +7442,43 @@
         "USDC"
       ],
       "complexity": 3,
+      "podcast_fit": 4,
+      "evergreen": true
+    }
+  },
+  "houdini-swap-private-cross-chain-swaps": {
+    "url": "https://chainflip.io/blog/houdini-swap-private-cross-chain-swaps",
+    "slug": "houdini-swap-private-cross-chain-swaps",
+    "title": "Houdini Swap: Private Cross-Chain Swaps Without KYC",
+    "description": "Houdini Swap routes private cross-chain swaps through two exchanges. Learn how it works, what it costs, and when a direct Chainflip swap makes sense.",
+    "image": "https://framerusercontent.com/images/eCqC7dqbKl9H32SR7FV06ZMohb0.png?width=1600&height=900",
+    "published": "2026-11-08",
+    "headings": [
+      "What is Houdini Swap?",
+      "How does a Houdini private swap work?",
+      "Where does Chainflip fit into Houdini Swap?",
+      "How do you make a private swap on Houdini Swap?",
+      "How much does a Houdini Swap cost compared with a direct Chainflip swap?",
+      "Should you use Houdini Swap or Chainflip directly?",
+      "When Houdini's private route makes sense",
+      "When a direct Chainflip swap makes sense",
+      "Bottom line",
+      "FAQ",
+      "Does Houdini Swap use Chainflip for private swaps?",
+      "Is Houdini Swap really no-KYC?",
+      "How long does a Houdini private swap take?",
+      "What does a direct Chainflip swap cost?",
+      "Can I use the Chainflip route on Houdini without connecting a wallet?"
+    ],
+    "words": 1223,
+    "first_seen": "2026-11-09T14:43:50Z",
+    "live": true,
+    "cls": {
+      "cluster": "houdini-private-swaps",
+      "cluster_label": "Houdini Swap private routing",
+      "category": "integrations",
+      "assets": [],
+      "complexity": 2,
       "podcast_fit": 4,
       "evergreen": true
     }
@@ -11319,6 +11392,35 @@
       "assets": [],
       "complexity": 3,
       "podcast_fit": 2,
+      "evergreen": false
+    }
+  },
+  "wagmi-chainflip-integration": {
+    "url": "https://chainflip.io/blog/wagmi-chainflip-integration",
+    "slug": "wagmi-chainflip-integration",
+    "title": "A Wallet That Hunts Arbitrage Now Routes Through Chainflip",
+    "description": "WAGMI now routes cross-chain swaps, including its arbitrage Autopilot, through Chainflip. Native BTC, ETH and more, signed from a self-custodial vault.",
+    "image": "https://framerusercontent.com/images/aMNSEh1rUCb32hvL4h7QZ3r6sw.png?width=3200&height=1800",
+    "published": "2026-11-09",
+    "headings": [
+      "What makes WAGMI different",
+      "How it works",
+      "Why it matters",
+      "Bonus: ask your AI"
+    ],
+    "words": 389,
+    "first_seen": "2026-11-09T14:43:50Z",
+    "live": true,
+    "cls": {
+      "cluster": "wallet-native-swap-integrations",
+      "cluster_label": "Wallet integrations for native swaps",
+      "category": "integrations",
+      "assets": [
+        "BTC",
+        "ETH"
+      ],
+      "complexity": 2,
+      "podcast_fit": 3,
       "evergreen": false
     }
   },

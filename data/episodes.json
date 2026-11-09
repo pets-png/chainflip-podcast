@@ -810,7 +810,7 @@
   {
     "number": 11,
     "tag": "take-011",
-    "status": "pending",
+    "status": "published",
     "slug": "borrow-against-bitcoin-chainflip-lending-guide-october-2026",
     "post_url": "https://chainflip.io/blog/borrow-against-bitcoin-chainflip-lending-guide-october-2026",
     "post_title": "Get a Bitcoin-Backed Loan Without KYC: Chainflip Lending 2.0 Tutorial",
@@ -885,6 +885,88 @@
     "audio_file": "take-011-borrow-against-bitcoin-chainflip-lending-guide-october-2026.mp3",
     "description_html": "<p>Jules once pawned his guitar at a shop that was half pawn counter, half tanning bed, and had to watch the owner play it badly every day. Today, he and Mira walk through the opposite experience: borrowing stablecoins against native BTC with no KYC, no custodian, and collateral that can now earn Boost fees while your loan is open.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/borrow-against-bitcoin-chainflip-lending-guide-october-2026?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Get a Bitcoin-Backed Loan Without KYC: Chainflip Lending 2.0 Tutorial</a></p><p><strong>In this episode</strong></p><ul><li>Why borrowing against BTC can beat selling it: you keep your position and avoid a sale</li><li>The three markets you can borrow from: USDT and USDC on Ethereum, plus USDT on TRON (launched June 2026)</li><li>How the 80% max LTV works, and why most borrowers stay well below it</li><li>What the new optional Lending 2.0 Boost yield toggle does with your collateral</li><li>The six steps to open a position, from connecting a wallet to 3 Bitcoin confirmations, plus how soft liquidation trims a position gradually</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: Lonnie&#x27;s Pawn and Tan<br>00:22 Why borrow instead of sell<br>01:48 What you can borrow and the 80% line<br>02:34 Lending 2.0: Boost yield on collateral<br>03:10 Six steps to open a loan<br>04:40 Repaying, soft liquidation and the takeaway</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=borrow-against-bitcoin-chainflip-lending-guide-october-2026&amp;utm_content=ep-11\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 12,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-6927656e1c2c2016536e"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-6927656e1c2c2016536e",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-011/take-011-borrow-against-bitcoin-chainflip-lending-guide-october-2026.mp3",
+    "published_at": "2026-11-09T14:43:57Z"
+  },
+  {
+    "number": 12,
+    "tag": "take-012",
+    "status": "pending",
+    "slug": "delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk",
+    "post_url": "https://chainflip.io/blog/delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk",
+    "post_title": "Delta-Neutral Stablecoin Yields: When 15% APY Turns Into -20% Losses",
+    "category": "stablecoins_tron",
+    "cluster": "delta-neutral-yield-risks",
+    "format": "guest",
+    "guest": "mark",
+    "title": "Delta-Neutral Stablecoin Yield: Who Pays You, and When It Flips",
+    "summary": "Jules, Mira and guest Mark break down how delta-neutral stablecoin vaults earn funding-rate yield and the three ways that yield turns negative: funding inversions, exchange collapse and liquidation cascades, plus the Stream Finance xUSD blowup and a four-question checklist.",
+    "hook": "Fifteen percent on dollars, fully hedged, no price risk. What could go wrong? Mark walks Jules and Mira through the three failure modes that turn delta-neutral stablecoin yield into real losses, and Jules explains it all with a fantasy football pot that got repossessed.",
+    "key_points": [
+      "How a delta-neutral vault works: long spot, short perps, collect funding from leveraged longs",
+      "Why funding rates invert in bear markets (nearly -7% on a 30-day sum on Binance after late 2022)",
+      "How exchange counterparty risk can zero a perfectly hedged position, as FTX showed",
+      "Why liquidation cascades like October 10, 2025 ($9.89B liquidated, 70% in 40 minutes) break the hedge, and how Stream Finance's xUSD depegged over 77%",
+      "Four questions to ask before depositing, and why swap-fee yield is a different tradeoff"
+    ],
+    "keywords": [
+      "delta-neutral stablecoin yield",
+      "delta-neutral strategy risks",
+      "funding rate inversion",
+      "stablecoin yield risks",
+      "negative funding rates",
+      "counterparty risk crypto",
+      "Stream Finance xUSD depeg",
+      "swap fee yield stablecoins"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "Senior year he won his buddy Travis's twelve-guy fantasy football league, but Travis kept the forty-dollar-a-head pot in his truck's glovebox and the truck got repossessed in week sixteen. Travis paid him back in blue raspberry gas station slushies for a year. 'Travis's glovebox' / 'Travis exposure' is now his picture of exchange counterparty risk."
+      },
+      {
+        "character": "mark",
+        "note": "New lines: negative funding is 'selling boerewors rolls at the match when it starts pouring and paying people to stand at your stall', and delta-neutral is 'a defensive formation, lovely on paper, but if the ball moves faster than your center back can turn, you concede anyway.' Signed off with 'Mind the glovebox.'"
+      },
+      {
+        "character": "mira",
+        "note": "Claims Jules takes about ninety minutes to pick lunch."
+      }
+    ],
+    "words": 1209,
+    "created_at": "2026-11-09T14:45:41Z",
+    "duration": 423,
+    "chapters": [
+      {
+        "title": "Cold open: risk-free fifteen percent",
+        "start": 0.0
+      },
+      {
+        "title": "How delta-neutral actually works",
+        "start": 32.9
+      },
+      {
+        "title": "Failure mode one: funding flips negative",
+        "start": 94.9
+      },
+      {
+        "title": "Failure mode two: Travis and the glovebox",
+        "start": 152.8
+      },
+      {
+        "title": "Failure mode three: cascades and the xUSD collapse",
+        "start": 231.9
+      },
+      {
+        "title": "Swap-fee yield and the four-question checklist",
+        "start": 335.6
+      }
+    ],
+    "audio_bytes": 6764058,
+    "audio_file": "take-012-delta-neutral-stablecoin-yield-failure-modes-funding-rate-ri.mp3",
+    "description_html": "<p>Fifteen percent on dollars, fully hedged, no price risk. What could go wrong? Mark walks Jules and Mira through the three failure modes that turn delta-neutral stablecoin yield into real losses, and Jules explains it all with a fantasy football pot that got repossessed.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Delta-Neutral Stablecoin Yields: When 15% APY Turns Into -20% Losses</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>How a delta-neutral vault works: long spot, short perps, collect funding from leveraged longs</li><li>Why funding rates invert in bear markets (nearly -7% on a 30-day sum on Binance after late 2022)</li><li>How exchange counterparty risk can zero a perfectly hedged position, as FTX showed</li><li>Why liquidation cascades like October 10, 2025 ($9.89B liquidated, 70% in 40 minutes) break the hedge, and how Stream Finance&#x27;s xUSD depegged over 77%</li><li>Four questions to ask before depositing, and why swap-fee yield is a different tradeoff</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: risk-free fifteen percent<br>00:32 How delta-neutral actually works<br>01:34 Failure mode one: funding flips negative<br>02:32 Failure mode two: Travis and the glovebox<br>03:51 Failure mode three: cascades and the xUSD collapse<br>05:35 Swap-fee yield and the four-question checklist</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 13,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-aa90424a2f07c62652d3"
   }
 ]

@@ -1,0 +1,355 @@
+{
+  "post": "https://chainflip.io/blog/delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk",
+  "format": "guest",
+  "guest": "mark",
+  "episode_title": "Delta-Neutral Stablecoin Yield: Who Pays You, and When It Flips",
+  "summary": "Jules, Mira and guest Mark break down how delta-neutral stablecoin vaults earn funding-rate yield and the three ways that yield turns negative: funding inversions, exchange collapse and liquidation cascades, plus the Stream Finance xUSD blowup and a four-question checklist.",
+  "hook": "Fifteen percent on dollars, fully hedged, no price risk. What could go wrong? Mark walks Jules and Mira through the three failure modes that turn delta-neutral stablecoin yield into real losses, and Jules explains it all with a fantasy football pot that got repossessed.",
+  "key_points": [
+    "How a delta-neutral vault works: long spot, short perps, collect funding from leveraged longs",
+    "Why funding rates invert in bear markets (nearly -7% on a 30-day sum on Binance after late 2022)",
+    "How exchange counterparty risk can zero a perfectly hedged position, as FTX showed",
+    "Why liquidation cascades like October 10, 2025 ($9.89B liquidated, 70% in 40 minutes) break the hedge, and how Stream Finance's xUSD depegged over 77%",
+    "Four questions to ask before depositing, and why swap-fee yield is a different tradeoff"
+  ],
+  "keywords": [
+    "delta-neutral stablecoin yield",
+    "delta-neutral strategy risks",
+    "funding rate inversion",
+    "stablecoin yield risks",
+    "negative funding rates",
+    "counterparty risk crypto",
+    "Stream Finance xUSD depeg",
+    "swap fee yield stablecoins"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "Cold open: risk-free fifteen percent"
+    },
+    {
+      "line": 6,
+      "title": "How delta-neutral actually works"
+    },
+    {
+      "line": 17,
+      "title": "Failure mode one: funding flips negative"
+    },
+    {
+      "line": 25,
+      "title": "Failure mode two: Travis and the glovebox"
+    },
+    {
+      "line": 37,
+      "title": "Failure mode three: cascades and the xUSD collapse"
+    },
+    {
+      "line": 53,
+      "title": "Swap-fee yield and the four-question checklist"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Mira, if somebody offered you fifteen percent on dollars, totally risk-free, what's your first move?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] Ask where the fifteen percent comes from. Then hold my wallet with both hands."
+    },
+    {
+      "speaker": "jules",
+      "text": "See, I'd ask if there's a free tote bag."
+    },
+    {
+      "speaker": "mira",
+      "text": "There's always a tote bag."
+    },
+    {
+      "speaker": "jules",
+      "text": "Welcome to Cross-Chain Daily, I'm Jules, she's Mira, and today we're asking how a risk-free fifteen percent stablecoin yield turns into losing twenty. And Mark is back!"
+    },
+    {
+      "speaker": "mark",
+      "text": "[warm] Good to be back. Fair warning, I've sat on the desk side of these trades. I have opinions."
+    },
+    {
+      "speaker": "mira",
+      "text": "Good. Start simple. What is a delta-neutral strategy?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Look, it's two legs. You buy an asset, say ether, on spot. At the same time you open a short for the same amount on a perpetual futures exchange. If ether drops ten percent, spot loses, the short gains the same. Price exposure nets to zero."
+    },
+    {
+      "speaker": "jules",
+      "text": "So you bought it and bet against it. That's just, like, standing still with extra steps."
+    },
+    {
+      "speaker": "mark",
+      "text": "[amused] Exactly. Standing still is the point. The money comes from somewhere else."
+    },
+    {
+      "speaker": "jules",
+      "text": "Where? Who pays you to stand still?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Funding rates. On perpetual futures, when more traders want to be long, the longs pay the shorts a regular fee to keep the contract price near spot."
+    },
+    {
+      "speaker": "mark",
+      "text": "And in a bull market everyone wants to be long with borrowed money, so funding runs positive. The vault is the short, so it collects. That's the fifteen to eighteen percent you see on the banner."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, so wait. The yield is basically excited people paying rent to stay excited."
+    },
+    {
+      "speaker": "mira",
+      "text": "[half-laughing] That's honestly not wrong."
+    },
+    {
+      "speaker": "mark",
+      "text": "Which is the catch. It only works while they stay excited."
+    },
+    {
+      "speaker": "jules",
+      "text": "And crypto people are famously calm."
+    },
+    {
+      "speaker": "mark",
+      "text": "[dry] Famously. So, failure mode one. Funding rates are not fixed income. When the market turns bearish, traders flip short, funding goes negative, and now the vault pays instead of collecting."
+    },
+    {
+      "speaker": "mira",
+      "text": "How bad does it get?"
+    },
+    {
+      "speaker": "mark",
+      "text": "The article has it. Funding on Binance fell to nearly minus seven percent on a thirty-day sum basis as bitcoin came out of the late twenty twenty-two bear market. The most negative levels hit during the F T X collapse in November twenty twenty-two, when bitcoin bottomed near fifteen thousand dollars."
+    },
+    {
+      "speaker": "jules",
+      "text": "Minus seven. For a month."
+    },
+    {
+      "speaker": "mark",
+      "text": "For a month. The article calls a fifteen percent vault bleeding seven percent monthly a twenty-two point swing in effective yield. Two months of deeply negative funding erases a year of positive returns."
+    },
+    {
+      "speaker": "mira",
+      "text": "And bear markets don't send a calendar invite."
+    },
+    {
+      "speaker": "mark",
+      "text": "They last quarters. It's like selling boerewors rolls at the match, it starts pouring, and suddenly you're paying people to stand at your stall. With no idea when the rain stops."
+    },
+    {
+      "speaker": "jules",
+      "text": "That's the worst job I've ever heard, and I sold knives door to door."
+    },
+    {
+      "speaker": "mira",
+      "text": "Failure mode two."
+    },
+    {
+      "speaker": "mark",
+      "text": "Counterparty risk. The short leg lives on a centralized derivatives exchange, so you're exposed to whether that exchange stays solvent. When F T X went down, delta-neutral vaults with positions there lost everything. Not from price moves. From the exchange itself."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, this is my buddy Travis. Senior year, Travis ran the fantasy football league. Twelve guys, forty bucks each, and Travis kept the pot in an envelope in his truck's glovebox."
+    },
+    {
+      "speaker": "mira",
+      "text": "[wincing] Oh no."
+    },
+    {
+      "speaker": "jules",
+      "text": "I won! Best season of my life. Week sixteen I go to collect, and Travis's truck got repossessed. Envelope and all. Perfect picks. Zero dollars."
+    },
+    {
+      "speaker": "mark",
+      "text": "[half-laughing] That's it. That's the whole failure mode. You can be perfectly hedged and still go to zero if the guy holding the envelope disappears."
+    },
+    {
+      "speaker": "mira",
+      "text": "I hate how well that works. Did you ever get paid?"
+    },
+    {
+      "speaker": "jules",
+      "text": "Travis paid me back in gas station slushies for a year. Mostly blue raspberry."
+    },
+    {
+      "speaker": "mira",
+      "text": "And the numbers on this one?"
+    },
+    {
+      "speaker": "mark",
+      "text": "After F T X, forty-seven percent of surveyed participants named counterparty risk their top concern. Operational risk was thirty-one percent, liquidity risk thirteen. And nearly fifty F T X customers lost over twenty-one million dollars each."
+    },
+    {
+      "speaker": "jules",
+      "text": "<emphasis>Each</emphasis>?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Each. I mean, spreading across exchanges helps, but it doesn't remove the risk, and now you're watching five gloveboxes. Most retail folks can't run that."
+    },
+    {
+      "speaker": "mira",
+      "text": "Okay. Failure mode three is the one people don't see coming. Liquidations."
+    },
+    {
+      "speaker": "mark",
+      "text": "Right. Delta-neutral isn't risk-free when things move fast. If price rips, the short leg can get liquidated before the manager rebalances. Now your hedge is gone and you're just long, at exactly the wrong moment."
+    },
+    {
+      "speaker": "jules",
+      "text": "So the neutral thing stops being neutral."
+    },
+    {
+      "speaker": "mark",
+      "text": "Think of it as a defensive formation. Lovely shape on paper. But if the ball moves faster than your center back can turn, you concede anyway."
+    },
+    {
+      "speaker": "mira",
+      "text": "October tenth, twenty twenty-five, is the article's example."
+    },
+    {
+      "speaker": "mark",
+      "text": "Nine point eight nine billion dollars in positions liquidated that day. Seventy percent of the losses in just forty minutes. Vaults that rebalanced by hand, or slowly, got caught. Neutral turned directional right at peak chaos."
+    },
+    {
+      "speaker": "jules",
+      "text": "Forty minutes. I can't pick lunch in forty minutes."
+    },
+    {
+      "speaker": "mira",
+      "text": "[dry] I've seen you. It's closer to ninety."
+    },
+    {
+      "speaker": "mark",
+      "text": "And the nasty part: these cascades tend to show up alongside negative funding. So you're paying funding and eating losses on a broken hedge. Same week."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, uh, has this actually blown up a real product, or is this all theory?"
+    },
+    {
+      "speaker": "mira",
+      "text": "Stream Finance. November twenty twenty-five."
+    },
+    {
+      "speaker": "mark",
+      "text": "Stream marketed x U S D as a delta-neutral yield stablecoin paying around eighteen percent. Then they disclosed a ninety-three million dollar loss tied to an external fund manager. x U S D depegged by over seventy-seven percent. Depositors lost most of their principal in days."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quietly] Days."
+    },
+    {
+      "speaker": "mark",
+      "text": "And the article's point is, that wasn't a black swan. Layered counterparty risk plus opaque fund management. Predictable."
+    },
+    {
+      "speaker": "jules",
+      "text": "That's cream puff guy at the wedding. Twenty percent, from the app. Nobody knew who was holding the envelope."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] Cream puff guy and Travis's glovebox in one thought. You're on a roll. So what does yield look like that doesn't do this?"
+    },
+    {
+      "speaker": "mark",
+      "text": "The answer isn't zero yield. It's knowing the source. Swap-fee models earn from real activity, people paying to exchange assets. Chainflip's stablecoin strategies earn from swap fees and just-in-time liquidity, not funding rate bets."
+    },
+    {
+      "speaker": "jules",
+      "text": "So, um, it's lower?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Lower than fifteen to eighteen, yes. But per the article, it doesn't flip negative when the mood flips. It auto-compounds, and you're not trusting a centralized exchange with your principal."
+    },
+    {
+      "speaker": "mira",
+      "text": "Not risk-free either, though. Different tradeoff."
+    },
+    {
+      "speaker": "mark",
+      "text": "Right. You're exposed to swap volume going up and down instead of funding inversions. A quiet month means smaller fees. It doesn't mean you owe anyone money."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, give me the checklist. For the skimmers."
+    },
+    {
+      "speaker": "mira",
+      "text": "Four questions. Where does the yield come from?"
+    },
+    {
+      "speaker": "mark",
+      "text": "If it's funding rates, know they can invert."
+    },
+    {
+      "speaker": "mira",
+      "text": "Which exchanges hold the collateral?"
+    },
+    {
+      "speaker": "mark",
+      "text": "If centralized, you've got counterparty exposure. Travis exposure."
+    },
+    {
+      "speaker": "mira",
+      "text": "How is the position managed in a volatility spike?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Manual rebalancing fails during cascades. Forty minutes, remember."
+    },
+    {
+      "speaker": "mira",
+      "text": "And what happened to similar products in past downturns?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Track records matter. The line I'd tape to the fridge: a fifteen percent yield that turns into minus twenty in a bear market is worse than a six percent yield that stays positive."
+    },
+    {
+      "speaker": "jules",
+      "text": "Boring and positive beats exciting and on fire."
+    },
+    {
+      "speaker": "mira",
+      "text": "Takeaway: delta-neutral removes price risk, not the risk of who's paying you and who's holding your money. The full article is linked in the show notes."
+    },
+    {
+      "speaker": "jules",
+      "text": "Not financial advice. Thanks, Mark."
+    },
+    {
+      "speaker": "mark",
+      "text": "[grinning] Always a pleasure. Mind the glovebox."
+    },
+    {
+      "speaker": "mira",
+      "text": "Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "Senior year he won his buddy Travis's twelve-guy fantasy football league, but Travis kept the forty-dollar-a-head pot in his truck's glovebox and the truck got repossessed in week sixteen. Travis paid him back in blue raspberry gas station slushies for a year. 'Travis's glovebox' / 'Travis exposure' is now his picture of exchange counterparty risk."
+    },
+    {
+      "character": "mark",
+      "note": "New lines: negative funding is 'selling boerewors rolls at the match when it starts pouring and paying people to stand at your stall', and delta-neutral is 'a defensive formation, lovely on paper, but if the ball moves faster than your center back can turn, you concede anyway.' Signed off with 'Mind the glovebox.'"
+    },
+    {
+      "character": "mira",
+      "note": "Claims Jules takes about ninety minutes to pick lunch."
+    }
+  ]
+}

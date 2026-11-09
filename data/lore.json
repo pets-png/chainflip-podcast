@@ -143,5 +143,20 @@
     "episode": 10,
     "character": "mira",
     "note": "Grudgingly admitted the valet ticket analogy for wrapped tokens works on air."
+  },
+  {
+    "episode": 11,
+    "character": "jules",
+    "note": "At eighteen he pawned his electric guitar for $80 at Lonnie's Pawn and Tan (half pawn shop, half tanning bed, out by the grain elevator) to buy concert tickets, then watched Lonnie play it badly behind the counter with his boots on the glass case. Lonnie is his picture of a custodian holding your collateral."
+  },
+  {
+    "episode": 11,
+    "character": "mira",
+    "note": "Added a second column to her Jules-analogy spreadsheet, 'Half held up'; its first entry is Lonnie renting the pawned guitar to a wedding band (Boost yield on collateral)."
+  },
+  {
+    "episode": 11,
+    "character": "jules",
+    "note": "His picture of soft liquidation: 'Lonnie sells one string at a time, not the whole guitar.' Mira admitted it's 'not bad.'"
   }
 ]
