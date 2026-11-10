@@ -153,6 +153,41 @@
       "evergreen": true
     }
   },
+  "ai-agent-cross-chain-swap-chainflip-sdk": {
+    "url": "https://chainflip.io/blog/ai-agent-cross-chain-swap-chainflip-sdk",
+    "slug": "ai-agent-cross-chain-swap-chainflip-sdk",
+    "title": "AI Agent Cross-Chain Swap Tools with the Chainflip SDK",
+    "description": "Build an AI agent cross-chain swap tool with the Chainflip SDK: list assets, get quotes, open deposit channels and track status with user confirmation.",
+    "image": "https://framerusercontent.com/images/CNkgyhiJorKCIgWisga0A9AL1do.png?width=1600&height=900",
+    "published": "2026-11-10",
+    "headings": [
+      "What you need",
+      "Step 1: Initialise the SDK and expose a list_assets tool",
+      "Step 2: Wrap getQuoteV2 as a get_quote tool",
+      "Step 3: Open a deposit channel only after the user confirms",
+      "Step 4: Poll swap status with getStatusV2",
+      "Step 5: Publish the four tools as MCP-style definitions",
+      "Troubleshooting",
+      "Ship the pattern on testnet first",
+      "FAQ",
+      "Does Chainflip offer an official MCP server for AI agents?",
+      "Can an AI agent complete a swap without the user?",
+      "How long does a Chainflip deposit channel stay open?",
+      "Does a COMPLETED status mean the swap succeeded?"
+    ],
+    "words": 1185,
+    "first_seen": "2026-11-10T14:02:35Z",
+    "live": true,
+    "cls": {
+      "cluster": "ai-agent-swaps-mcp",
+      "cluster_label": "AI agent swaps via MCP",
+      "category": "integrations",
+      "assets": [],
+      "complexity": 4,
+      "podcast_fit": 3,
+      "evergreen": true
+    }
+  },
   "ai-agent-crypto-swap-mcp-cross-chain": {
     "url": "https://chainflip.io/blog/ai-agent-crypto-swap-mcp-cross-chain",
     "slug": "ai-agent-crypto-swap-mcp-cross-chain",
@@ -4052,6 +4087,38 @@
       ],
       "complexity": 2,
       "podcast_fit": 2,
+      "evergreen": false
+    }
+  },
+  "chainflip-v2-3-release-bnb-chain-cbbtc-and-flip-2-1": {
+    "url": "https://chainflip.io/blog/chainflip-v2-3-release-bnb-chain-cbbtc-and-flip-2-1",
+    "slug": "chainflip-v2-3-release-bnb-chain-cbbtc-and-flip-2-1",
+    "title": "Chainflip v2.3: BNB Chain, cbBTC and FLIP 2.1",
+    "description": "The v2.3 runtime upgrade is live. It adds BNB Chain (native BNB and USDT), cbBTC on Ethereum, and the code for FLIP 2.1, Chainflip's fixed-supply, revenue-backed token upgrade.",
+    "image": "https://framerusercontent.com/images/P9A50NXHPpRlxRmykrwRYqs5ZGY.png?width=3200&height=1800",
+    "published": "2026-11-10",
+    "headings": [
+      "New chain: BNB Chain",
+      "New asset: cbBTC on Ethereum",
+      "Upgrade: FLIP 2.1 arrives in this release, activates later",
+      "Also in this release",
+      "Whatâs next"
+    ],
+    "words": 481,
+    "first_seen": "2026-11-10T14:02:35Z",
+    "live": true,
+    "cls": {
+      "cluster": "release-wraps",
+      "cluster_label": "Protocol release wrap-ups",
+      "category": "releases_protocol",
+      "assets": [
+        "BNB",
+        "USDT",
+        "CBBTC",
+        "FLIP"
+      ],
+      "complexity": 2,
+      "podcast_fit": 3,
       "evergreen": false
     }
   },
