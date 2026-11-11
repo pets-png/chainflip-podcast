@@ -892,7 +892,7 @@
   {
     "number": 12,
     "tag": "take-012",
-    "status": "pending",
+    "status": "published",
     "slug": "delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk",
     "post_url": "https://chainflip.io/blog/delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk",
     "post_title": "Delta-Neutral Stablecoin Yields: When 15% APY Turns Into -20% Losses",
@@ -967,6 +967,87 @@
     "audio_file": "take-012-delta-neutral-stablecoin-yield-failure-modes-funding-rate-ri.mp3",
     "description_html": "<p>Fifteen percent on dollars, fully hedged, no price risk. What could go wrong? Mark walks Jules and Mira through the three failure modes that turn delta-neutral stablecoin yield into real losses, and Jules explains it all with a fantasy football pot that got repossessed.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Delta-Neutral Stablecoin Yields: When 15% APY Turns Into -20% Losses</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>How a delta-neutral vault works: long spot, short perps, collect funding from leveraged longs</li><li>Why funding rates invert in bear markets (nearly -7% on a 30-day sum on Binance after late 2022)</li><li>How exchange counterparty risk can zero a perfectly hedged position, as FTX showed</li><li>Why liquidation cascades like October 10, 2025 ($9.89B liquidated, 70% in 40 minutes) break the hedge, and how Stream Finance&#x27;s xUSD depegged over 77%</li><li>Four questions to ask before depositing, and why swap-fee yield is a different tradeoff</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: risk-free fifteen percent<br>00:32 How delta-neutral actually works<br>01:34 Failure mode one: funding flips negative<br>02:32 Failure mode two: Travis and the glovebox<br>03:51 Failure mode three: cascades and the xUSD collapse<br>05:35 Swap-fee yield and the four-question checklist</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=delta-neutral-stablecoin-yield-failure-modes-funding-rate-risk&amp;utm_content=ep-12\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 13,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-aa90424a2f07c62652d3"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-aa90424a2f07c62652d3",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-012/take-012-delta-neutral-stablecoin-yield-failure-modes-funding-rate-ri.mp3",
+    "published_at": "2026-11-11T13:14:23Z"
+  },
+  {
+    "number": 13,
+    "tag": "take-013",
+    "status": "pending",
+    "slug": "swap-broker-earn-affiliate-fee-revenue-model",
+    "post_url": "https://chainflip.io/blog/swap-broker-earn-affiliate-fee-revenue-model",
+    "post_title": "How Much Can a Swap Broker Actually Earn? Modeling Affiliate Fee Revenue",
+    "category": "integrations",
+    "cluster": "partner-fee-revenue",
+    "format": "hosts_only",
+    "guest": null,
+    "title": "Swap Broker Fees, Run on a Napkin: What Volume Pays the Bills?",
+    "summary": "Jules and Mira model how much a Chainflip swap broker can earn from affiliate fees, walking through fee tiers, breakeven volume, payback time and three integration scenarios, from a niche wallet to a regional exchange to an aggregator.",
+    "hook": "Adding swaps to your wallet or exchange and charging a small fee sounds like easy money. But how much volume do you actually need before it pays for itself? Jules brings his teenage car wash side hustle, Mira brings the spreadsheet, and together they run the real numbers.",
+    "key_points": [
+      "Chainflip charges a flat 0.10% protocol fee; brokers can add their own fee from 0 to 1000 bps, paid straight to their address in the destination asset",
+      "At $2,000/month in costs, breakeven volume is $4M at 5 bps, $2M at 10 bps and $800K at 25 bps",
+      "A niche wallet doing $50K/month at 15 bps earns $75, while an exchange with $30M of existing volume earns $15K to $30K",
+      "Over the last 30 days the network did $517.49M in volume, so 10 bps across all of it would be about $517K in potential broker revenue",
+      "The simple formula: users who'd swap x average swap size x your fee, minus costs"
+    ],
+    "keywords": [
+      "swap broker fees",
+      "crypto affiliate fee revenue",
+      "Chainflip broker",
+      "how much can a swap broker earn",
+      "cross-chain swap integration revenue",
+      "broker fee breakeven volume",
+      "wallet swap fee monetization"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "As a teen at Gus's car wash (eight bucks a wash) he sold a one-dollar tire shine add-on and kept the dollar; great on Saturdays, dead on Tuesday mornings (three cars, one was Gus). Gus started taking half by July. 'Saturdays and Tuesdays' is now his picture of uneven volume, and the tire shine dollar is his picture of a broker fee."
+      },
+      {
+        "character": "jules",
+        "note": "He once tried a five-dollar 'Deluxe' tire shine (same spray bottle), sold zero, and got laughed at by a guy in a minivan. His picture of charging a premium fee without adding value."
+      },
+      {
+        "character": "mira",
+        "note": "Put the tire shine in the full 'Held up' column of her Jules-analogy spreadsheet, not 'Half held up', and told him not to make it weird."
+      }
+    ],
+    "words": 964,
+    "created_at": "2026-11-11T13:15:42Z",
+    "duration": 372,
+    "chapters": [
+      {
+        "title": "Cold open: the tire shine dollar",
+        "start": 0.0
+      },
+      {
+        "title": "How broker fees work",
+        "start": 27.7
+      },
+      {
+        "title": "Three fee tiers, worked out",
+        "start": 91.3
+      },
+      {
+        "title": "Breakeven and payback",
+        "start": 143.7
+      },
+      {
+        "title": "Wallet, exchange, aggregator",
+        "start": 181.3
+      },
+      {
+        "title": "The size of the pie and how to run your own math",
+        "start": 254.1
+      }
+    ],
+    "audio_bytes": 5948619,
+    "audio_file": "take-013-swap-broker-earn-affiliate-fee-revenue-model.mp3",
+    "description_html": "<p>Adding swaps to your wallet or exchange and charging a small fee sounds like easy money. But how much volume do you actually need before it pays for itself? Jules brings his teenage car wash side hustle, Mira brings the spreadsheet, and together they run the real numbers.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/swap-broker-earn-affiliate-fee-revenue-model?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">How Much Can a Swap Broker Actually Earn? Modeling Affiliate Fee Revenue</a></p><p><strong>In this episode</strong></p><ul><li>Chainflip charges a flat 0.10% protocol fee; brokers can add their own fee from 0 to 1000 bps, paid straight to their address in the destination asset</li><li>At $2,000/month in costs, breakeven volume is $4M at 5 bps, $2M at 10 bps and $800K at 25 bps</li><li>A niche wallet doing $50K/month at 15 bps earns $75, while an exchange with $30M of existing volume earns $15K to $30K</li><li>Over the last 30 days the network did $517.49M in volume, so 10 bps across all of it would be about $517K in potential broker revenue</li><li>The simple formula: users who&#x27;d swap x average swap size x your fee, minus costs</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: the tire shine dollar<br>00:27 How broker fees work<br>01:31 Three fee tiers, worked out<br>02:23 Breakeven and payback<br>03:01 Wallet, exchange, aggregator<br>04:14 The size of the pie and how to run your own math</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 14,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-70cf5c7daeb2112bd434"
   }
 ]

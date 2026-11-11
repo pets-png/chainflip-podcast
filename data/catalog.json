@@ -847,6 +847,38 @@
       "evergreen": true
     }
   },
+  "bnb-chain-live-chainflip-native-bnb-usdt-swaps": {
+    "url": "https://chainflip.io/blog/bnb-chain-live-chainflip-native-bnb-usdt-swaps",
+    "slug": "bnb-chain-live-chainflip-native-bnb-usdt-swaps",
+    "title": "BNB Chain Is Live on Chainflip: Native BNB & USDT Swaps",
+    "description": "BNB Chain is live on Chainflip. Swap native BNB and USDT with BTC, ETH, SOL, DOT, TRX, cbBTC and stablecoins. No bridge, no wrapped copies, no sign-up.",
+    "image": "https://framerusercontent.com/images/pGNSPyxt54J39hdSHU4SAvTtGzg.png?width=1600&height=900",
+    "published": "2026-11-11",
+    "headings": [
+      "One of the busiest ecosystems in crypto. Now the native way in.",
+      "What is live today",
+      "Why this matters",
+      "What you can do once you are in",
+      "From testnet to mainnet",
+      "For builders and liquidity providers",
+      "Swap BNB with Chainflip"
+    ],
+    "words": 586,
+    "first_seen": "2026-11-11T13:14:17Z",
+    "live": true,
+    "cls": {
+      "cluster": "bnb-chain-launch",
+      "cluster_label": "BNB Chain integration launch",
+      "category": "multichain",
+      "assets": [
+        "BNB",
+        "USDT"
+      ],
+      "complexity": 2,
+      "podcast_fit": 3,
+      "evergreen": false
+    }
+  },
   "bnb-chain-vs-ethereum-comparison": {
     "url": "https://chainflip.io/blog/bnb-chain-vs-ethereum-comparison",
     "slug": "bnb-chain-vs-ethereum-comparison",
