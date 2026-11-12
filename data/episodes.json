@@ -974,7 +974,7 @@
   {
     "number": 13,
     "tag": "take-013",
-    "status": "pending",
+    "status": "published",
     "slug": "swap-broker-earn-affiliate-fee-revenue-model",
     "post_url": "https://chainflip.io/blog/swap-broker-earn-affiliate-fee-revenue-model",
     "post_title": "How Much Can a Swap Broker Actually Earn? Modeling Affiliate Fee Revenue",
@@ -1048,6 +1048,88 @@
     "audio_file": "take-013-swap-broker-earn-affiliate-fee-revenue-model.mp3",
     "description_html": "<p>Adding swaps to your wallet or exchange and charging a small fee sounds like easy money. But how much volume do you actually need before it pays for itself? Jules brings his teenage car wash side hustle, Mira brings the spreadsheet, and together they run the real numbers.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/swap-broker-earn-affiliate-fee-revenue-model?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">How Much Can a Swap Broker Actually Earn? Modeling Affiliate Fee Revenue</a></p><p><strong>In this episode</strong></p><ul><li>Chainflip charges a flat 0.10% protocol fee; brokers can add their own fee from 0 to 1000 bps, paid straight to their address in the destination asset</li><li>At $2,000/month in costs, breakeven volume is $4M at 5 bps, $2M at 10 bps and $800K at 25 bps</li><li>A niche wallet doing $50K/month at 15 bps earns $75, while an exchange with $30M of existing volume earns $15K to $30K</li><li>Over the last 30 days the network did $517.49M in volume, so 10 bps across all of it would be about $517K in potential broker revenue</li><li>The simple formula: users who&#x27;d swap x average swap size x your fee, minus costs</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: the tire shine dollar<br>00:27 How broker fees work<br>01:31 Three fee tiers, worked out<br>02:23 Breakeven and payback<br>03:01 Wallet, exchange, aggregator<br>04:14 The size of the pie and how to run your own math</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=swap-broker-earn-affiliate-fee-revenue-model&amp;utm_content=ep-13\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 14,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-70cf5c7daeb2112bd434"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-70cf5c7daeb2112bd434",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-013/take-013-swap-broker-earn-affiliate-fee-revenue-model.mp3",
+    "published_at": "2026-11-12T14:17:56Z"
+  },
+  {
+    "number": 14,
+    "tag": "take-014",
+    "status": "pending",
+    "slug": "saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide",
+    "post_url": "https://chainflip.io/blog/saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide",
+    "post_title": "Stablecoin On-Ramps and Off-Ramps in the UAE and Saudi Arabia: Regulatory Overview",
+    "category": "regulation_macro",
+    "cluster": "gulf-crypto-regulation",
+    "format": "guest",
+    "guest": "mark",
+    "title": "UAE Stablecoin Off-Ramps vs Saudi Arabia: Who's Actually the Referee?",
+    "summary": "Mark joins Jules and Mira to explain who regulates stablecoin on-ramps and off-ramps in the UAE (VARA, ADGM, DIFC) and Saudi Arabia (SAMA, CMA), what licensed exchanges require, and where non-custodial cross-chain swaps fit.",
+    "hook": "The UAE has three crypto regulators in one country. Saudi Arabia has two authorities and no licensed way to turn stablecoins into riyals. Mark walks through who's in charge of getting money in and out, why a bait shop on a three-county lake explains it, and when you don't need a ramp at all.",
+    "key_points": [
+      "The UAE splits crypto oversight between VARA (Dubai), ADGM's FSRA (Abu Dhabi free zone) and the DFSA (DIFC), each with its own licenses.",
+      "Licensed UAE platforms like BitOasis, Rain and CoinMENA offer AED bank transfers, cards, USDT/AED and USDC/AED pairs, with full KYC and tiered limits.",
+      "Saudi Arabia's SAMA and CMA have issued warnings but no licensing path for retail crypto exchanges, and holding crypto isn't explicitly banned.",
+      "Saudi residents often rely on international platforms or P2P, which brings counterparty risk and legal ambiguity.",
+      "Non-custodial swaps like Chainflip move stablecoins between chains without KYC or custody, but they don't replace a fiat ramp and tax obligations still apply."
+    ],
+    "keywords": [
+      "stablecoin off-ramp UAE",
+      "crypto regulation Saudi Arabia",
+      "VARA crypto license Dubai",
+      "ADGM FSRA crypto",
+      "convert USDT to AED",
+      "USDT to SAR Saudi Arabia",
+      "non-custodial cross-chain swap",
+      "stablecoin on-ramp Gulf"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "Worked at Dot's Bait and Tackle on Lake Merrow, a lake split across two counties and a state park, where Dot sold three different fishing stickers for the same worm. 'Three coves, one lake' is his picture of the UAE's three crypto regulators; the next lake over with no license office and a guy selling permits from a truck is his picture of Saudi P2P off-ramps."
+      },
+      {
+        "character": "mira",
+        "note": "Jules's 'catch log' line (moving your own boat between coves needs no shop, but the warden still checks your catch) became entry eleven in the 'Held up' column of her spreadsheet."
+      },
+      {
+        "character": "mark",
+        "note": "New lines: Saudi crypto policy is 'the stadium's built and the announcer keeps saying please don't play', and non-custodial swaps are like 'nobody needs a butcher's license to flip their own steak on their own braai.' Signed off with 'Check your cove.'"
+      }
+    ],
+    "words": 1167,
+    "created_at": "2026-11-12T14:19:34Z",
+    "duration": 410,
+    "chapters": [
+      {
+        "title": "Three coves, one lake",
+        "start": 0.0
+      },
+      {
+        "title": "The UAE's three regulators: VARA, ADGM and DIFC",
+        "start": 65.3
+      },
+      {
+        "title": "What a licensed off-ramp looks like",
+        "start": 161.5
+      },
+      {
+        "title": "Saudi Arabia: warnings, no licenses, no ban",
+        "start": 202.7
+      },
+      {
+        "title": "Where non-custodial swaps fit",
+        "start": 289.4
+      },
+      {
+        "title": "Wrap",
+        "start": 375.0
+      }
+    ],
+    "audio_bytes": 6563444,
+    "audio_file": "take-014-saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablec.mp3",
+    "description_html": "<p>The UAE has three crypto regulators in one country. Saudi Arabia has two authorities and no licensed way to turn stablecoins into riyals. Mark walks through who&#x27;s in charge of getting money in and out, why a bait shop on a three-county lake explains it, and when you don&#x27;t need a ramp at all.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Stablecoin On-Ramps and Off-Ramps in the UAE and Saudi Arabia: Regulatory Overview</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>The UAE splits crypto oversight between VARA (Dubai), ADGM&#x27;s FSRA (Abu Dhabi free zone) and the DFSA (DIFC), each with its own licenses.</li><li>Licensed UAE platforms like BitOasis, Rain and CoinMENA offer AED bank transfers, cards, USDT/AED and USDC/AED pairs, with full KYC and tiered limits.</li><li>Saudi Arabia&#x27;s SAMA and CMA have issued warnings but no licensing path for retail crypto exchanges, and holding crypto isn&#x27;t explicitly banned.</li><li>Saudi residents often rely on international platforms or P2P, which brings counterparty risk and legal ambiguity.</li><li>Non-custodial swaps like Chainflip move stablecoins between chains without KYC or custody, but they don&#x27;t replace a fiat ramp and tax obligations still apply.</li></ul><p><strong>Chapters</strong><br>00:00 Three coves, one lake<br>01:05 The UAE&#x27;s three regulators: VARA, ADGM and DIFC<br>02:41 What a licensed off-ramp looks like<br>03:22 Saudi Arabia: warnings, no licenses, no ban<br>04:49 Where non-custodial swaps fit<br>06:15 Wrap</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 15,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-a1e3ed4900ec14b7a734"
   }
 ]

@@ -11298,6 +11298,47 @@
     },
     "unpublished_at": "2026-11-04T13:29:37Z"
   },
+  "usdc-tron-network-alternatives": {
+    "url": "https://chainflip.io/blog/usdc-tron-network-alternatives",
+    "slug": "usdc-tron-network-alternatives",
+    "title": "USDC on TRON Network: What Happened and What to Use Now",
+    "description": "USDC on TRON network is discontinued by Circle. See what happened to USDC-TRC20, what holders should do, and the practical alternatives.",
+    "image": "https://framerusercontent.com/images/DpYzDtcNJh99RFq6bSrFdwh8BJ4.png?width=1600&height=900",
+    "published": "2026-11-12",
+    "headings": [
+      "USDC on TRON alternatives at a glance",
+      "What happened to USDC on TRON",
+      "If you still hold USDC-TRC20",
+      "Option 1: USDT-TRC20 on TRON",
+      "Option 2: USDC on Ethereum",
+      "Option 3: USDC on Solana",
+      "Option 4: USDC on Arbitrum",
+      "Which one fits you",
+      "Bottom line",
+      "FAQ",
+      "Is there USDC on the TRON network?",
+      "Can I still redeem USDC-TRC20 with Circle?",
+      "Can I swap USDC-TRC20 on Chainflip?",
+      "USDT vs USDC on TRON: which should I use?",
+      "How much does it cost to send USDT-TRC20?"
+    ],
+    "words": 1411,
+    "first_seen": "2026-11-12T14:17:50Z",
+    "live": true,
+    "cls": {
+      "cluster": "usdc-tron-discontinuation",
+      "cluster_label": "USDC on TRON discontinued, alternatives",
+      "category": "stablecoins_tron",
+      "assets": [
+        "USDC",
+        "USDT",
+        "TRX"
+      ],
+      "complexity": 2,
+      "podcast_fit": 3,
+      "evergreen": true
+    }
+  },
   "usdc-vs-usdt-chainflip-stablecoin-comparison": {
     "url": "https://chainflip.io/blog/usdc-vs-usdt-chainflip-stablecoin-comparison",
     "slug": "usdc-vs-usdt-chainflip-stablecoin-comparison",

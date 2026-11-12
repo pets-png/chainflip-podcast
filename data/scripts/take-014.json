@@ -1,0 +1,339 @@
+{
+  "post": "https://chainflip.io/blog/saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide",
+  "format": "guest",
+  "guest": "mark",
+  "episode_title": "UAE Stablecoin Off-Ramps vs Saudi Arabia: Who's Actually the Referee?",
+  "summary": "Mark joins Jules and Mira to explain who regulates stablecoin on-ramps and off-ramps in the UAE (VARA, ADGM, DIFC) and Saudi Arabia (SAMA, CMA), what licensed exchanges require, and where non-custodial cross-chain swaps fit.",
+  "hook": "The UAE has three crypto regulators in one country. Saudi Arabia has two authorities and no licensed way to turn stablecoins into riyals. Mark walks through who's in charge of getting money in and out, why a bait shop on a three-county lake explains it, and when you don't need a ramp at all.",
+  "key_points": [
+    "The UAE splits crypto oversight between VARA (Dubai), ADGM's FSRA (Abu Dhabi free zone) and the DFSA (DIFC), each with its own licenses.",
+    "Licensed UAE platforms like BitOasis, Rain and CoinMENA offer AED bank transfers, cards, USDT/AED and USDC/AED pairs, with full KYC and tiered limits.",
+    "Saudi Arabia's SAMA and CMA have issued warnings but no licensing path for retail crypto exchanges, and holding crypto isn't explicitly banned.",
+    "Saudi residents often rely on international platforms or P2P, which brings counterparty risk and legal ambiguity.",
+    "Non-custodial swaps like Chainflip move stablecoins between chains without KYC or custody, but they don't replace a fiat ramp and tax obligations still apply."
+  ],
+  "keywords": [
+    "stablecoin off-ramp UAE",
+    "crypto regulation Saudi Arabia",
+    "VARA crypto license Dubai",
+    "ADGM FSRA crypto",
+    "convert USDT to AED",
+    "USDT to SAR Saudi Arabia",
+    "non-custodial cross-chain swap",
+    "stablecoin on-ramp Gulf"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "Three coves, one lake"
+    },
+    {
+      "line": 13,
+      "title": "The UAE's three regulators: VARA, ADGM and DIFC"
+    },
+    {
+      "line": 25,
+      "title": "What a licensed off-ramp looks like"
+    },
+    {
+      "line": 32,
+      "title": "Saudi Arabia: warnings, no licenses, no ban"
+    },
+    {
+      "line": 47,
+      "title": "Where non-custodial swaps fit"
+    },
+    {
+      "line": 62,
+      "title": "Wrap"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Mira, did I ever tell you I worked at a bait shop?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] You've worked at every shop."
+    },
+    {
+      "speaker": "jules",
+      "text": "Dot's Bait and Tackle, on Lake Merrow. The lake sat across two county lines plus a state park. So three different sets of fishing rules on one lake, depending on which cove your boat drifted into."
+    },
+    {
+      "speaker": "mira",
+      "text": "And Dot sold..."
+    },
+    {
+      "speaker": "jules",
+      "text": "Three different stickers. Same worm, three stickers."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] Okay, that's annoyingly on topic. Welcome to Cross-Chain Daily, I'm Mira, that's Jules, and today it's who regulates stablecoin on-ramps and off-ramps in the UAE and Saudi Arabia. Mark's back with us."
+    },
+    {
+      "speaker": "mark",
+      "text": "Good to be back. And Jules, your lake is basically the UAE."
+    },
+    {
+      "speaker": "jules",
+      "text": "I knew it."
+    },
+    {
+      "speaker": "mira",
+      "text": "Quick ground rules. This is based on the article, it covers things as of October twenty twenty-six, and it's not legal advice. Talk to a qualified professional about your own situation."
+    },
+    {
+      "speaker": "jules",
+      "text": "And on-ramp, off-ramp, for the folks in the back, that's..."
+    },
+    {
+      "speaker": "mark",
+      "text": "On-ramp is fiat into crypto. Dirhams in, stablecoins out. Off-ramp is the reverse, stablecoins back into money your landlord accepts."
+    },
+    {
+      "speaker": "jules",
+      "text": "My landlord accepts casseroles."
+    },
+    {
+      "speaker": "mira",
+      "text": "[flat] He does not."
+    },
+    {
+      "speaker": "mark",
+      "text": "[amused] So, the UAE. There's no single national crypto regulator. There are three authorities, and which one applies depends on where the business operates. Three leagues in one country, each with its own referees."
+    },
+    {
+      "speaker": "jules",
+      "text": "Three coves."
+    },
+    {
+      "speaker": "mark",
+      "text": "Three coves. First is VARA, the Virtual Assets Regulatory Authority. It covers Dubai, except the D I F C free zone. Launched in twenty twenty-two, and it's licensed big exchanges, including Binance through its local entity, and OKX."
+    },
+    {
+      "speaker": "mira",
+      "text": "And what can a VARA-licensed platform actually do?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Fiat on and off ramps to dirhams, stablecoin trading, custody. In return they keep client funds segregated, run A M L and K Y C checks, and keep meeting ongoing compliance rules. VARA publishes its rulebook on its own website."
+    },
+    {
+      "speaker": "mira",
+      "text": "Segregated funds is the bit I care about. Your money isn't mixed in with the company's money."
+    },
+    {
+      "speaker": "jules",
+      "text": "So my money gets its own jar."
+    },
+    {
+      "speaker": "mark",
+      "text": "Its own jar, with a label. Second league is A D G M, the Abu Dhabi Global Market. It's a financial free zone with its own legal framework, based on English common law."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quick, cutting in] Wait. English law? In Abu Dhabi?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Inside the zone, yes. Its regulator is the F S R A, the Financial Services Regulatory Authority. It licenses exchanges and custodians there, with capital requirements and technology governance standards. And those platforms can convert to multiple fiat currencies."
+    },
+    {
+      "speaker": "mira",
+      "text": "And the third?"
+    },
+    {
+      "speaker": "mark",
+      "text": "The D I F C, the Dubai International Financial Centre. A separate free zone inside Dubai, regulated by the D F S A. They split security tokens from other digital assets. And fewer retail-facing exchanges run under D F S A licenses than under VARA."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay so, um, if I'm a regular guy in Dubai holding some U S D T, which cove am I fishing in?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Look, mostly you'll use a licensed exchange. The article names BitOasis, Rain and CoinMENA, which hold VARA or A D G M licenses."
+    },
+    {
+      "speaker": "mira",
+      "text": "And what do you get?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Bank transfers in dirhams, often dollars too. Card purchases. Direct pairs like U S D T to dirham and U S D C to dirham. And withdrawals straight to a local bank account."
+    },
+    {
+      "speaker": "jules",
+      "text": "[surprised] That sounds kind of easy?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[dry] Until the paperwork. Full K Y C. Emirates ID, proof of address, and your transaction limits depend on which verification tier you reach."
+    },
+    {
+      "speaker": "jules",
+      "text": "Dot did that. Bigger cooler, more questions."
+    },
+    {
+      "speaker": "mark",
+      "text": "Exactly that. Now cross the border."
+    },
+    {
+      "speaker": "jules",
+      "text": "Saudi Arabia."
+    },
+    {
+      "speaker": "mark",
+      "text": "Very different match. No comprehensive licensing regime for retail crypto trading. Two main authorities. SAMA, the central bank, and the C M A, the Capital Market Authority."
+    },
+    {
+      "speaker": "mira",
+      "text": "And SAMA's position is?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Repeated warnings. Joint statements with the C M A saying virtual currencies aren't legal tender and the trading platforms operating in the Kingdom aren't licensed. But there's no explicit ban on holding crypto."
+    },
+    {
+      "speaker": "jules",
+      "text": "So it's like, the stadium's built, nobody's officially playing..."
+    },
+    {
+      "speaker": "mark",
+      "text": "[grinning] And the announcer keeps saying please don't. That's it. SAMA hasn't licensed any crypto-to-fiat exchanges, so there's no regulated domestic way to turn stablecoins straight into riyals."
+    },
+    {
+      "speaker": "mira",
+      "text": "And the C M A?"
+    },
+    {
+      "speaker": "mark",
+      "text": "It runs securities markets, so it cares about crypto mainly where a token might count as a security. It's warned alongside SAMA, but it hasn't built a licensing path for spot exchanges."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, this is the next lake over from Dot's. No license office at all. Just a sign saying fishing not recommended. So people buy permits off a guy with a truck."
+    },
+    {
+      "speaker": "mira",
+      "text": "Hmm. Which is roughly what happens."
+    },
+    {
+      "speaker": "mark",
+      "text": "Pretty much. Saudi residents often use international platforms that accept Saudi customers, or peer-to-peer trades for riyals. Or UAE platforms, if they can pass verification."
+    },
+    {
+      "speaker": "mira",
+      "text": "[serious] And that's the risky part. Peer-to-peer means trusting a stranger on the other side. The article flags counterparty risk, compliance risk and legal ambiguity."
+    },
+    {
+      "speaker": "jules",
+      "text": "The truck guy might not be there next week."
+    },
+    {
+      "speaker": "mark",
+      "text": "Or it's not his truck."
+    },
+    {
+      "speaker": "mira",
+      "text": "Okay, now the thing people mix up. Not every transaction needs a ramp."
+    },
+    {
+      "speaker": "mark",
+      "text": "Right. If you already hold stablecoins and want to change chains, or swap into another asset, you never touch fiat. Non-custodial protocols work independently of local exchange licensing."
+    },
+    {
+      "speaker": "jules",
+      "text": "So like Chainflip."
+    },
+    {
+      "speaker": "mark",
+      "text": "That's the article's example. You connect a wallet, do the swap, and the assets land at your destination address. No K Y C, no account, and no central custodian ever holds your funds."
+    },
+    {
+      "speaker": "mira",
+      "text": "Why does that matter in the Gulf specifically?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Three cases from the article. Moving U S D T from Tron to Ethereum without a string of exchange deposits. Turning stablecoins into native bitcoin or ether directly. And avoiding exchange withdrawal delays or limits."
+    },
+    {
+      "speaker": "jules",
+      "text": "And, I mean, why no license?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Non-custodial protocols don't need V A S P licenses because they never hold user assets. You keep control the whole way. Nobody needs a butcher's license to flip their own steak on their own braai."
+    },
+    {
+      "speaker": "mira",
+      "text": "[firmly] But."
+    },
+    {
+      "speaker": "mark",
+      "text": "But tax and reporting obligations under local law still sit with you. Personally."
+    },
+    {
+      "speaker": "jules",
+      "text": "Right, so on my lake, taking your own boat from one cove to another doesn't need Dot. But the warden still wants to see your catch log."
+    },
+    {
+      "speaker": "mira",
+      "text": "[half-laughing] Okay. That's entry eleven in the Held up column."
+    },
+    {
+      "speaker": "jules",
+      "text": "Eleven!"
+    },
+    {
+      "speaker": "mark",
+      "text": "[warmly] One honest gap, though. A swap moves you between chains. It doesn't put riyals or dirhams in a bank account. If you need local fiat, you still need a licensed exchange or O T C desk."
+    },
+    {
+      "speaker": "mira",
+      "text": "Fair. So where's this heading, Mark?"
+    },
+    {
+      "speaker": "mark",
+      "text": "Saudi Arabia has signaled interest in building a digital asset framework, but the timelines are unclear. The UAE keeps expanding its licensing, with new categories of activity showing up regularly. So check again before you act. These rules move."
+    },
+    {
+      "speaker": "jules",
+      "text": "Give me the one-liner."
+    },
+    {
+      "speaker": "mira",
+      "text": "Getting fiat in or out needs a licensed ramp, which the UAE has in three flavors and Saudi Arabia doesn't have domestically yet. Moving stablecoins between chains needs no ramp, but your taxes still follow you."
+    },
+    {
+      "speaker": "jules",
+      "text": "The full article is linked in the show notes. Not financial advice, and not legal advice either."
+    },
+    {
+      "speaker": "mark",
+      "text": "Check your cove."
+    },
+    {
+      "speaker": "mira",
+      "text": "Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "Worked at Dot's Bait and Tackle on Lake Merrow, a lake split across two counties and a state park, where Dot sold three different fishing stickers for the same worm. 'Three coves, one lake' is his picture of the UAE's three crypto regulators; the next lake over with no license office and a guy selling permits from a truck is his picture of Saudi P2P off-ramps."
+    },
+    {
+      "character": "mira",
+      "note": "Jules's 'catch log' line (moving your own boat between coves needs no shop, but the warden still checks your catch) became entry eleven in the 'Held up' column of her spreadsheet."
+    },
+    {
+      "character": "mark",
+      "note": "New lines: Saudi crypto policy is 'the stadium's built and the announcer keeps saying please don't play', and non-custodial swaps are like 'nobody needs a butcher's license to flip their own steak on their own braai.' Signed off with 'Check your cove.'"
+    }
+  ]
+}
