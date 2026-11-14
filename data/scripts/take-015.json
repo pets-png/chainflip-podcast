@@ -1,0 +1,375 @@
+{
+  "post": "https://chainflip.io/blog/address-poisoning-fake-swap-site-scam-verification-guide",
+  "format": "guest",
+  "guest": "erling",
+  "episode_title": "Address Poisoning Scams: The 30-Second Check Before Every Crypto Swap",
+  "summary": "Erling joins Jules and Mira to break down lookalike swap sites, address poisoning, clipboard malware, fake support DMs and tampered hardware wallets, then walks through a five-step routine to verify a cross-chain swap before sending.",
+  "hook": "One letter off in a domain. Matching first and last four characters in an address. That's all it took for two people to lose $62M combined. Security reviewer Erling explains how the most common cross-chain swap scams work and the boring 30-second habit that beats them.",
+  "key_points": [
+    "How lookalike domains and sponsored ads lead to wallet-draining signatures ($6.27M from 4,741 victims in January 2026)",
+    "Why copying an address from your transaction history is exactly what address poisoning exploits",
+    "How clipboard malware swaps your pasted address, and why 'paste, then inspect' stops it",
+    "Why no real protocol DMs you first, and why a hardware wallet that arrives with a seed phrase is a red flag",
+    "A five-step pre-swap routine: verify the domain, check the full address, inspect the paste, send a test amount, track on an explorer like Chainflip Scan"
+  ],
+  "keywords": [
+    "address poisoning",
+    "fake swap site",
+    "crypto clipboard malware",
+    "verify crypto address before sending",
+    "cross-chain swap scams",
+    "crypto test transaction",
+    "fake crypto support DM",
+    "tampered hardware wallet"
+  ],
+  "chapters": [
+    {
+      "line": 0,
+      "title": "Cold open: Dale's Diner vs Dale's Dinner"
+    },
+    {
+      "line": 7,
+      "title": "Lookalike domains and signature phishing"
+    },
+    {
+      "line": 22,
+      "title": "Address poisoning"
+    },
+    {
+      "line": 38,
+      "title": "Clipboard malware and fake support DMs"
+    },
+    {
+      "line": 56,
+      "title": "Tampered hardware wallets"
+    },
+    {
+      "line": 63,
+      "title": "The five-step routine before you send"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "jules",
+      "text": "[grinning] Okay, so at sixteen I bussed tables at Dale's Diner, out on Route 4. Best pie in the county. Rhubarb."
+    },
+    {
+      "speaker": "mira",
+      "text": "This is going somewhere."
+    },
+    {
+      "speaker": "jules",
+      "text": "It is! One spring a guy opens Dale's Dinner. Two n's. A quarter mile before ours, same red sign, and he puts up a billboard on the highway."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] Oh no."
+    },
+    {
+      "speaker": "jules",
+      "text": "Every tourist stops there first. Pie from a box. Then they drive on to us and yell at me about the pie."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] And somehow this is about crypto."
+    },
+    {
+      "speaker": "jules",
+      "text": "It's about crypto, Mira."
+    },
+    {
+      "speaker": "mira",
+      "text": "Welcome to Cross-Chain Daily. I'm Mira, that's Jules, and today it's fake swap sites, address poisoning, and a simple routine to check a cross-chain swap before you hit send. Back with us on the security beat, Erling."
+    },
+    {
+      "speaker": "erling",
+      "text": "[warmly] Hello again. For the record, I have never eaten a box pie on purpose."
+    },
+    {
+      "speaker": "jules",
+      "text": "Erling, how bad is this, really? Like, is it a few unlucky people?"
+    },
+    {
+      "speaker": "erling",
+      "text": "Well, the article puts scam losses at about seventeen billion dollars in twenty twenty-five. And cross-chain swappers are some of the most targeted people out there."
+    },
+    {
+      "speaker": "jules",
+      "text": "[stunned] Seventeen billion."
+    },
+    {
+      "speaker": "erling",
+      "text": "With a B. Swapping across chains is fast, and scammers love fast. Fast means you don't look."
+    },
+    {
+      "speaker": "mira",
+      "text": "So start with Jules's diner. Lookalike domains."
+    },
+    {
+      "speaker": "erling",
+      "text": "Someone registers a domain that's one letter off the real swap site. A swapped letter, a hyphen. Then they buy an ad so it shows up first in search, or in your social feed."
+    },
+    {
+      "speaker": "jules",
+      "text": "The billboard on the highway."
+    },
+    {
+      "speaker": "erling",
+      "text": "[amused] Exactly the billboard. Except Dale's Dinner only took your lunch money. A fake swap site asks you to connect your wallet and sign something."
+    },
+    {
+      "speaker": "mira",
+      "text": "And that signature is the drain."
+    },
+    {
+      "speaker": "erling",
+      "text": "That's the drain. Signature phishing alone took six point two seven million dollars from four thousand seven hundred forty-one victims in January twenty twenty-six. Up two hundred seven percent from December."
+    },
+    {
+      "speaker": "jules",
+      "text": "In one month? Two hundred percent?"
+    },
+    {
+      "speaker": "mira",
+      "text": "[dryly] Two hundred and seven. I'm a stickler."
+    },
+    {
+      "speaker": "erling",
+      "text": "So the fix is boring. Type the address yourself, or use a bookmark you made. Never click a swap link from an ad, a DM, or a search result without reading the whole domain."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, honest question. Address poisoning. Sounds like someone put arsenic in my mailbox."
+    },
+    {
+      "speaker": "erling",
+      "text": "[grinning] Close, honestly. You send to the same address a lot, so you copy it from your transaction history. Totally normal. Everyone does it."
+    },
+    {
+      "speaker": "jules",
+      "text": "I do it."
+    },
+    {
+      "speaker": "erling",
+      "text": "Of course you do. So an attacker makes an address with the same first and last characters as yours, and sends you a zero-value or dust transaction from it."
+    },
+    {
+      "speaker": "mira",
+      "text": "So now it's sitting in your history, looking just like the real one."
+    },
+    {
+      "speaker": "erling",
+      "text": "Right next to it. You glance at the first four and last four, they match, you paste, and you've paid the attacker."
+    },
+    {
+      "speaker": "jules",
+      "text": "[quick, cutting in] Wait. They don't even need to hack anything?"
+    },
+    {
+      "speaker": "erling",
+      "text": "Nothing. They just need you in a hurry. Two victims lost a combined sixty-two million dollars this way. One lost fifty million in December twenty twenty-five, another twelve point two million in January."
+    },
+    {
+      "speaker": "mira",
+      "text": "The article's line is that these aren't edge cases. I believe it."
+    },
+    {
+      "speaker": "jules",
+      "text": "[sheepish] Fifty million. I mean, I've never been that careful with fifty dollars."
+    },
+    {
+      "speaker": "mira",
+      "text": "We know."
+    },
+    {
+      "speaker": "erling",
+      "text": "So don't trust the first and last four. Expand the address and check the whole string. For a big transfer, cross-check it against another source, like a previous confirmed transaction on a block explorer."
+    },
+    {
+      "speaker": "jules",
+      "text": "How do you, um, actually check forty-something characters without going cross-eyed?"
+    },
+    {
+      "speaker": "erling",
+      "text": "I read it out loud in chunks of four, like a phone number. My cat thinks I'm reciting poetry."
+    },
+    {
+      "speaker": "mira",
+      "text": "[deadpan] That's very calming, Erling."
+    },
+    {
+      "speaker": "erling",
+      "text": "It is! Most relaxing part of my day."
+    },
+    {
+      "speaker": "jules",
+      "text": "Okay, what's clipboard malware? That one scares me more."
+    },
+    {
+      "speaker": "erling",
+      "text": "It should, a little. It's software running quietly on your computer. It watches for you to copy a crypto address and swaps in the attacker's address instead."
+    },
+    {
+      "speaker": "jules",
+      "text": "So I copy mine, I paste, uh, theirs."
+    },
+    {
+      "speaker": "erling",
+      "text": "And everything looks normal. That's the nasty part. You only catch it if you compare the pasted address to the original, character by character."
+    },
+    {
+      "speaker": "mira",
+      "text": "Which is step three of the routine. Paste, then inspect."
+    },
+    {
+      "speaker": "erling",
+      "text": "Clipboard malware depends on you not looking twice. So look twice."
+    },
+    {
+      "speaker": "jules",
+      "text": "This is Dale's Dinner again. You think you pulled into the right lot."
+    },
+    {
+      "speaker": "mira",
+      "text": "[half-laughing] Hmm. Right lot, but someone repainted the sign while you were parking."
+    },
+    {
+      "speaker": "jules",
+      "text": "[groaning] Okay, that's worse and I hate it."
+    },
+    {
+      "speaker": "mira",
+      "text": "Next. Fake support DMs."
+    },
+    {
+      "speaker": "erling",
+      "text": "Classic. You post on Discord, Telegram or X that your swap is stuck. Minutes later, support slides into your messages. They want you to connect to a verification tool, or share your seed phrase."
+    },
+    {
+      "speaker": "jules",
+      "text": "[disbelieving] And people do it?"
+    },
+    {
+      "speaker": "erling",
+      "text": "Impersonation scams grew more than fourteen hundred percent year over year in twenty twenty-five, partly thanks to AI-generated personas that look very convincing."
+    },
+    {
+      "speaker": "mira",
+      "text": "So the rule is simple."
+    },
+    {
+      "speaker": "erling",
+      "text": "No real protocol will ever DM you first. None will ask for your seed phrase. Treat every message you didn't ask for as hostile."
+    },
+    {
+      "speaker": "jules",
+      "text": "Like the waitress from Dale's Dinner knocking on my door, offering to fix my pie."
+    },
+    {
+      "speaker": "mira",
+      "text": "[amused] Fine. That one's going in the spreadsheet. Entry twelve, Held up."
+    },
+    {
+      "speaker": "jules",
+      "text": "[triumphant] Twelve!"
+    },
+    {
+      "speaker": "erling",
+      "text": "Now the one that surprises people. Hardware wallets."
+    },
+    {
+      "speaker": "jules",
+      "text": "I thought those were the safe part."
+    },
+    {
+      "speaker": "erling",
+      "text": "[gently] They are, if the box is honest. On October twenty-ninth, twenty twenty-six, Singapore police warned that some Ledger devices sold through local stores had been tampered with. They came with seed phrases already set by attackers."
+    },
+    {
+      "speaker": "mira",
+      "text": "How much was lost?"
+    },
+    {
+      "speaker": "erling",
+      "text": "Two cases, about three point five million Singapore dollars, roughly two point seven million US, since September tenth."
+    },
+    {
+      "speaker": "jules",
+      "text": "So the, the safe was built by the burglar."
+    },
+    {
+      "speaker": "erling",
+      "text": "[amused] Pretty much. Buy only from the maker's official site or authorized resellers. Check the packaging. Your device should make a fresh seed phrase during setup. If it arrives with one already written down, stop. Right there."
+    },
+    {
+      "speaker": "mira",
+      "text": "Let's run the whole routine, quickly. One."
+    },
+    {
+      "speaker": "erling",
+      "text": "Verify the domain. Type it, or use your own bookmark."
+    },
+    {
+      "speaker": "mira",
+      "text": "Two."
+    },
+    {
+      "speaker": "erling",
+      "text": "Compare the full address, not just the ends."
+    },
+    {
+      "speaker": "jules",
+      "text": "Three, paste, then look twice."
+    },
+    {
+      "speaker": "erling",
+      "text": "Four, on anything big, send a test amount. Wait for it to confirm, check you can access it at the other end, then send the rest. The extra network fee is cheap insurance."
+    },
+    {
+      "speaker": "jules",
+      "text": "[half-laughing] I used to think test amounts were for nervous people."
+    },
+    {
+      "speaker": "erling",
+      "text": "They are. Be nervous. And five, track it on an explorer. Chainflip Scan, for example, follows a swap from deposit to final settlement, with the exact output address and amount received."
+    },
+    {
+      "speaker": "mira",
+      "text": "And the article's big point is that speed is the enemy here."
+    },
+    {
+      "speaker": "erling",
+      "text": "[easy] Scammers count on urgency and habit. Thirty extra seconds to check a domain, read an address, or send a test can save you from losing everything."
+    },
+    {
+      "speaker": "jules",
+      "text": "Thirty seconds. Those tourists could've saved a whole lunch."
+    },
+    {
+      "speaker": "mira",
+      "text": "Takeaway: slow down just enough. Domain, full address, the paste, a test, then track it. The full article is linked in the show notes. Not financial advice."
+    },
+    {
+      "speaker": "erling",
+      "text": "And read your addresses out loud. Your cat will love it."
+    },
+    {
+      "speaker": "jules",
+      "text": "Stay native."
+    }
+  ],
+  "lore": [
+    {
+      "character": "jules",
+      "note": "At sixteen he bussed tables at Dale's Diner on Route 4 (famous rhubarb pie). A copycat 'Dale's Dinner' with two n's opened a quarter mile earlier with the same red sign and a highway billboard, served box pie, and tourists yelled at Jules about it. His picture of lookalike swap domains and malicious ads."
+    },
+    {
+      "character": "erling",
+      "note": "Checks crypto addresses by reading them out loud in chunks of four like a phone number; his cat thinks he's reciting poetry, and he calls it the most relaxing part of his day."
+    },
+    {
+      "character": "mira",
+      "note": "Jules's 'Dale's Dinner waitress knocking on your door offering to fix your pie' (fake support DMs) became entry twelve in the 'Held up' column of her spreadsheet."
+    }
+  ]
+}

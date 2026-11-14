@@ -86,6 +86,48 @@
       "evergreen": false
     }
   },
+  "add-bnb-smart-chain-metamask-bep20-usdt": {
+    "url": "https://chainflip.io/blog/add-bnb-smart-chain-metamask-bep20-usdt",
+    "slug": "add-bnb-smart-chain-metamask-bep20-usdt",
+    "title": "Add BNB Smart Chain to MetaMask: BEP-20 USDT Setup",
+    "description": "Add BNB Smart Chain to MetaMask with chain ID 56 and the official RPC, fund gas with BNB, and import the verified BEP-20 USDT contract safely.",
+    "image": "https://framerusercontent.com/images/tWnTfyIgHhiSwyMmbfVcVGrSa1w.png?width=1600&height=900",
+    "published": "2026-11-13",
+    "headings": [
+      "What you need",
+      "Step 1: Add BNB Smart Chain to MetaMask",
+      "Step 2: Get a small amount of BNB for gas",
+      "Step 3: Import the BEP-20 USDT contract",
+      "Step 4: Check the network and recipient before every transfer",
+      "Troubleshooting",
+      "USDT balance shows zero",
+      "\"Insufficient funds for gas\" error",
+      "RPC errors or balances not loading",
+      "Funds sent on the wrong network",
+      "Swap native BNB and BEP-20 USDT on Chainflip",
+      "FAQ",
+      "What RPC URL should I use to add BNB Smart Chain to MetaMask?",
+      "Why does my BEP-20 USDT show as BSC-USD in MetaMask?",
+      "Can I send BEP-20 USDT without holding BNB?",
+      "Is opBNB the same network as BNB Smart Chain?",
+      "Can I swap BEP-20 USDT cross-chain on Chainflip?"
+    ],
+    "words": 1467,
+    "first_seen": "2026-11-14T12:44:23Z",
+    "live": true,
+    "cls": {
+      "cluster": "usdt-bep20-guide",
+      "cluster_label": "USDT on BNB Chain guide",
+      "category": "stablecoins_tron",
+      "assets": [
+        "BNB",
+        "USDT"
+      ],
+      "complexity": 2,
+      "podcast_fit": 2,
+      "evergreen": true
+    }
+  },
   "add-boost-liquidity-chainflip-tutorial": {
     "url": "https://chainflip.io/blog/add-boost-liquidity-chainflip-tutorial",
     "slug": "add-boost-liquidity-chainflip-tutorial",

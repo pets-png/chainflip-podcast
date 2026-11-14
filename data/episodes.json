@@ -1055,7 +1055,7 @@
   {
     "number": 14,
     "tag": "take-014",
-    "status": "pending",
+    "status": "published",
     "slug": "saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide",
     "post_url": "https://chainflip.io/blog/saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide",
     "post_title": "Stablecoin On-Ramps and Off-Ramps in the UAE and Saudi Arabia: Regulatory Overview",
@@ -1130,6 +1130,88 @@
     "audio_file": "take-014-saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablec.mp3",
     "description_html": "<p>The UAE has three crypto regulators in one country. Saudi Arabia has two authorities and no licensed way to turn stablecoins into riyals. Mark walks through who&#x27;s in charge of getting money in and out, why a bait shop on a three-county lake explains it, and when you don&#x27;t need a ramp at all.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Stablecoin On-Ramps and Off-Ramps in the UAE and Saudi Arabia: Regulatory Overview</a></p><p>With Mark, our regular on lending, bitcoin, stablecoins tron, liquidity lp, integrations, multichain, regulation macro, markets data, education basics, company.</p><p><strong>In this episode</strong></p><ul><li>The UAE splits crypto oversight between VARA (Dubai), ADGM&#x27;s FSRA (Abu Dhabi free zone) and the DFSA (DIFC), each with its own licenses.</li><li>Licensed UAE platforms like BitOasis, Rain and CoinMENA offer AED bank transfers, cards, USDT/AED and USDC/AED pairs, with full KYC and tiered limits.</li><li>Saudi Arabia&#x27;s SAMA and CMA have issued warnings but no licensing path for retail crypto exchanges, and holding crypto isn&#x27;t explicitly banned.</li><li>Saudi residents often rely on international platforms or P2P, which brings counterparty risk and legal ambiguity.</li><li>Non-custodial swaps like Chainflip move stablecoins between chains without KYC or custody, but they don&#x27;t replace a fiat ramp and tax obligations still apply.</li></ul><p><strong>Chapters</strong><br>00:00 Three coves, one lake<br>01:05 The UAE&#x27;s three regulators: VARA, ADGM and DIFC<br>02:41 What a licensed off-ramp looks like<br>03:22 Saudi Arabia: warnings, no licenses, no ban<br>04:49 Where non-custodial swaps fit<br>06:15 Wrap</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablecoin-guide&amp;utm_content=ep-14\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
     "issue": 15,
-    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-a1e3ed4900ec14b7a734"
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-a1e3ed4900ec14b7a734",
+    "audio_url": "https://github.com/pets-png/chainflip-podcast/releases/download/take-014/take-014-saudi-arabia-uae-crypto-on-ramp-off-ramp-regulations-stablec.mp3",
+    "published_at": "2026-11-14T12:44:29Z"
+  },
+  {
+    "number": 15,
+    "tag": "take-015",
+    "status": "pending",
+    "slug": "address-poisoning-fake-swap-site-scam-verification-guide",
+    "post_url": "https://chainflip.io/blog/address-poisoning-fake-swap-site-scam-verification-guide",
+    "post_title": "Fake Swap Sites and Address Poisoning: How to Verify a Cross-Chain Swap Before You Send",
+    "category": "security",
+    "cluster": "swap-scam-verification",
+    "format": "guest",
+    "guest": "erling",
+    "title": "Address Poisoning Scams: The 30-Second Check Before Every Crypto Swap",
+    "summary": "Erling joins Jules and Mira to break down lookalike swap sites, address poisoning, clipboard malware, fake support DMs and tampered hardware wallets, then walks through a five-step routine to verify a cross-chain swap before sending.",
+    "hook": "One letter off in a domain. Matching first and last four characters in an address. That's all it took for two people to lose $62M combined. Security reviewer Erling explains how the most common cross-chain swap scams work and the boring 30-second habit that beats them.",
+    "key_points": [
+      "How lookalike domains and sponsored ads lead to wallet-draining signatures ($6.27M from 4,741 victims in January 2026)",
+      "Why copying an address from your transaction history is exactly what address poisoning exploits",
+      "How clipboard malware swaps your pasted address, and why 'paste, then inspect' stops it",
+      "Why no real protocol DMs you first, and why a hardware wallet that arrives with a seed phrase is a red flag",
+      "A five-step pre-swap routine: verify the domain, check the full address, inspect the paste, send a test amount, track on an explorer like Chainflip Scan"
+    ],
+    "keywords": [
+      "address poisoning",
+      "fake swap site",
+      "crypto clipboard malware",
+      "verify crypto address before sending",
+      "cross-chain swap scams",
+      "crypto test transaction",
+      "fake crypto support DM",
+      "tampered hardware wallet"
+    ],
+    "lore": [
+      {
+        "character": "jules",
+        "note": "At sixteen he bussed tables at Dale's Diner on Route 4 (famous rhubarb pie). A copycat 'Dale's Dinner' with two n's opened a quarter mile earlier with the same red sign and a highway billboard, served box pie, and tourists yelled at Jules about it. His picture of lookalike swap domains and malicious ads."
+      },
+      {
+        "character": "erling",
+        "note": "Checks crypto addresses by reading them out loud in chunks of four like a phone number; his cat thinks he's reciting poetry, and he calls it the most relaxing part of his day."
+      },
+      {
+        "character": "mira",
+        "note": "Jules's 'Dale's Dinner waitress knocking on your door offering to fix your pie' (fake support DMs) became entry twelve in the 'Held up' column of her spreadsheet."
+      }
+    ],
+    "words": 1147,
+    "created_at": "2026-11-14T12:46:00Z",
+    "duration": 387,
+    "chapters": [
+      {
+        "title": "Cold open: Dale's Diner vs Dale's Dinner",
+        "start": 0.0
+      },
+      {
+        "title": "Lookalike domains and signature phishing",
+        "start": 30.4
+      },
+      {
+        "title": "Address poisoning",
+        "start": 122.4
+      },
+      {
+        "title": "Clipboard malware and fake support DMs",
+        "start": 200.2
+      },
+      {
+        "title": "Tampered hardware wallets",
+        "start": 283.0
+      },
+      {
+        "title": "The five-step routine before you send",
+        "start": 321.8
+      }
+    ],
+    "audio_bytes": 6194386,
+    "audio_file": "take-015-address-poisoning-fake-swap-site-scam-verification-guide.mp3",
+    "description_html": "<p>One letter off in a domain. Matching first and last four characters in an address. That&#x27;s all it took for two people to lose $62M combined. Security reviewer Erling explains how the most common cross-chain swap scams work and the boring 30-second habit that beats them.</p><p>Read the full article: <a href=\"https://chainflip.io/blog/address-poisoning-fake-swap-site-scam-verification-guide?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=address-poisoning-fake-swap-site-scam-verification-guide&amp;utm_content=ep-15\">Fake Swap Sites and Address Poisoning: How to Verify a Cross-Chain Swap Before You Send</a></p><p>With Erling, our regular on security, releases protocol, flip staking, ethereum, solana.</p><p><strong>In this episode</strong></p><ul><li>How lookalike domains and sponsored ads lead to wallet-draining signatures ($6.27M from 4,741 victims in January 2026)</li><li>Why copying an address from your transaction history is exactly what address poisoning exploits</li><li>How clipboard malware swaps your pasted address, and why &#x27;paste, then inspect&#x27; stops it</li><li>Why no real protocol DMs you first, and why a hardware wallet that arrives with a seed phrase is a red flag</li><li>A five-step pre-swap routine: verify the domain, check the full address, inspect the paste, send a test amount, track on an explorer like Chainflip Scan</li></ul><p><strong>Chapters</strong><br>00:00 Cold open: Dale&#x27;s Diner vs Dale&#x27;s Dinner<br>00:30 Lookalike domains and signature phishing<br>02:02 Address poisoning<br>03:20 Clipboard malware and fake support DMs<br>04:43 Tampered hardware wallets<br>05:21 The five-step routine before you send</p><p><strong>Resources</strong></p><ul><li><a href=\"https://swap.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=address-poisoning-fake-swap-site-scam-verification-guide&amp;utm_content=ep-15\">Swap</a> - Start swapping native assets</li><li><a href=\"https://lp.chainflip.io/lending?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=address-poisoning-fake-swap-site-scam-verification-guide&amp;utm_content=ep-15\">Lending</a> - Borrow against native Bitcoin</li><li><a href=\"https://chainflip.io/blog?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=address-poisoning-fake-swap-site-scam-verification-guide&amp;utm_content=ep-15\">Blog</a> - Product updates and announcements</li><li><a href=\"https://scan.chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=address-poisoning-fake-swap-site-scam-verification-guide&amp;utm_content=ep-15\">Chainflip Scan</a> - Track swaps and network activity</li><li><a href=\"https://chainflip.io?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=address-poisoning-fake-swap-site-scam-verification-guide&amp;utm_content=ep-15\">Website</a> - Explore Chainflip</li></ul><p><strong>Earn with Chainflip</strong></p><ul><li><a href=\"https://lp.chainflip.io/boost?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=address-poisoning-fake-swap-site-scam-verification-guide&amp;utm_content=ep-15\">Boost</a> - Earn fees with single-sided liquidity, no IL risk</li><li><a href=\"https://lp.chainflip.io/strategies?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=address-poisoning-fake-swap-site-scam-verification-guide&amp;utm_content=ep-15\">Stablecoin Strategies</a> - Deposit stablecoins and earn optimized yields</li><li><a href=\"https://lp.chainflip.io/portfolio?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=address-poisoning-fake-swap-site-scam-verification-guide&amp;utm_content=ep-15\">Provide Liquidity</a> - Supply assets to Chainflip&#x27;s liquidity pools</li><li><a href=\"https://auctions.chainflip.io/delegate?utm_source=podcast&amp;utm_medium=audio&amp;utm_campaign=address-poisoning-fake-swap-site-scam-verification-guide&amp;utm_content=ep-15\">Stake FLIP</a> - Delegate FLIP and earn staking rewards</li></ul><p><strong>Find us</strong></p><ul><li><a href=\"https://discord.gg/chainflip-community\">Discord</a></li><li><a href=\"https://t.me/chainflip_io_chat\">Telegram</a></li><li><a href=\"https://x.com/chainflip\">X</a></li><li><a href=\"https://linkedin.com/company/chainflip\">LinkedIn</a></li><li><a href=\"https://www.youtube.com/@chainfliplabs\">YouTube</a></li><li><a href=\"https://www.threads.com/@chainfliplabs\">Threads</a></li><li><a href=\"https://bsky.app/profile/chainfliplabs.bsky.social\">Bluesky</a></li></ul><p>Hosts and guests are fictional characters voiced with AI. This show is for education and entertainment only and is not financial advice.</p>",
+    "issue": 16,
+    "release_url": "https://github.com/pets-png/chainflip-podcast/releases/tag/untagged-2a1eed63d53fa4c8f1a8"
   }
 ]
